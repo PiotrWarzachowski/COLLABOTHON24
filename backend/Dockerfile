@@ -4,6 +4,7 @@ LABEL authors="Wojciech Fiolka <fiolkawojciech@gmail.com>"
 
 ARG POETRY_VERSION=1.8.1
 
+COPY . /app
 ENV VIRTUAL_ENV=/app/.venv \
     PATH="/app/.venv/bin:$PATH" \
     POETRY_NO_INTERACTION=1 \
@@ -20,8 +21,6 @@ COPY poetry.lock pyproject.toml ./
 
 RUN poetry install --no-root
 
-COPY . /app
-
 EXPOSE 8000
 
-CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

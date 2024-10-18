@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from fastapi.templating import Jinja2Templates
 
-from backend.database.users import User
+from database.users import User
 
 router = APIRouter()
 templates = Jinja2Templates(directory="database/view")

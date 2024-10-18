@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from sqlalchemy import create_engine
 
 from alembic import context
-from backend.database.tables import metadata
+from database.tables import metadata
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.

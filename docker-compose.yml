@@ -1,6 +1,8 @@
 services:
-  web:
-    build: .
+  backend:
+    build: ./backend
+    env_file:
+      - .env
     environment:
       - DB_NAME=${DB_NAME}
       - DB_HOST=${DB_HOST}
@@ -14,8 +16,12 @@ services:
       - "8000:8000"
     volumes:
       - ./alembic:/app/alembic
+    
+
   db:
     image: postgres
+    env_file:
+      - .env
     environment:
       POSTGRES_DB: ${DB_NAME}
       POSTGRES_USER: ${DB_USER}
@@ -24,8 +30,12 @@ services:
       - postgres_data:/var/lib/postgresql/data
     ports:
       - "5432:5432"
-    env_file:
-      - .env
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8084:8080
 
 volumes:
     postgres_data:

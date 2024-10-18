@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
-from backend.controller.main import router as main_router
-from backend.controller.users import router as users_router
+from controller.main import router as main_router
+from controller.users import router as users_router
 
 app = FastAPI()
 
