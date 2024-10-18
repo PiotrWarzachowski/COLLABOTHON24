@@ -7,6 +7,7 @@ Collabothon 2024 Repository
 #### Create a virtual environment and install the dependencies
 
 ```
+cd backend/
 poetry shell
 poetry install
 ```
