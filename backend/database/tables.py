@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, ForeignKey, DateTime
 from sqlalchemy.orm import DeclarativeBase, relationship
-from datetime import datetime
+from datetime import datetime, timezone
 
 
 class Base(DeclarativeBase):
@@ -18,7 +18,7 @@ class Transactions(Base):
     recipient = Column(String(100))
     sender = Column(String(100))
     currency_id = Column(Integer, ForeignKey("Currency.id"))
-    date = Column(DateTime, default=datetime.utcnow)
+    date = Column(DateTime, default=datetime.now(timezone.utc))
 
 
 class Currency(Base):
