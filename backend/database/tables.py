@@ -11,19 +11,20 @@ metadata = Base.metadata
 
 
 class Transactions(Base):
-    __tablename__ = "Transactions"
+    __tablename__ = "transactions"
 
     id = Column(Integer, primary_key=True, autoincrement=True)
-    value = Column(Integer, nullable=False)
+    amount = Column(Integer, nullable=False)
     recipient = Column(String(100))
+    title = Column(String(100))
     sender = Column(String(100))
-    currency_id = Column(Integer, ForeignKey("Currency.id"))
+    currency_id = Column(Integer, ForeignKey("currency.id"))
     date = Column(DateTime, default=datetime.now(timezone.utc))
 
 
 class Currency(Base):
-    __tablename__ = "Currency"
+    __tablename__ = "currency"
     id = Column(Integer, primary_key=True, autoincrement=True)
-    currency = Column(String(100))
+    curr = Column(String(100))
 
-    transactions = relationship("Transactions", back_populates="currency")
+    transactions = relationship("transactions", back_populates="currency")

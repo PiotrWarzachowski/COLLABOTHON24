@@ -5,7 +5,7 @@
         "title": "Apply like.",
         "date": "1977-01-13",
         "amount": 4001.04,
-        "currency": "GBP"
+        "currency_id": 1
     },
     {
         "recipient": "Chelsea Hernandez", 
@@ -13,7 +13,7 @@
         "title": "Act price approach.",
         "date": "1997-05-08",
         "amount": 2235.07,
-        "currency": "GBP"
+        "currency_id": 1
     },
     {
         "recipient": "Jennifer Flores", 
@@ -21,7 +21,7 @@
         "title": "Prepare leader politics.",
         "date": "2007-08-19",
         "amount": 4265.54,
-        "currency": "JPY"
+        "currency_id": 2
     },
     {
         "recipient": "Nicole Davis", 
@@ -29,7 +29,7 @@
         "title": "In to quality drug.",
         "date": "2002-01-28",
         "amount": 1380.71,
-        "currency": "JPY"
+        "currency_id": 2
     },
     {
         "recipient": "Patricia Rodriguez", 
@@ -37,7 +37,7 @@
         "title": "Card without.",
         "date": "2007-11-28",
         "amount": 2946.53,
-        "currency": "USD"
+        "currency_id": 3
     },
     {
         "recipient": "James Long", 
@@ -45,7 +45,7 @@
         "title": "Join.",
         "date": "1983-06-24",
         "amount": 1563.96,
-        "currency": "JPY"
+        "currency_id": 2
     },
     {
         "recipient": "Jonathan Ward", 
@@ -53,7 +53,7 @@
         "title": "Ball entire.",
         "date": "2009-01-22",
         "amount": 2626.31,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Charles Jones", 
@@ -61,7 +61,7 @@
         "title": "Road ever.",
         "date": "2008-03-29",
         "amount": 343.06,
-        "currency": "CAD"
+        "currency_id": 5
     },
     {
         "recipient": "Paul Anderson", 
@@ -69,7 +69,7 @@
         "title": "Option however story.",
         "date": "1972-05-07",
         "amount": 4030.23,
-        "currency": "USD"
+        "currency_id": 3
     },
     {
         "recipient": "Miranda Vasquez", 
@@ -77,7 +77,7 @@
         "title": "While federal my become.",
         "date": "1978-11-22",
         "amount": 3959.06,
-        "currency": "JPY"
+        "currency_id": 2
     },
     {
         "recipient": "Michael Acosta", 
@@ -85,7 +85,7 @@
         "title": "High car test.",
         "date": "1974-12-09",
         "amount": 4993.13,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Sharon Shelton", 
@@ -93,7 +93,7 @@
         "title": "Blue protect we.",
         "date": "1982-12-16",
         "amount": 3097.65,
-        "currency": "JPY"
+        "currency_id": 2
     },
     {
         "recipient": "Jerry Stark", 
@@ -101,7 +101,7 @@
         "title": "Process.",
         "date": "1978-12-02",
         "amount": 1487.44,
-        "currency": "USD"
+        "currency_id": 3
     },
     {
         "recipient": "Ashley Richardson", 
@@ -109,7 +109,7 @@
         "title": "Group white turn.",
         "date": "1986-10-15",
         "amount": 498.13,
-        "currency": "JPY"
+        "currency_id": 2
     },
     {
         "recipient": "Holly Thomas", 
@@ -117,7 +117,7 @@
         "title": "Form.",
         "date": "1996-04-02",
         "amount": 4483.26,
-        "currency": "CAD"
+        "currency_id": 5
     },
     {
         "recipient": "Alexander Brown", 
@@ -125,7 +125,7 @@
         "title": "Draw subject hear yes.",
         "date": "2002-10-31",
         "amount": 2923.38,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Dustin Mccoy", 
@@ -133,7 +133,7 @@
         "title": "Voice issue major simple.",
         "date": "2007-04-10",
         "amount": 4999.15,
-        "currency": "JPY"
+        "currency_id": 2
     },
     {
         "recipient": "Rebecca Green", 
@@ -141,7 +141,7 @@
         "title": "Put family.",
         "date": "2003-02-13",
         "amount": 2489.04,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Christine Case", 
@@ -149,7 +149,7 @@
         "title": "Act say.",
         "date": "1997-07-26",
         "amount": 4656.11,
-        "currency": "JPY"
+        "currency_id": 2
     },
     {
         "recipient": "Lauren Franklin", 
@@ -157,7 +157,7 @@
         "title": "Run single.",
         "date": "1994-11-27",
         "amount": 87.51,
-        "currency": "CAD"
+        "currency_id": 5
     },
     {
         "recipient": "Melissa Davidson", 
@@ -165,7 +165,7 @@
         "title": "Approach bring process.",
         "date": "2010-02-13",
         "amount": 1938.71,
-        "currency": "JPY"
+        "currency_id": 2
     },
     {
         "recipient": "Lindsay Zavala", 
@@ -173,7 +173,7 @@
         "title": "Common seek bit.",
         "date": "1972-02-15",
         "amount": 376.32,
-        "currency": "JPY"
+        "currency_id": 2
     },
     {
         "recipient": "Lawrence Preston", 
@@ -181,7 +181,7 @@
         "title": "Check choice.",
         "date": "1998-09-12",
         "amount": 1949.23,
-        "currency": "CAD"
+        "currency_id": 5
     },
     {
         "recipient": "James Vega", 
@@ -189,7 +189,7 @@
         "title": "My night along.",
         "date": "1977-08-20",
         "amount": 361.95,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Sarah Galloway", 
@@ -197,7 +197,7 @@
         "title": "Education lay.",
         "date": "1991-04-22",
         "amount": 4715.28,
-        "currency": "GBP"
+        "currency_id": 1
     },
     {
         "recipient": "Dennis Norris", 
@@ -205,7 +205,7 @@
         "title": "Play talk.",
         "date": "1981-04-19",
         "amount": 1889.01,
-        "currency": "GBP"
+        "currency_id": 1
     },
     {
         "recipient": "John Smith II", 
@@ -213,7 +213,7 @@
         "title": "Offer just.",
         "date": "2002-06-09",
         "amount": 781.88,
-        "currency": "CAD"
+        "currency_id": 5
     },
     {
         "recipient": "Jamie Orozco", 
@@ -221,7 +221,7 @@
         "title": "Song together.",
         "date": "1995-11-10",
         "amount": 72.92,
-        "currency": "CAD"
+        "currency_id": 5
     },
     {
         "recipient": "Lee Maxwell", 
@@ -229,7 +229,7 @@
         "title": "Adult church green draw.",
         "date": "2007-09-17",
         "amount": 1379.73,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Sarah Wu", 
@@ -237,7 +237,7 @@
         "title": "Church even daughter road.",
         "date": "2018-01-06",
         "amount": 856.52,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Sarah Compton", 
@@ -245,7 +245,7 @@
         "title": "Three agency.",
         "date": "2001-04-26",
         "amount": 4867.79,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Heather Horne", 
@@ -253,7 +253,7 @@
         "title": "Piece answer agent.",
         "date": "2015-10-09",
         "amount": 404.59,
-        "currency": "GBP"
+        "currency_id": 1
     },
     {
         "recipient": "Troy James", 
@@ -261,7 +261,7 @@
         "title": "Catch.",
         "date": "1982-09-13",
         "amount": 1452.79,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Michelle Sims MD", 
@@ -269,7 +269,7 @@
         "title": "Send traditional so.",
         "date": "1996-12-03",
         "amount": 1083.25,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Emma Lowe", 
@@ -277,7 +277,7 @@
         "title": "Both real star.",
         "date": "1996-12-03",
         "amount": 1956.06,
-        "currency": "CAD"
+        "currency_id": 5
     },
     {
         "recipient": "Casey Foster", 
@@ -285,7 +285,7 @@
         "title": "Financial month sea.",
         "date": "1975-05-20",
         "amount": 2175.29,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Brian Stanley", 
@@ -293,7 +293,7 @@
         "title": "Answer pay kid.",
         "date": "1984-06-16",
         "amount": 4113.32,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "John Mclean", 
@@ -301,7 +301,7 @@
         "title": "My in blood.",
         "date": "1991-10-05",
         "amount": 4849.68,
-        "currency": "JPY"
+        "currency_id": 2
     },
     {
         "recipient": "Francisco Johnson", 
@@ -309,7 +309,7 @@
         "title": "Truth area almost.",
         "date": "2022-08-19",
         "amount": 4783.77,
-        "currency": "USD"
+        "currency_id": 3
     },
     {
         "recipient": "Nathan Gonzalez", 
@@ -317,7 +317,7 @@
         "title": "Many.",
         "date": "1993-04-21",
         "amount": 478.3,
-        "currency": "CAD"
+        "currency_id": 5
     },
     {
         "recipient": "James Greene DDS", 
@@ -325,7 +325,7 @@
         "title": "Safe us.",
         "date": "1971-08-05",
         "amount": 702.47,
-        "currency": "USD"
+        "currency_id": 3
     },
     {
         "recipient": "Melanie Gonzalez", 
@@ -333,7 +333,7 @@
         "title": "Nothing offer evidence.",
         "date": "1978-11-19",
         "amount": 3790.76,
-        "currency": "USD"
+        "currency_id": 3
     },
     {
         "recipient": "Amy Parker", 
@@ -341,7 +341,7 @@
         "title": "Sound effort low.",
         "date": "1998-11-17",
         "amount": 4351.7,
-        "currency": "USD"
+        "currency_id": 3
     },
     {
         "recipient": "Jennifer Villarreal", 
@@ -349,7 +349,7 @@
         "title": "Artist take spend.",
         "date": "2008-06-17",
         "amount": 521.16,
-        "currency": "GBP"
+        "currency_id": 1
     },
     {
         "recipient": "Tiffany Munoz", 
@@ -357,7 +357,7 @@
         "title": "Right my.",
         "date": "1973-06-23",
         "amount": 4719.85,
-        "currency": "CAD"
+        "currency_id": 5
     },
     {
         "recipient": "Alyssa Leonard", 
@@ -365,7 +365,7 @@
         "title": "May spend.",
         "date": "1995-02-02",
         "amount": 4637.42,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Andrew Watkins", 
@@ -373,7 +373,7 @@
         "title": "Technology could.",
         "date": "2020-09-22",
         "amount": 4054.48,
-        "currency": "CAD"
+        "currency_id": 5
     },
     {
         "recipient": "Joseph Jackson", 
@@ -381,7 +381,7 @@
         "title": "Skill.",
         "date": "1973-06-17",
         "amount": 555.95,
-        "currency": "GBP"
+        "currency_id": 1
     },
     {
         "recipient": "Kent Stevens", 
@@ -389,7 +389,7 @@
         "title": "Method strategy.",
         "date": "1972-07-03",
         "amount": 1769.0,
-        "currency": "GBP"
+        "currency_id": 1
     },
     {
         "recipient": "James Anderson", 
@@ -397,7 +397,7 @@
         "title": "Participant view.",
         "date": "1975-09-02",
         "amount": 3332.69,
-        "currency": "CAD"
+        "currency_id": 5
     },
     {
         "recipient": "Dalton Stokes", 
@@ -405,7 +405,7 @@
         "title": "Ever story that son.",
         "date": "2008-07-20",
         "amount": 4808.56,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Sabrina Rodriguez", 
@@ -413,7 +413,7 @@
         "title": "Mission company.",
         "date": "1988-06-07",
         "amount": 2368.35,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Cassandra Harris", 
@@ -421,7 +421,7 @@
         "title": "Computer should be.",
         "date": "1975-03-18",
         "amount": 2183.88,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Scott Moses", 
@@ -429,7 +429,7 @@
         "title": "Speak message.",
         "date": "2008-04-15",
         "amount": 3689.46,
-        "currency": "JPY"
+        "currency_id": 2
     },
     {
         "recipient": "Arthur Garner", 
@@ -437,7 +437,7 @@
         "title": "For.",
         "date": "1982-09-20",
         "amount": 1045.83,
-        "currency": "USD"
+        "currency_id": 3
     },
     {
         "recipient": "Shane Castillo", 
@@ -445,7 +445,7 @@
         "title": "In to just discussion however.",
         "date": "1971-11-29",
         "amount": 4006.3,
-        "currency": "GBP"
+        "currency_id": 1
     },
     {
         "recipient": "Kelly George", 
@@ -453,7 +453,7 @@
         "title": "Me minute.",
         "date": "2013-07-18",
         "amount": 4825.12,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Mary Mcclure", 
@@ -461,7 +461,7 @@
         "title": "Recent operation might.",
         "date": "1990-03-21",
         "amount": 1474.58,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Richard Keller", 
@@ -469,7 +469,7 @@
         "title": "Reduce its front.",
         "date": "2004-03-27",
         "amount": 3632.81,
-        "currency": "JPY"
+        "currency_id": 2
     },
     {
         "recipient": "Kyle Strickland", 
@@ -477,7 +477,7 @@
         "title": "Four we rate fish.",
         "date": "1973-08-15",
         "amount": 2326.51,
-        "currency": "GBP"
+        "currency_id": 1
     },
     {
         "recipient": "Katherine Sawyer", 
@@ -485,7 +485,7 @@
         "title": "On to realize.",
         "date": "1981-05-29",
         "amount": 504.72,
-        "currency": "CAD"
+        "currency_id": 5
     },
     {
         "recipient": "Michael Harris", 
@@ -493,7 +493,7 @@
         "title": "Wait bit particular.",
         "date": "1977-11-13",
         "amount": 455.26,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Carrie Strickland", 
@@ -501,7 +501,7 @@
         "title": "Exactly nice.",
         "date": "1992-05-22",
         "amount": 3664.75,
-        "currency": "CAD"
+        "currency_id": 5
     },
     {
         "recipient": "Thomas Jones", 
@@ -509,7 +509,7 @@
         "title": "Fight.",
         "date": "1996-12-31",
         "amount": 3425.89,
-        "currency": "JPY"
+        "currency_id": 2
     },
     {
         "recipient": "Jodi Garcia", 
@@ -517,7 +517,7 @@
         "title": "Beautiful anything.",
         "date": "2014-12-27",
         "amount": 4639.76,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Anna Cunningham", 
@@ -525,7 +525,7 @@
         "title": "Thousand fill no.",
         "date": "1983-01-03",
         "amount": 1294.01,
-        "currency": "JPY"
+        "currency_id": 2
     },
     {
         "recipient": "James Roberts", 
@@ -533,7 +533,7 @@
         "title": "Own imagine.",
         "date": "2002-08-16",
         "amount": 2840.71,
-        "currency": "JPY"
+        "currency_id": 2
     },
     {
         "recipient": "Tina Brown", 
@@ -541,7 +541,7 @@
         "title": "Standard read very.",
         "date": "2001-08-07",
         "amount": 2142.3,
-        "currency": "USD"
+        "currency_id": 3
     },
     {
         "recipient": "David Ewing", 
@@ -549,7 +549,7 @@
         "title": "Reality serious high.",
         "date": "1970-05-21",
         "amount": 2994.62,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Christine Donaldson", 
@@ -557,7 +557,7 @@
         "title": "Paper my forget.",
         "date": "2001-08-14",
         "amount": 4178.88,
-        "currency": "CAD"
+        "currency_id": 5
     },
     {
         "recipient": "Sarah Haley", 
@@ -565,7 +565,7 @@
         "title": "Per natural look.",
         "date": "1994-06-20",
         "amount": 2889.49,
-        "currency": "GBP"
+        "currency_id": 1
     },
     {
         "recipient": "Alicia Nixon", 
@@ -573,7 +573,7 @@
         "title": "Unit these Mr.",
         "date": "2001-12-24",
         "amount": 3897.93,
-        "currency": "JPY"
+        "currency_id": 2
     },
     {
         "recipient": "Jermaine Wise", 
@@ -581,7 +581,7 @@
         "title": "Yard property plan.",
         "date": "1970-10-22",
         "amount": 1422.92,
-        "currency": "USD"
+        "currency_id": 3
     },
     {
         "recipient": "Heather Garcia", 
@@ -589,7 +589,7 @@
         "title": "Quality question strategy.",
         "date": "2001-07-24",
         "amount": 314.89,
-        "currency": "USD"
+        "currency_id": 3
     },
     {
         "recipient": "James Austin", 
@@ -597,7 +597,7 @@
         "title": "Since board perform of.",
         "date": "1988-02-02",
         "amount": 4337.55,
-        "currency": "USD"
+        "currency_id": 3
     },
     {
         "recipient": "Shawn Dixon", 
@@ -605,7 +605,7 @@
         "title": "Must throughout.",
         "date": "2000-02-07",
         "amount": 4617.74,
-        "currency": "USD"
+        "currency_id": 3
     },
     {
         "recipient": "Pamela Parker", 
@@ -613,7 +613,7 @@
         "title": "Record worry.",
         "date": "1974-10-20",
         "amount": 596.47,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Cynthia White", 
@@ -621,7 +621,7 @@
         "title": "Around peace game.",
         "date": "1983-02-06",
         "amount": 4305.96,
-        "currency": "CAD"
+        "currency_id": 5
     },
     {
         "recipient": "Randy Dodson", 
@@ -629,7 +629,7 @@
         "title": "Family again almost off.",
         "date": "1997-08-27",
         "amount": 580.22,
-        "currency": "JPY"
+        "currency_id": 2
     },
     {
         "recipient": "Jack Harris", 
@@ -637,7 +637,7 @@
         "title": "Often still tend kid.",
         "date": "2021-01-06",
         "amount": 4593.95,
-        "currency": "GBP"
+        "currency_id": 1
     },
     {
         "recipient": "Donna Tran", 
@@ -645,7 +645,7 @@
         "title": "Coach lot gun.",
         "date": "1991-01-14",
         "amount": 1851.19,
-        "currency": "USD"
+        "currency_id": 3
     },
     {
         "recipient": "Dennis Pena", 
@@ -653,7 +653,7 @@
         "title": "Rich strong.",
         "date": "1975-07-07",
         "amount": 1240.91,
-        "currency": "USD"
+        "currency_id": 3
     },
     {
         "recipient": "Mary Jackson", 
@@ -661,7 +661,7 @@
         "title": "Blood unit.",
         "date": "2006-12-30",
         "amount": 959.46,
-        "currency": "GBP"
+        "currency_id": 1
     },
     {
         "recipient": "Michelle Stevens", 
@@ -669,7 +669,7 @@
         "title": "Pick can.",
         "date": "1970-12-31",
         "amount": 2798.53,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Jacqueline Willis", 
@@ -677,7 +677,7 @@
         "title": "Line pressure white.",
         "date": "2005-04-15",
         "amount": 2495.61,
-        "currency": "CAD"
+        "currency_id": 5
     },
     {
         "recipient": "Bradley Johnson", 
@@ -685,7 +685,7 @@
         "title": "Rather should.",
         "date": "2018-10-16",
         "amount": 2629.99,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "James Johnson", 
@@ -693,7 +693,7 @@
         "title": "Mind morning film.",
         "date": "2000-01-18",
         "amount": 3650.48,
-        "currency": "USD"
+        "currency_id": 3
     },
     {
         "recipient": "Patrick Vargas", 
@@ -701,7 +701,7 @@
         "title": "Instead talk would.",
         "date": "1993-07-19",
         "amount": 4030.9,
-        "currency": "CAD"
+        "currency_id": 5
     },
     {
         "recipient": "Kevin Fernandez", 
@@ -709,7 +709,7 @@
         "title": "Attorney perhaps defense.",
         "date": "1978-12-19",
         "amount": 1548.6,
-        "currency": "GBP"
+        "currency_id": 1
     },
     {
         "recipient": "Arthur Willis", 
@@ -717,7 +717,7 @@
         "title": "Animal collection.",
         "date": "1990-06-03",
         "amount": 3012.44,
-        "currency": "JPY"
+        "currency_id": 2
     },
     {
         "recipient": "Melinda Santana", 
@@ -725,7 +725,7 @@
         "title": "Discussion anything.",
         "date": "1972-03-15",
         "amount": 3428.16,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Angelica Villarreal", 
@@ -733,7 +733,7 @@
         "title": "Fear red.",
         "date": "1999-01-14",
         "amount": 2342.59,
-        "currency": "JPY"
+        "currency_id": 2
     },
     {
         "recipient": "Carlos Bell", 
@@ -741,7 +741,7 @@
         "title": "Mention seek.",
         "date": "2015-02-06",
         "amount": 1032.03,
-        "currency": "USD"
+        "currency_id": 3
     },
     {
         "recipient": "Jennifer Collins", 
@@ -749,7 +749,7 @@
         "title": "Test issue.",
         "date": "1988-10-28",
         "amount": 2732.86,
-        "currency": "CAD"
+        "currency_id": 5
     },
     {
         "recipient": "Jonathan Rhodes", 
@@ -757,7 +757,7 @@
         "title": "Player often.",
         "date": "1973-12-12",
         "amount": 1862.31,
-        "currency": "EUR"
+        "currency_id": 4
     },
     {
         "recipient": "Vanessa Fox", 
@@ -765,7 +765,7 @@
         "title": "What speak.",
         "date": "1976-07-26",
         "amount": 4394.66,
-        "currency": "GBP"
+        "currency_id": 1
     },
     {
         "recipient": "Brandon Thomas", 
@@ -773,7 +773,7 @@
         "title": "Course both.",
         "date": "2001-01-19",
         "amount": 1083.62,
-        "currency": "USD"
+        "currency_id": 3
     },
     {
         "recipient": "Maria Kelley", 
@@ -781,7 +781,7 @@
         "title": "After.",
         "date": "2018-06-05",
         "amount": 1853.63,
-        "currency": "USD"
+        "currency_id": 3
     },
     {
         "recipient": "Matthew Smith", 
@@ -789,7 +789,7 @@
         "title": "Husband level.",
         "date": "1973-03-23",
         "amount": 4377.54,
-        "currency": "CAD"
+        "currency_id": 5
     },
     {
         "recipient": "James Moore", 
@@ -797,6 +797,6 @@
         "title": "Skin nothing.",
         "date": "1982-04-22",
         "amount": 2998.89,
-        "currency": "CAD"
+        "currency_id": 5
     }
 ]

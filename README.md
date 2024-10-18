@@ -24,3 +24,10 @@ To create new migration simply run
 alembic revision --autogenerate -m "example comment"
 alembic upgrade head
 ```
+
+### Populating db with sample records
+To populate db you can simply do
+```
+cd database
+python3 utils.py
+```
