@@ -128,3 +128,23 @@ class User:
         ]
 
         return transactions
+
+    @staticmethod
+    def get_all_tags() -> List[str]:
+        db = Database()
+        conn = db.create_connection()
+        cur = conn.cursor()
+
+        query = """
+            SELECT tag
+            FROM transactions_with_tag
+            GROUP BY tag
+        """
+
+        cur.execute(query)
+        records = cur.fetchall()
+
+        cur.close()
+        db.close_connection(conn)
+
+        return [record[0] for record in records]

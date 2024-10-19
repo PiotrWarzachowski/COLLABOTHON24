@@ -1,7 +1,10 @@
+from datetime import date, datetime
+
 from fastapi import APIRouter, Query, HTTPException
 from fastapi.templating import Jinja2Templates
-from datetime import date, datetime
-from database.users import User
+
+from ..database.users import User
+from backend.model import Model
 
 router = APIRouter()
 templates = Jinja2Templates(directory="database/view")
@@ -21,6 +24,8 @@ MONTH_NAMES = [
     "Nov",
     "Dec",
 ]
+tags = User.get_all_tags()
+model = Model(tags)
 
 
 @router.get("/{u_id}")
@@ -162,3 +167,18 @@ async def get_recent_transactions():
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.post(
+    "/generate/tag",
+    summary="Generate a tag for given transaction",
+    description="Generate a tag for a given transaction."
+)
+async def generate_tag(transaction: dict):
+    """
+    Generate a tag for a given transaction.
+
+    Returns:
+    - **tag**: The generated tag.
+    """
+    return {"tag": model.get_tag(transaction)}
