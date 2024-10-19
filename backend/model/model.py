@@ -61,10 +61,6 @@ class Model:
         predicted_label = self.model.predict(embedding)
         return predicted_label[0]
 
-    def predict2(self, emb):
-        predicted_label = self.model.predict([emb])
-        return predicted_label[0]
-
 
 if __name__ == "__main__":
     model = Model("knn_model", n_neighbors=17)

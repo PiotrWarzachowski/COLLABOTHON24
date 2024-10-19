@@ -15,4 +15,5 @@ _model = AutoModelForCausalLM.from_pretrained(
     torch_dtype="auto",
     device_map="cuda"
 ) if torch.cuda.is_available() else mock_model()
+
 _tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-3B")
