@@ -7,11 +7,7 @@ import { Component as CircleChart } from "../ui/circle-chart"
 const Main: React.FC = () => {
   return (
     <main className="main-content">
-      <div className="row">
-        <div className="rectangleSmall"></div>
-        <div className="rectangleSmall"></div>
-        <div className="rectangleSmall"></div>
-      </div>
+      <img src="../../public/main_view_header.svg" style={{padding: '77px'}} alt="search" />
 
       <div className="row">
         <div className="rectangle">
