@@ -50,13 +50,13 @@ async def get_records(
     
     - **from_date**: The start date of the range.
     - **to_date**: The end date of the range.
-    - **key**: The period to group by ('days', 'month', or 'year').
+    - **key**: The period to group by ('day', 'month', or 'year').
     - **type**: The type of records to fetch ('expenses', 'revenue', or 'profit').
     """
 
     num_days = (to_date - from_date).days
 
-    if key == "days" and num_days > 14:
+    if key == "day" and num_days > 14:
         raise HTTPException(
             status_code=400,
             detail="You can't choose more than 14 days in day mode."
@@ -73,14 +73,14 @@ async def get_records(
             grouped_records[i] = {}
             for tag in tags:
                 grouped_records[i][tag] = 0
-    elif key == "days":
+    elif key == "day":
         for i in range(1, num_days+1):
             grouped_records[i] = {}
             for tag in tags:
                 grouped_records[i][tag] = 0
 
     for record in records:
-        if key == "days":
+        if key == "day":
             record_date = datetime.strptime(str(record["period"]), "%Y-%m-%d").date()
 
             period = (record_date - from_date).days + 1
@@ -99,7 +99,7 @@ async def get_records(
             }
             for period, transactions in grouped_records.items()
         ]
-    elif key == "days":
+    elif key == "day":
          data = [
             {
                 "period": period,

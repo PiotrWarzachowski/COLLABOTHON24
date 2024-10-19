@@ -28,7 +28,7 @@ class User:
                SUM(amount) AS total, 
         """
 
-        if key == "days":
+        if key == "day":
             query += "date::date AS period"
         elif key == "month":
             query += "EXTRACT(YEAR FROM date) AS period"
@@ -70,7 +70,7 @@ class User:
         return [
             {
                 "tag": record[0],
-                "total": record[1],
+                "total": abs(record[1]),
                 "period": record[2],
             }
             for record in records

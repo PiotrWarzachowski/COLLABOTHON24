@@ -1,6 +1,7 @@
 import React from 'react';
 import './main.css';
 import { Component as MultipleChart } from "../ui/multiple-chart"
+import { Component as CircleChart } from "../ui/circle-chart"
 
 
 const Main: React.FC = () => {
@@ -13,7 +14,9 @@ const Main: React.FC = () => {
       </div>
 
       <div className="row">
-        <div className="rectangle"></div>
+        <div className="rectangle">
+          <CircleChart />
+        </div>
         <div className="rectangle">
             <MultipleChart />
         </div>

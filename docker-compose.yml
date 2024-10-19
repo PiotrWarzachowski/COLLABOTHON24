@@ -12,7 +12,7 @@ services:
       - .env
     command: pnpm run dev
     volumes:
-      - ./frontend/:/code
+      - ./frontend/:/code/
     depends_on:
       - backend
 
