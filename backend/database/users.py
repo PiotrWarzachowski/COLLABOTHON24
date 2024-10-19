@@ -52,8 +52,8 @@ class User:
             raise ValueError("Invalid type, must be 'expenses', 'revenue', or 'profit'")
 
         query += """
-        GROUP BY tag, period
-        ORDER BY period ASC;
+        GROUP BY tag, period, date
+        ORDER BY date ASC;
         """
 
         # query = """
@@ -70,12 +70,11 @@ class User:
         return [
             {
                 "tag": record[0],
-                "total": abs(record[1]),
+                "total": record[1],
                 "period": record[2],
             }
             for record in records
         ]
-        # return [Transaction(*record) for record in records]
 
 
 class Transaction:

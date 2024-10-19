@@ -93,9 +93,9 @@ function CustomLegend({ labels, colors }) {
 
 export function Component() {
   const [activeTab, setActiveTab] = useState("expenses");
-  const [fromDate, setFromDate] = useState("1998-10-10");
-  const [toDate, setToDate] = useState("2020-10-10");
-  const [type, setType] = useState("year");
+  const [fromDate, setFromDate] = useState("2024-10-13");
+  const [toDate, setToDate] = useState("2024-10-20");
+  const [type, setType] = useState("day");
   const [data, setData] = useState([]);
   const [total, setTotal] = useState(0);
   const [currentConfig, setCurrentConfig] = useState({
@@ -161,7 +161,7 @@ export function Component() {
         } else if (activeTab === "expenses") {
           newConfig.colors = expensesColors;
           newConfig.title = "Total Expenses";
-        } else if (activeTab === "profits") {
+        } else if (activeTab === "profit") {
           newConfig.colors = profitsColors;
           newConfig.title = "Total Profits";
         }
@@ -235,7 +235,7 @@ export function Component() {
                     tickLine={false}
                     tickMargin={10}
                     axisLine={false}
-                    tickFormatter={(value) => value.slice(0, 3)}
+                    tickFormatter={(value) => value}
                     style={{ fontFamily: "Gotham, sans-serif" }}
                   />
                   <Tooltip

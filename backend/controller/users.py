@@ -8,18 +8,18 @@ templates = Jinja2Templates(directory="database/view")
 
 MONTH_NAMES = [
     "",
-    "January",
-    "February",
-    "March",
-    "April",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
     "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
 ]
 
 
@@ -65,7 +65,11 @@ async def get_records(
 
     records = User.get_records_by_date_range(from_date, to_date, key, type)
 
-    tags = set(record["tag"] for record in records)
+    if type == "profit":
+        test = ["Income", "Expenses"]
+        tags = set(r for r in test)
+    else:
+        tags = set(record["tag"] for record in records)
     grouped_records = {}
 
     if key == "year":
@@ -74,22 +78,38 @@ async def get_records(
             for tag in tags:
                 grouped_records[i][tag] = 0
     elif key == "day":
-        for i in range(1, num_days+2):
-            grouped_records[i] = {}
+        for record in records:
+            record_date = str(str(datetime.strptime(str(record["period"]), "%Y-%m-%d"))[5:10])
+            record["period"] = record_date
+            grouped_records[record_date] = {}
             for tag in tags:
-                grouped_records[i][tag] = 0
+                grouped_records[record_date][tag] = 0
 
     for record in records:
         if key == "day":
-            record_date = datetime.strptime(str(record["period"]), "%Y-%m-%d").date()
-
-            period = (record_date - from_date).days + 1
+            period = record["period"]
         else:
             period = int(record["period"])
         tag = record["tag"]
         total = record["total"]
 
+        if type == "profit":
+            tag = "Income" if total > 0 else  "Expenses"
+          
         grouped_records[period][tag] += total
+
+    for record in records:
+        if key == "day":
+            period = record["period"]
+        else:
+            period = int(record["period"])
+        tag = record["tag"]
+        total = record["total"]
+
+        if type == "profit":
+            tag = "Income" if total > 0 else  "Expenses"
+          
+        grouped_records[period][tag] = abs(grouped_records[period][tag])
 
     if key == "year":
         data = [
@@ -107,7 +127,12 @@ async def get_records(
             }
             for period, transactions in grouped_records.items()
          ]
-
+    
+    print(f"DATA B4 {data}")
+    if key == "year":
+        m = from_date.month
+        data = data[m:] + data[:m]
+    print(f"DATA B4 {data}")
     return {
         "data": data,
         "labels": {f"{tag}": tag for tag in tags},
