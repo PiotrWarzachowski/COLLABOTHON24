@@ -15,14 +15,14 @@ def generate_embedding(transaction: dict):
     """
     prompt = "Transaction: from-to: {who}, Title: '{title}', Transaction_date: '{date}', Amount: {amount}, Currency: {currency}"
     completed_prompt = prompt.format(
-        who=transaction['who'],
-        title=transaction['title'],
-        date=transaction['date'],
-        amount=transaction['amount'],
-        currency=transaction['currency']
+        who=transaction["who"],
+        title=transaction["title"],
+        date=transaction["date"],
+        amount=transaction["amount"],
+        currency=transaction["currency"],
     )
 
-    input_ids = _tokenizer.encode(completed_prompt, return_tensors='pt')
+    input_ids = _tokenizer.encode(completed_prompt, return_tensors="pt")
 
     with torch.no_grad():
         outputs = _model(input_ids=input_ids, output_hidden_states=True)

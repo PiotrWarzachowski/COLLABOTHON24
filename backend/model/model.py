@@ -10,7 +10,7 @@ class Model:
         :param name: model name for saving/loading
         :param n_neighbors: number of neighbors to consider in KNN
         """
-        self.model = KNeighborsClassifier(n_neighbors=n_neighbors, metric='cosine')
+        self.model = KNeighborsClassifier(n_neighbors=n_neighbors, metric="cosine")
         self.name = name
         self.data = []
         self.labels = []
@@ -19,13 +19,13 @@ class Model:
         """
         Save the trained KNN model and associated label names (tags) to a file
         """
-        joblib.dump(self.model, self.name + '.pkl')
+        joblib.dump(self.model, self.name + ".pkl")
 
     def load(self, name):
         """
         Load the KNN model and associated label names (tags) from a file
         """
-        self.model = joblib.load(name + '.pkl')
+        self.model = joblib.load(name + ".pkl")
 
     def train(self, data, labels):
         """

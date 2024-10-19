@@ -28,3 +28,16 @@ class Currency(Base):
     curr = Column(String(100))
 
     transactions = relationship("transactions", back_populates="currency")
+
+
+class TransactionsWithTag(Base):
+    __tablename__ = "transactions_with_tag"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    amount = Column(Integer, nullable=False)
+    recipient = Column(String(100))
+    title = Column(String(100))
+    sender = Column(String(100))
+    tag = Column(String(100))
+    currency_id = Column(Integer, ForeignKey("currency.id"))
+    date = Column(DateTime, default=datetime.now(timezone.utc))
