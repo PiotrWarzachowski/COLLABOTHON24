@@ -21,12 +21,10 @@ const revenueColors = [
   '#836731'
 ];
 
-// Data for a single month (January)
 const revenueData = [
-  { month: "January", productA: 120, productB: 90, productC: 60, productD: 12, productE: 90 },
+  { productA: 120, productB: 91, productC: 60, productD: 12, productE: 90 },
 ];
 
-// Chart configuration
 const currentConfig = {
   data: revenueData,
   keys: ["productA", "productB", "productC", "productD", "productE"],
@@ -39,7 +37,6 @@ const currentConfig = {
     productE: "Product E",
   },
   title: "Total Revenue",
-  // Removed the hard-coded total
 };
 
 function CustomLegend({ labels, colors, data }) {
@@ -118,7 +115,9 @@ export function Component() {
         width: "100%",
         height: "100%",
         margin: "0 auto",
+        paddingBottom: '30px',
         overflow: "hidden",
+        border: '0px'
       }}
     >
       <Card
@@ -127,6 +126,7 @@ export function Component() {
           fontFamily: "Gotham, sans-serif",
           height: "100%",
           borderWidth: 0,
+        border: '0px'
         }}
       >
         <CardHeader>
@@ -139,19 +139,18 @@ export function Component() {
             height: "calc(100% - 10%)",
             display: "flex",
             flexDirection: "column",
+        border: '0px'
           }}
         >
-          {/* Menu Icon and Text */}
           <div style={{ display: "flex", alignItems: "center" }}>
             <div style={{ display: "flex", alignItems: "center", cursor: "pointer" }}>
-              {/* Inline SVG for the menu icon */}
               <svg
-                width="24"
-                height="24"
+                width="32"
+                height="32"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="black"
-                strokeWidth="2"
+                strokeWidth="3"
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 style={{ marginRight: "8px" }}
@@ -160,7 +159,7 @@ export function Component() {
                 <line x1="3" y1="12" x2="21" y2="12" />
                 <line x1="3" y1="18" x2="21" y2="18" />
               </svg>
-              <span style={{ fontSize: "14px" }}>Configure total balance</span>
+              <span style={{ fontSize: "22px", fontWeight: 'bold' }}>Configure total balance</span>
             </div>
           </div>
           <div style={{ display: "flex", flex: 1, paddingTop: "20px" }}>
@@ -208,14 +207,6 @@ export function Component() {
                 data={currentConfig.data[0]}
               />
             </div>
-          </div>
-          <div style={{ marginTop: "10px", fontFamily: "Gotham, sans-serif" }}>
-            <p style={{ fontWeight: "bold", fontSize: "14px" }}>
-              Trending up by 5.2% this month
-            </p>
-            <p style={{ fontSize: "12px", fontWeight: "200" }}>
-              Displaying financial performance for {currentConfig.data[0].month}.
-            </p>
           </div>
         </CardContent>
       </Card>

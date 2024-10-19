@@ -1,7 +1,13 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Bar, BarChart, XAxis, Tooltip, ResponsiveContainer } from "recharts";
+import {
+  Bar,
+  BarChart,
+  XAxis,
+  Tooltip,
+  ResponsiveContainer,
+} from "recharts";
 
 import {
   Card,
@@ -16,12 +22,11 @@ import { getUserTags } from "@/api/tagsEndpoint";
 export const description = "A stacked bar chart with a legend";
 
 function getDaysBetweenDates(date1: Date, date2: Date): number {
-  const oneDay = 1000 * 60 * 60 * 24; // liczba milisekund w jednym dniu
-  const timeDifference = Math.abs(date2.getTime() - date1.getTime()); // różnica w milisekundach
-  const dayDifference = Math.ceil(timeDifference / oneDay); // liczba pełnych dni
+  const oneDay = 1000 * 60 * 60 * 24;
+  const timeDifference = Math.abs(date2.getTime() - date1.getTime());
+  const dayDifference = Math.ceil(timeDifference / oneDay);
   return dayDifference;
 }
-
 
 const revenueColors = [
   "#173739",
@@ -43,17 +48,9 @@ const expensesColors = [
   "#834F31",
 ];
 
-const profitsColors = [
-  "#3F1715",
-  "#73332F",
-  "#C89C89",
-  "#D5C7AC",
-  "#C0A982",
-  "#A6805B",
-  "#834F31",
-];
+const profitsColors = ["#173739", "#A12F1B"]; // Zaktualizowane kolory
 
-// Custom Legend Component
+// Komponent niestandardowej legendy
 function CustomLegend({ labels, colors }) {
   return (
     <div
@@ -103,6 +100,7 @@ export function Component() {
     colors: [],
     labels: {},
     title: "",
+    isStacked: true, 
   });
 
   const handleTabChange = (value) => {
@@ -113,24 +111,28 @@ export function Component() {
     setFromDate(newFromDate);
     setToDate(newToDate);
 
-    if(getDaysBetweenDates(new Date(newFromDate), new Date(newToDate)) < 15){
+    if (
+      getDaysBetweenDates(new Date(newFromDate), new Date(newToDate)) <
+      15
+    ) {
       setType("day");
-    }else{
+    } else {
       setType("year");
     }
-
   };
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // Pass required parameters to the API function
-        let jsonData = await getUserTags(fromDate, toDate, type, activeTab);
+        let jsonData = await getUserTags(
+          fromDate,
+          toDate,
+          type,
+          activeTab
+        );
 
-        // Extract keys from transactions
         const dataKeys = Object.keys(jsonData.data[0].transactions);
 
-        // Compute total
         let computedTotal = 0;
         jsonData.data.forEach((item) => {
           dataKeys.forEach((key) => {
@@ -139,31 +141,32 @@ export function Component() {
         });
         setTotal(computedTotal);
 
-        // Transform data for the chart
         const chartData = jsonData.data.map((item) => ({
           period: item.period,
           ...item.transactions,
         }));
         setData(chartData);
 
-        // Update currentConfig
         const newConfig = {
           keys: dataKeys,
           colors: [],
           labels: jsonData.labels,
           title: "",
+          isStacked: true, 
         };
 
-        // Set colors and labels based on activeTab
         if (activeTab === "revenue") {
           newConfig.colors = revenueColors;
           newConfig.title = "Total Revenue";
+          newConfig.isStacked = true;
         } else if (activeTab === "expenses") {
           newConfig.colors = expensesColors;
           newConfig.title = "Total Expenses";
+          newConfig.isStacked = true;
         } else if (activeTab === "profit") {
           newConfig.colors = profitsColors;
-          newConfig.title = "Total Profits";
+          newConfig.title = "Total Profit";
+          newConfig.isStacked = false;
         }
 
         setCurrentConfig(newConfig);
@@ -205,7 +208,6 @@ export function Component() {
           }}
         >
           <div style={{ display: "flex", justifyContent: "flex-start" }}>
-            {/* Pass current dates to DatePicker */}
             <DatePicker
               onDateRangeChange={handleDateRangeChange}
               fromDate={fromDate}
@@ -220,13 +222,11 @@ export function Component() {
               <TabsList style={{ backgroundColor: "#CADDCD" }}>
                 <TabsTrigger value="revenue">Revenue</TabsTrigger>
                 <TabsTrigger value="expenses">Expenses</TabsTrigger>
-                <TabsTrigger value="profits">Profits</TabsTrigger>
+                <TabsTrigger value="profit">Profit</TabsTrigger>
               </TabsList>
             </Tabs>
           </div>
-          {/* Chart and Legend Container */}
           <div style={{ display: "flex", flex: 1, paddingTop: "20px" }}>
-            {/* Chart Container */}
             <div style={{ flex: 1 }}>
               <ResponsiveContainer width="100%" height="90%">
                 <BarChart data={data} margin={{ top: 20 }}>
@@ -245,41 +245,59 @@ export function Component() {
                     }}
                     cursor={{ fill: "rgba(0, 0, 0, 0)" }}
                   />
-                  {/* Dynamically add Bars */}
                   {currentConfig.keys.map((key, index) => (
                     <Bar
                       key={key}
                       dataKey={key}
-                      stackId="a"
+                      stackId={
+                        currentConfig.isStacked ? "a" : undefined
+                      }
                       fill={
-                        currentConfig.colors[index % currentConfig.colors.length]
+                        currentConfig.colors[
+                          index % currentConfig.colors.length
+                        ]
                       }
                       radius={
-                        index === 0
-                          ? [0, 0, 15, 15]
-                          : index === currentConfig.keys.length - 1
-                          ? [15, 15, 0, 0]
-                          : [0, 0, 0, 0]
+                       (currentConfig.keys.length !== 2 && type !== 'profit') ? (
+                          currentConfig.isStacked
+                          ? index === 0
+                            ? [0, 0, 15, 15]
+                            : index === currentConfig.keys.length - 1
+                            ? [15, 15, 0, 0]
+                            : [0, 0, 0, 0]
+                          : [5, 5, 0, 0]
+                        ) : [15, 15, 15, 15]
                       }
+                      barSize={currentConfig.isStacked ? undefined : 40} 
                     />
                   ))}
                 </BarChart>
               </ResponsiveContainer>
             </div>
-            {/* Legend Container */}
-            <div style={{ marginTop: "auto", marginBottom: "auto" }}>
+            <div
+              style={{
+                marginTop: "auto",
+                marginBottom: "auto",
+              }}
+            >
               <CustomLegend
                 labels={currentConfig.labels}
                 colors={currentConfig.colors}
               />
             </div>
           </div>
-          <div style={{ marginTop: "10px", fontFamily: "Gotham, sans-serif" }}>
+          <div
+            style={{
+              marginTop: "10px",
+              fontFamily: "Gotham, sans-serif",
+            }}
+          >
             <p style={{ fontWeight: "bold", fontSize: "14px" }}>
               Trending up by 5.2% this month
             </p>
             <p style={{ fontSize: "12px", fontWeight: "200" }}>
-              Displaying financial performance for the selected date range.
+              Displaying financial performance for the selected date
+              range.
             </p>
           </div>
         </CardContent>

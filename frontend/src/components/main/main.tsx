@@ -18,7 +18,7 @@ const Main: React.FC = () => {
           <CircleChart />
         </div>
         <div className="rectangle">
-            <MultipleChart />
+          <MultipleChart />
         </div>
       </div>
 
