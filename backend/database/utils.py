@@ -24,50 +24,101 @@ class Database:
 
 
 def populate_transactions():
-    with open('transactions.json', 'r') as file:
+    with open("transactions.json", "r") as file:
         records = json.load(file)
 
     conn = psycopg2.connect(
-        dbname = os.getenv("DB_NAME"),
-        user = os.getenv("DB_USER"),
-        password = os.getenv("DB_PASS"),
-        host = os.getenv("DB_HOST"),
-        port = os.getenv("DB_PORT")
+        dbname=os.getenv("DB_NAME"),
+        user=os.getenv("DB_USER"),
+        password=os.getenv("DB_PASS"),
+        host=os.getenv("DB_HOST"),
+        port=os.getenv("DB_PORT"),
     )
 
     cur = conn.cursor()
 
     for record in records:
-        cur.execute("""
+        cur.execute(
+            """
             INSERT INTO transactions (recipient, sender, title, date, amount, currency_id)
             VALUES (%s, %s, %s, %s, %s, %s)
             ON CONFLICT DO NOTHING;
-        """, (record['recipient'], record['sender'], record['title'], record['date'], record['amount'], record['currency_id']))
+        """,
+            (
+                record["recipient"],
+                record["sender"],
+                record["title"],
+                record["date"],
+                record["amount"],
+                record["currency_id"],
+            ),
+        )
 
     conn.commit()
     cur.close()
     conn.close()
 
-def populate_currency():
-    with open('currencies.json', 'r') as file:
+
+def populate_transactions_with_tags():
+    with open("tags.json", "r") as file:
         records = json.load(file)
 
     conn = psycopg2.connect(
-        dbname = os.getenv("DB_NAME"),
-        user = os.getenv("DB_USER"),
-        password = os.getenv("DB_PASS"),
-        host = os.getenv("DB_HOST"),
-        port = os.getenv("DB_PORT")
+        dbname=os.getenv("DB_NAME"),
+        user=os.getenv("DB_USER"),
+        password=os.getenv("DB_PASS"),
+        host=os.getenv("DB_HOST"),
+        port=os.getenv("DB_PORT"),
     )
 
     cur = conn.cursor()
 
     for record in records:
-        cur.execute("""
+        cur.execute(
+            """
+            INSERT INTO transactions_with_tag (recipient, sender, title, date, amount, currency_id, tag)
+            VALUES (%s, %s, %s, %s, %s, %s, %s)
+            ON CONFLICT DO NOTHING;
+        """,
+            (
+                record["recipient"],
+                record["sender"],
+                record["title"],
+                record["date"],
+                record["amount"],
+                record["currency_id"],
+                record["tag"],
+            ),
+        )
+
+    conn.commit()
+    cur.close()
+    conn.close()
+
+
+def populate_currency():
+    with open("currencies.json", "r") as file:
+        records = json.load(file)
+
+    conn = psycopg2.connect(
+        dbname=os.getenv("DB_NAME"),
+        user=os.getenv("DB_USER"),
+        password=os.getenv("DB_PASS"),
+        host=os.getenv("DB_HOST"),
+        port=os.getenv("DB_PORT"),
+    )
+
+    cur = conn.cursor()
+
+    for record in records:
+        cur.execute(
+            """
             INSERT INTO currency (curr)
             VALUES (%s)
             ON CONFLICT DO NOTHING;
-        """, (record['curr'],))
+        """,
+            (record["curr"],),
+        )
 
     conn.commit()
     cur.close()
@@ -77,3 +128,4 @@ def populate_currency():
 if __name__ == "__main__":
     populate_currency()
     populate_transactions()
+    populate_transactions_with_tags()

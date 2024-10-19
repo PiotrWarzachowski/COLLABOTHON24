@@ -1,4 +1,22 @@
 services:
+
+  web_frontend:
+    build:
+      context: frontend
+      target: development
+    restart: always
+    container_name: web_frontend
+    ports:
+      - 8127:8000
+    env_file:
+      - .env
+    command: pnpm run dev
+    volumes:
+      - ./frontend/:/code
+    depends_on:
+      - backend
+
+
   backend:
     build: ./backend
     env_file:
