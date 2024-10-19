@@ -18,6 +18,7 @@ import {
 import DatePicker from "@/components/ui/date-picker";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { getUserTags } from "@/api/tagsEndpoint";
+import '@/styles/globals.css';
 
 export const description = "A stacked bar chart with a legend";
 
@@ -54,12 +55,12 @@ const profitsColors = ["#173739", "#A12F1B"]; // Zaktualizowane kolory
 function CustomLegend({ labels, colors }) {
   return (
     <div
+      className="font-gotham"
       style={{
         display: "flex",
         flexDirection: "column",
         fontSize: "1rem",
         lineHeight: "1.5",
-        fontFamily: "Gotham, sans-serif",
         paddingLeft: "20px",
       }}
     >
@@ -159,14 +160,17 @@ export function Component() {
           newConfig.colors = revenueColors;
           newConfig.title = "Total Revenue";
           newConfig.isStacked = true;
+          newConfig.className = "font-gotham";
         } else if (activeTab === "expenses") {
           newConfig.colors = expensesColors;
           newConfig.title = "Total Expenses";
           newConfig.isStacked = true;
+          newConfig.className = "font-gotham";
         } else if (activeTab === "profit") {
           newConfig.colors = profitsColors;
           newConfig.title = "Total Profit";
           newConfig.isStacked = false;
+          newConfig.className = "font-gotham";
         }
 
         setCurrentConfig(newConfig);
@@ -188,9 +192,9 @@ export function Component() {
       }}
     >
       <Card
+      className="font-gotham"
         style={{
           backgroundColor: "rgba(0, 0, 0, 0)",
-          fontFamily: "Gotham, sans-serif",
           height: "100%",
           borderWidth: 0,
         }}
@@ -236,7 +240,8 @@ export function Component() {
                     tickMargin={10}
                     axisLine={false}
                     tickFormatter={(value) => value}
-                    style={{ fontFamily: "Gotham, sans-serif" }}
+                    className="font-gotham"
+                    style={{ }}
                   />
                   <Tooltip
                     contentStyle={{
@@ -287,9 +292,9 @@ export function Component() {
             </div>
           </div>
           <div
+            className="font-gotham"
             style={{
               marginTop: "10px",
-              fontFamily: "Gotham, sans-serif",
             }}
           >
             <p style={{ fontWeight: "bold", fontSize: "14px" }}>

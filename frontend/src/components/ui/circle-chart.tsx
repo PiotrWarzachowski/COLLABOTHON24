@@ -8,6 +8,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import '@/styles/globals.css';
 
 export const description = "A donut chart with a legend showing values and tags";
 
@@ -42,12 +43,12 @@ const currentConfig = {
 function CustomLegend({ labels, colors, data }) {
   return (
     <div
+    className="font-gotham"
       style={{
         display: "flex",
         flexDirection: "column",
         fontSize: "1rem",
         lineHeight: "1.5",
-        fontFamily: "Gotham, sans-serif",
         alignItems: "center", // Center horizontally
         justifyContent: "center", // Center vertically
       }}
@@ -84,11 +85,11 @@ const CustomTooltip = ({ active, payload }) => {
     const data = payload[0];
     return (
       <div
+      className="font-gotham"
         style={{
           backgroundColor: "#fff",
           border: "1px solid #ccc",
           padding: "10px",
-          fontFamily: "Gotham, sans-serif",
         }}
       >
         <p>{`${data.payload.name}: ${data.payload.value}`}</p>

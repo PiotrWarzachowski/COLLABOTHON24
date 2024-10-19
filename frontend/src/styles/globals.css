@@ -77,10 +77,11 @@
   }
 }
 
-@font-face {
-  font-family: 'Gotham';
-  src: url('@/fonts/Gotham-font-family/Gotham/Gotham-Medium.otf') format('otf'),
-       url('@/fonts/Gotham-font-family/Gotham/Gotham-Medium.otf') format('otf');
-  font-weight: normal;
-  font-style: normal;
+.font-gotham {
+  font-family: Gotham, sans-serif;
+}
+
+body, span {
+  font-family: Gotham, sans-serif;
+  color: #212A33  !important;
 }

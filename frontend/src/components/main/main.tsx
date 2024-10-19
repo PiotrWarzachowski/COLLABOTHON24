@@ -2,7 +2,7 @@ import React from 'react';
 import './main.css';
 import { Component as MultipleChart } from "../ui/multiple-chart"
 import { Component as CircleChart } from "../ui/circle-chart"
-
+import '@/styles/globals.css';
 
 const Main: React.FC = () => {
   return (
