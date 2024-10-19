@@ -6,7 +6,7 @@
         "date": "2024-10-10",
         "amount": 2872.49,
         "currency_id": 3,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Jennifer Flores",
@@ -15,7 +15,7 @@
         "date": "2024-10-10",
         "amount": -3984.82,
         "currency_id": 2,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Nicole Davis",
@@ -24,7 +24,7 @@
         "date": "2024-10-10",
         "amount": 1850.63,
         "currency_id": 1,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Nicole Davis",
@@ -33,7 +33,7 @@
         "date": "2024-10-10",
         "amount": -4773.06,
         "currency_id": 3,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -42,7 +42,7 @@
         "date": "2024-10-10",
         "amount": 3258.88,
         "currency_id": 2,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Andrea English",
@@ -51,7 +51,7 @@
         "date": "2024-10-10",
         "amount": -2163.4,
         "currency_id": 1,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Nicole Davis",
@@ -60,7 +60,7 @@
         "date": "2024-10-10",
         "amount": 3855.91,
         "currency_id": 1,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -69,7 +69,7 @@
         "date": "2024-10-10",
         "amount": -2564.87,
         "currency_id": 2,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -78,7 +78,7 @@
         "date": "2024-10-10",
         "amount": 4007.26,
         "currency_id": 1,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -87,7 +87,7 @@
         "date": "2024-10-10",
         "amount": -3201.12,
         "currency_id": 1,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -96,7 +96,7 @@
         "date": "2024-10-10",
         "amount": 4866.07,
         "currency_id": 1,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -105,7 +105,7 @@
         "date": "2024-10-10",
         "amount": -4282.11,
         "currency_id": 3,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Jennifer Flores",
@@ -114,7 +114,7 @@
         "date": "2024-10-10",
         "amount": 3074.31,
         "currency_id": 3,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Jennifer Flores",
@@ -123,7 +123,7 @@
         "date": "2024-10-10",
         "amount": -3427.32,
         "currency_id": 1,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -132,7 +132,7 @@
         "date": "2024-10-11",
         "amount": 2035.84,
         "currency_id": 3,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -141,7 +141,7 @@
         "date": "2024-10-11",
         "amount": -3683.92,
         "currency_id": 3,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -150,7 +150,7 @@
         "date": "2024-10-11",
         "amount": 1730.38,
         "currency_id": 2,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Andrea English",
@@ -159,7 +159,7 @@
         "date": "2024-10-11",
         "amount": -1789.94,
         "currency_id": 1,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Jennifer Flores",
@@ -168,7 +168,7 @@
         "date": "2024-10-11",
         "amount": 3160.72,
         "currency_id": 3,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Andrea English",
@@ -177,7 +177,7 @@
         "date": "2024-10-11",
         "amount": -4810.07,
         "currency_id": 1,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Andrea English",
@@ -186,7 +186,7 @@
         "date": "2024-10-11",
         "amount": 3036.61,
         "currency_id": 2,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Andrea English",
@@ -195,7 +195,7 @@
         "date": "2024-10-11",
         "amount": -4433.52,
         "currency_id": 1,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -204,7 +204,7 @@
         "date": "2024-10-11",
         "amount": 2473.19,
         "currency_id": 1,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -213,7 +213,7 @@
         "date": "2024-10-11",
         "amount": -2167.81,
         "currency_id": 1,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Jennifer Flores",
@@ -222,7 +222,7 @@
         "date": "2024-10-11",
         "amount": 2576.96,
         "currency_id": 3,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -231,7 +231,7 @@
         "date": "2024-10-11",
         "amount": -3117.71,
         "currency_id": 2,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Andrea English",
@@ -240,7 +240,7 @@
         "date": "2024-10-11",
         "amount": 4617.17,
         "currency_id": 3,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -249,7 +249,7 @@
         "date": "2024-10-11",
         "amount": -3760.63,
         "currency_id": 1,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Jennifer Flores",
@@ -258,7 +258,7 @@
         "date": "2024-10-12",
         "amount": 3873.67,
         "currency_id": 2,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Nicole Davis",
@@ -267,7 +267,7 @@
         "date": "2024-10-12",
         "amount": -1370.52,
         "currency_id": 3,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -276,7 +276,7 @@
         "date": "2024-10-12",
         "amount": 1734.9,
         "currency_id": 3,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -285,7 +285,7 @@
         "date": "2024-10-12",
         "amount": -3567.5,
         "currency_id": 2,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Jennifer Flores",
@@ -294,7 +294,7 @@
         "date": "2024-10-12",
         "amount": 1353.3,
         "currency_id": 2,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Jennifer Flores",
@@ -303,7 +303,7 @@
         "date": "2024-10-12",
         "amount": -4137.6,
         "currency_id": 1,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Nicole Davis",
@@ -312,7 +312,7 @@
         "date": "2024-10-12",
         "amount": 3172.13,
         "currency_id": 2,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Nicole Davis",
@@ -321,7 +321,7 @@
         "date": "2024-10-12",
         "amount": -4597.62,
         "currency_id": 2,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -330,7 +330,7 @@
         "date": "2024-10-12",
         "amount": 3596.91,
         "currency_id": 2,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Nicole Davis",
@@ -339,7 +339,7 @@
         "date": "2024-10-12",
         "amount": -1012.45,
         "currency_id": 2,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Nicole Davis",
@@ -348,7 +348,7 @@
         "date": "2024-10-12",
         "amount": 3095.8,
         "currency_id": 2,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Nicole Davis",
@@ -357,7 +357,7 @@
         "date": "2024-10-12",
         "amount": -3864.68,
         "currency_id": 2,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -366,7 +366,7 @@
         "date": "2024-10-12",
         "amount": 2064.57,
         "currency_id": 2,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Nicole Davis",
@@ -375,7 +375,7 @@
         "date": "2024-10-12",
         "amount": -3555.99,
         "currency_id": 3,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Nicole Davis",
@@ -384,7 +384,7 @@
         "date": "2024-10-13",
         "amount": 3516.2,
         "currency_id": 3,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -393,7 +393,7 @@
         "date": "2024-10-13",
         "amount": -3730.12,
         "currency_id": 3,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -402,7 +402,7 @@
         "date": "2024-10-13",
         "amount": 2708.3,
         "currency_id": 1,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Andrea English",
@@ -411,7 +411,7 @@
         "date": "2024-10-13",
         "amount": -3224.47,
         "currency_id": 1,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Nicole Davis",
@@ -420,7 +420,7 @@
         "date": "2024-10-13",
         "amount": 1704.03,
         "currency_id": 2,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -429,7 +429,7 @@
         "date": "2024-10-13",
         "amount": -1199.22,
         "currency_id": 2,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Jennifer Flores",
@@ -438,7 +438,7 @@
         "date": "2024-10-13",
         "amount": 1256.77,
         "currency_id": 3,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -447,7 +447,7 @@
         "date": "2024-10-13",
         "amount": -2555.77,
         "currency_id": 2,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Andrea English",
@@ -456,7 +456,7 @@
         "date": "2024-10-13",
         "amount": 4135.02,
         "currency_id": 1,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Jennifer Flores",
@@ -465,7 +465,7 @@
         "date": "2024-10-13",
         "amount": -3193.14,
         "currency_id": 3,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Andrea English",
@@ -474,7 +474,7 @@
         "date": "2024-10-13",
         "amount": 2712.0,
         "currency_id": 1,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Nicole Davis",
@@ -483,7 +483,7 @@
         "date": "2024-10-13",
         "amount": -2547.92,
         "currency_id": 2,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -492,7 +492,7 @@
         "date": "2024-10-13",
         "amount": 2160.8,
         "currency_id": 3,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -501,7 +501,7 @@
         "date": "2024-10-13",
         "amount": -2101.61,
         "currency_id": 3,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Nicole Davis",
@@ -510,7 +510,7 @@
         "date": "2024-10-14",
         "amount": 2094.95,
         "currency_id": 2,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Jennifer Flores",
@@ -519,7 +519,7 @@
         "date": "2024-10-14",
         "amount": -1052.79,
         "currency_id": 2,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Jennifer Flores",
@@ -528,7 +528,7 @@
         "date": "2024-10-14",
         "amount": 1730.25,
         "currency_id": 3,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Nicole Davis",
@@ -537,7 +537,7 @@
         "date": "2024-10-14",
         "amount": -1643.46,
         "currency_id": 2,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -546,7 +546,7 @@
         "date": "2024-10-14",
         "amount": 1963.04,
         "currency_id": 3,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Jennifer Flores",
@@ -555,7 +555,7 @@
         "date": "2024-10-14",
         "amount": -3460.53,
         "currency_id": 3,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Nicole Davis",
@@ -564,7 +564,7 @@
         "date": "2024-10-14",
         "amount": 3602.37,
         "currency_id": 3,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -573,7 +573,7 @@
         "date": "2024-10-14",
         "amount": -3819.07,
         "currency_id": 3,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Nicole Davis",
@@ -582,7 +582,7 @@
         "date": "2024-10-14",
         "amount": 4762.58,
         "currency_id": 2,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -591,7 +591,7 @@
         "date": "2024-10-14",
         "amount": -4793.22,
         "currency_id": 2,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -600,7 +600,7 @@
         "date": "2024-10-14",
         "amount": 2872.65,
         "currency_id": 3,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Jennifer Flores",
@@ -609,7 +609,7 @@
         "date": "2024-10-14",
         "amount": -3995.23,
         "currency_id": 3,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Jennifer Flores",
@@ -618,7 +618,7 @@
         "date": "2024-10-14",
         "amount": 4543.33,
         "currency_id": 1,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Jennifer Flores",
@@ -627,7 +627,7 @@
         "date": "2024-10-14",
         "amount": -4346.04,
         "currency_id": 3,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -636,7 +636,7 @@
         "date": "2024-10-15",
         "amount": 1883.5,
         "currency_id": 2,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -645,7 +645,7 @@
         "date": "2024-10-15",
         "amount": -4926.56,
         "currency_id": 2,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -654,7 +654,7 @@
         "date": "2024-10-15",
         "amount": 4560.56,
         "currency_id": 2,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -663,7 +663,7 @@
         "date": "2024-10-15",
         "amount": -2738.49,
         "currency_id": 2,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Andrea English",
@@ -672,7 +672,7 @@
         "date": "2024-10-15",
         "amount": 1415.37,
         "currency_id": 1,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Nicole Davis",
@@ -681,7 +681,7 @@
         "date": "2024-10-15",
         "amount": -4054.43,
         "currency_id": 2,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Nicole Davis",
@@ -690,7 +690,7 @@
         "date": "2024-10-15",
         "amount": 3237.35,
         "currency_id": 3,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Nicole Davis",
@@ -699,7 +699,7 @@
         "date": "2024-10-15",
         "amount": -1336.59,
         "currency_id": 3,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Nicole Davis",
@@ -708,7 +708,7 @@
         "date": "2024-10-15",
         "amount": 4740.17,
         "currency_id": 3,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -717,7 +717,7 @@
         "date": "2024-10-15",
         "amount": -4098.79,
         "currency_id": 2,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -726,7 +726,7 @@
         "date": "2024-10-15",
         "amount": 1857.23,
         "currency_id": 3,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -735,7 +735,7 @@
         "date": "2024-10-15",
         "amount": -1944.13,
         "currency_id": 3,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -744,7 +744,7 @@
         "date": "2024-10-15",
         "amount": 2025.37,
         "currency_id": 3,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Andrea English",
@@ -753,7 +753,7 @@
         "date": "2024-10-15",
         "amount": -1277.11,
         "currency_id": 1,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -762,7 +762,7 @@
         "date": "2024-10-16",
         "amount": 1159.34,
         "currency_id": 3,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Nicole Davis",
@@ -771,7 +771,7 @@
         "date": "2024-10-16",
         "amount": -4822.59,
         "currency_id": 1,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -780,7 +780,7 @@
         "date": "2024-10-16",
         "amount": 3763.64,
         "currency_id": 2,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -789,7 +789,7 @@
         "date": "2024-10-16",
         "amount": -3139.01,
         "currency_id": 1,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -798,7 +798,7 @@
         "date": "2024-10-16",
         "amount": 4319.76,
         "currency_id": 2,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -807,7 +807,7 @@
         "date": "2024-10-16",
         "amount": -2005.73,
         "currency_id": 1,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -816,7 +816,7 @@
         "date": "2024-10-16",
         "amount": 2839.39,
         "currency_id": 3,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -825,7 +825,7 @@
         "date": "2024-10-16",
         "amount": -3427.63,
         "currency_id": 1,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Nicole Davis",
@@ -834,7 +834,7 @@
         "date": "2024-10-16",
         "amount": 1452.35,
         "currency_id": 1,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -843,7 +843,7 @@
         "date": "2024-10-16",
         "amount": -4076.87,
         "currency_id": 2,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Andrea English",
@@ -852,7 +852,7 @@
         "date": "2024-10-16",
         "amount": 4576.69,
         "currency_id": 1,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Jennifer Flores",
@@ -861,7 +861,7 @@
         "date": "2024-10-16",
         "amount": -1900.37,
         "currency_id": 2,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -870,7 +870,7 @@
         "date": "2024-10-16",
         "amount": 1813.36,
         "currency_id": 1,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -879,7 +879,7 @@
         "date": "2024-10-16",
         "amount": -3442.29,
         "currency_id": 2,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -888,7 +888,7 @@
         "date": "2024-10-17",
         "amount": 3698.82,
         "currency_id": 1,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -897,7 +897,7 @@
         "date": "2024-10-17",
         "amount": -4260.08,
         "currency_id": 2,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -906,7 +906,7 @@
         "date": "2024-10-17",
         "amount": 1473.85,
         "currency_id": 2,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Andrea English",
@@ -915,7 +915,7 @@
         "date": "2024-10-17",
         "amount": -2608.59,
         "currency_id": 1,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -924,7 +924,7 @@
         "date": "2024-10-17",
         "amount": 4373.19,
         "currency_id": 3,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Andrea English",
@@ -933,7 +933,7 @@
         "date": "2024-10-17",
         "amount": -2135.26,
         "currency_id": 2,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -942,7 +942,7 @@
         "date": "2024-10-17",
         "amount": 1201.41,
         "currency_id": 2,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -951,7 +951,7 @@
         "date": "2024-10-17",
         "amount": -4784.27,
         "currency_id": 3,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -960,7 +960,7 @@
         "date": "2024-10-17",
         "amount": 3182.04,
         "currency_id": 2,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -969,7 +969,7 @@
         "date": "2024-10-17",
         "amount": -4911.76,
         "currency_id": 3,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Jennifer Flores",
@@ -978,7 +978,7 @@
         "date": "2024-10-17",
         "amount": 2753.37,
         "currency_id": 1,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -987,7 +987,7 @@
         "date": "2024-10-17",
         "amount": -3482.92,
         "currency_id": 2,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -996,7 +996,7 @@
         "date": "2024-10-17",
         "amount": 2573.26,
         "currency_id": 2,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Andrea English",
@@ -1005,7 +1005,7 @@
         "date": "2024-10-17",
         "amount": -2706.88,
         "currency_id": 1,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -1014,7 +1014,7 @@
         "date": "2024-10-18",
         "amount": 2525.53,
         "currency_id": 2,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1023,7 +1023,7 @@
         "date": "2024-10-18",
         "amount": -4690.03,
         "currency_id": 3,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Andrea English",
@@ -1032,7 +1032,7 @@
         "date": "2024-10-18",
         "amount": 2457.13,
         "currency_id": 1,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Nicole Davis",
@@ -1041,7 +1041,7 @@
         "date": "2024-10-18",
         "amount": -2209.39,
         "currency_id": 1,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -1050,7 +1050,7 @@
         "date": "2024-10-18",
         "amount": 3725.18,
         "currency_id": 3,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1059,7 +1059,7 @@
         "date": "2024-10-18",
         "amount": -3677.14,
         "currency_id": 2,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Nicole Davis",
@@ -1068,7 +1068,7 @@
         "date": "2024-10-18",
         "amount": 3331.48,
         "currency_id": 2,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Andrea English",
@@ -1077,7 +1077,7 @@
         "date": "2024-10-18",
         "amount": -3456.64,
         "currency_id": 3,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -1086,7 +1086,7 @@
         "date": "2024-10-18",
         "amount": 3882.13,
         "currency_id": 1,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -1095,7 +1095,7 @@
         "date": "2024-10-18",
         "amount": -3718.06,
         "currency_id": 3,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -1104,7 +1104,7 @@
         "date": "2024-10-18",
         "amount": 3791.94,
         "currency_id": 2,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1113,7 +1113,7 @@
         "date": "2024-10-18",
         "amount": -4484.25,
         "currency_id": 1,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -1122,7 +1122,7 @@
         "date": "2024-10-18",
         "amount": 1501.06,
         "currency_id": 1,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -1131,7 +1131,7 @@
         "date": "2024-10-18",
         "amount": -2944.38,
         "currency_id": 2,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Nicole Davis",
@@ -1140,7 +1140,7 @@
         "date": "2024-10-19",
         "amount": 3019.38,
         "currency_id": 3,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Andrea English",
@@ -1149,7 +1149,7 @@
         "date": "2024-10-19",
         "amount": -4099.93,
         "currency_id": 2,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Nicole Davis",
@@ -1158,7 +1158,7 @@
         "date": "2024-10-19",
         "amount": 1830.8,
         "currency_id": 2,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -1167,7 +1167,7 @@
         "date": "2024-10-19",
         "amount": -2086.34,
         "currency_id": 3,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -1176,7 +1176,7 @@
         "date": "2024-10-19",
         "amount": 1119.48,
         "currency_id": 3,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Andrea English",
@@ -1185,7 +1185,7 @@
         "date": "2024-10-19",
         "amount": -4128.57,
         "currency_id": 1,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Nicole Davis",
@@ -1194,7 +1194,7 @@
         "date": "2024-10-19",
         "amount": 4521.33,
         "currency_id": 3,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -1203,7 +1203,7 @@
         "date": "2024-10-19",
         "amount": -2879.39,
         "currency_id": 1,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Nicole Davis",
@@ -1212,7 +1212,7 @@
         "date": "2024-10-19",
         "amount": 3261.06,
         "currency_id": 1,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1221,7 +1221,7 @@
         "date": "2024-10-19",
         "amount": -3459.73,
         "currency_id": 1,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1230,7 +1230,7 @@
         "date": "2024-10-19",
         "amount": 1517.1,
         "currency_id": 3,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1239,7 +1239,7 @@
         "date": "2024-10-19",
         "amount": -1258.63,
         "currency_id": 2,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Nicole Davis",
@@ -1248,7 +1248,7 @@
         "date": "2024-10-19",
         "amount": 2878.48,
         "currency_id": 3,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -1257,7 +1257,7 @@
         "date": "2024-10-19",
         "amount": -2867.43,
         "currency_id": 3,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1266,7 +1266,7 @@
         "date": "2024-10-20",
         "amount": 1720.22,
         "currency_id": 3,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1275,7 +1275,7 @@
         "date": "2024-10-20",
         "amount": -1924.57,
         "currency_id": 3,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1284,7 +1284,7 @@
         "date": "2024-10-20",
         "amount": 2904.81,
         "currency_id": 2,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Nicole Davis",
@@ -1293,7 +1293,7 @@
         "date": "2024-10-20",
         "amount": -2466.66,
         "currency_id": 1,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -1302,7 +1302,7 @@
         "date": "2024-10-20",
         "amount": 3894.44,
         "currency_id": 3,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Andrea English",
@@ -1311,7 +1311,7 @@
         "date": "2024-10-20",
         "amount": -4345.01,
         "currency_id": 3,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -1320,7 +1320,7 @@
         "date": "2024-10-20",
         "amount": 2213.41,
         "currency_id": 3,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -1329,7 +1329,7 @@
         "date": "2024-10-20",
         "amount": -1846.52,
         "currency_id": 2,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -1338,7 +1338,7 @@
         "date": "2024-10-20",
         "amount": 2328.75,
         "currency_id": 2,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Andrea English",
@@ -1347,7 +1347,7 @@
         "date": "2024-10-20",
         "amount": -2436.39,
         "currency_id": 3,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -1356,7 +1356,7 @@
         "date": "2024-10-20",
         "amount": 4949.06,
         "currency_id": 1,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Andrea English",
@@ -1365,7 +1365,7 @@
         "date": "2024-10-20",
         "amount": -1121.25,
         "currency_id": 3,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Nicole Davis",
@@ -1374,7 +1374,7 @@
         "date": "2024-10-20",
         "amount": 3101.22,
         "currency_id": 3,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -1383,7 +1383,7 @@
         "date": "2024-10-20",
         "amount": -1470.3,
         "currency_id": 3,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Nicole Davis",
@@ -1392,7 +1392,7 @@
         "date": "2023-09-01",
         "amount": 40880.9,
         "currency_id": 2,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Nicole Davis",
@@ -1401,7 +1401,7 @@
         "date": "2023-09-01",
         "amount": -31440.82,
         "currency_id": 2,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -1410,7 +1410,7 @@
         "date": "2023-09-01",
         "amount": 18680.3,
         "currency_id": 3,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1419,7 +1419,7 @@
         "date": "2023-09-01",
         "amount": -34500.23,
         "currency_id": 3,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Nicole Davis",
@@ -1428,7 +1428,7 @@
         "date": "2023-09-01",
         "amount": 13120.15,
         "currency_id": 3,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Andrea English",
@@ -1437,7 +1437,7 @@
         "date": "2023-09-01",
         "amount": -19250.23,
         "currency_id": 2,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -1446,7 +1446,7 @@
         "date": "2023-09-01",
         "amount": 12020.25,
         "currency_id": 3,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Nicole Davis",
@@ -1455,7 +1455,7 @@
         "date": "2023-09-01",
         "amount": -37270.56,
         "currency_id": 1,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -1464,7 +1464,7 @@
         "date": "2023-09-01",
         "amount": 32900.45,
         "currency_id": 1,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Andrea English",
@@ -1473,7 +1473,7 @@
         "date": "2023-09-01",
         "amount": -12600.92,
         "currency_id": 1,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Nicole Davis",
@@ -1482,7 +1482,7 @@
         "date": "2023-09-01",
         "amount": 11640.84,
         "currency_id": 1,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1491,7 +1491,7 @@
         "date": "2023-09-01",
         "amount": -33440.9,
         "currency_id": 2,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Andrea English",
@@ -1500,7 +1500,7 @@
         "date": "2023-09-01",
         "amount": 40980.87,
         "currency_id": 2,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Nicole Davis",
@@ -1509,7 +1509,7 @@
         "date": "2023-09-01",
         "amount": -45730.98,
         "currency_id": 3,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -1518,7 +1518,7 @@
         "date": "2023-10-01",
         "amount": 19240.63,
         "currency_id": 2,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1527,7 +1527,7 @@
         "date": "2023-10-01",
         "amount": -23540.36,
         "currency_id": 1,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1536,7 +1536,7 @@
         "date": "2023-10-01",
         "amount": 41990.96,
         "currency_id": 2,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Andrea English",
@@ -1545,7 +1545,7 @@
         "date": "2023-10-01",
         "amount": -36700.92,
         "currency_id": 2,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1554,7 +1554,7 @@
         "date": "2023-10-01",
         "amount": 32100.29,
         "currency_id": 1,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Andrea English",
@@ -1563,7 +1563,7 @@
         "date": "2023-10-01",
         "amount": -10600.17,
         "currency_id": 2,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Nicole Davis",
@@ -1572,7 +1572,7 @@
         "date": "2023-10-01",
         "amount": 45520.14,
         "currency_id": 2,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -1581,7 +1581,7 @@
         "date": "2023-10-01",
         "amount": -17790.18,
         "currency_id": 1,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Andrea English",
@@ -1590,7 +1590,7 @@
         "date": "2023-10-01",
         "amount": 25720.46,
         "currency_id": 2,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Nicole Davis",
@@ -1599,7 +1599,7 @@
         "date": "2023-10-01",
         "amount": -17190.85,
         "currency_id": 3,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1608,7 +1608,7 @@
         "date": "2023-10-01",
         "amount": 38590.92,
         "currency_id": 3,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -1617,7 +1617,7 @@
         "date": "2023-10-01",
         "amount": -43250.47,
         "currency_id": 3,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -1626,7 +1626,7 @@
         "date": "2023-10-01",
         "amount": 19210.43,
         "currency_id": 2,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -1635,7 +1635,7 @@
         "date": "2023-10-01",
         "amount": -20270.4,
         "currency_id": 3,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Andrea English",
@@ -1644,7 +1644,7 @@
         "date": "2023-11-01",
         "amount": 38430.86,
         "currency_id": 2,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -1653,7 +1653,7 @@
         "date": "2023-11-01",
         "amount": -14500.88,
         "currency_id": 1,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -1662,7 +1662,7 @@
         "date": "2023-11-01",
         "amount": 19060.69,
         "currency_id": 2,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Nicole Davis",
@@ -1671,7 +1671,7 @@
         "date": "2023-11-01",
         "amount": -37230.14,
         "currency_id": 1,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1680,7 +1680,7 @@
         "date": "2023-11-01",
         "amount": 42530.77,
         "currency_id": 3,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1689,7 +1689,7 @@
         "date": "2023-11-01",
         "amount": -45000.04,
         "currency_id": 3,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1698,7 +1698,7 @@
         "date": "2023-11-01",
         "amount": 28970.65,
         "currency_id": 3,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -1707,7 +1707,7 @@
         "date": "2023-11-01",
         "amount": -21060.18,
         "currency_id": 2,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1716,7 +1716,7 @@
         "date": "2023-11-01",
         "amount": 37910.22,
         "currency_id": 3,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Andrea English",
@@ -1725,7 +1725,7 @@
         "date": "2023-11-01",
         "amount": -40950.7,
         "currency_id": 1,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -1734,7 +1734,7 @@
         "date": "2023-11-01",
         "amount": 10270.28,
         "currency_id": 2,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1743,7 +1743,7 @@
         "date": "2023-11-01",
         "amount": -36960.26,
         "currency_id": 2,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1752,7 +1752,7 @@
         "date": "2023-11-01",
         "amount": 43080.32,
         "currency_id": 1,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1761,7 +1761,7 @@
         "date": "2023-11-01",
         "amount": -17140.52,
         "currency_id": 1,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1770,7 +1770,7 @@
         "date": "2023-12-01",
         "amount": 48690.42,
         "currency_id": 2,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -1779,7 +1779,7 @@
         "date": "2023-12-01",
         "amount": -42470.52,
         "currency_id": 2,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Nicole Davis",
@@ -1788,7 +1788,7 @@
         "date": "2023-12-01",
         "amount": 46690.48,
         "currency_id": 3,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1797,7 +1797,7 @@
         "date": "2023-12-01",
         "amount": -32060.76,
         "currency_id": 2,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Andrea English",
@@ -1806,7 +1806,7 @@
         "date": "2023-12-01",
         "amount": 33610.92,
         "currency_id": 3,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1815,7 +1815,7 @@
         "date": "2023-12-01",
         "amount": -38800.58,
         "currency_id": 2,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -1824,7 +1824,7 @@
         "date": "2023-12-01",
         "amount": 11670.89,
         "currency_id": 2,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1833,7 +1833,7 @@
         "date": "2023-12-01",
         "amount": -42670.75,
         "currency_id": 2,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Nicole Davis",
@@ -1842,7 +1842,7 @@
         "date": "2023-12-01",
         "amount": 41340.25,
         "currency_id": 2,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Andrea English",
@@ -1851,7 +1851,7 @@
         "date": "2023-12-01",
         "amount": -18330.95,
         "currency_id": 2,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -1860,7 +1860,7 @@
         "date": "2023-12-01",
         "amount": 22060.74,
         "currency_id": 3,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -1869,7 +1869,7 @@
         "date": "2023-12-01",
         "amount": -32700.56,
         "currency_id": 3,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1878,7 +1878,7 @@
         "date": "2023-12-01",
         "amount": 17740.28,
         "currency_id": 1,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Nicole Davis",
@@ -1887,7 +1887,7 @@
         "date": "2023-12-01",
         "amount": -10730.64,
         "currency_id": 1,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1896,7 +1896,7 @@
         "date": "2024-01-01",
         "amount": 47580.13,
         "currency_id": 3,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -1905,7 +1905,7 @@
         "date": "2024-01-01",
         "amount": -44800.07,
         "currency_id": 1,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Nicole Davis",
@@ -1914,7 +1914,7 @@
         "date": "2024-01-01",
         "amount": 48040.73,
         "currency_id": 3,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -1923,7 +1923,7 @@
         "date": "2024-01-01",
         "amount": -26970.24,
         "currency_id": 1,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -1932,7 +1932,7 @@
         "date": "2024-01-01",
         "amount": 35520.76,
         "currency_id": 1,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -1941,7 +1941,7 @@
         "date": "2024-01-01",
         "amount": -21500.38,
         "currency_id": 3,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Andrea English",
@@ -1950,7 +1950,7 @@
         "date": "2024-01-01",
         "amount": 48330.76,
         "currency_id": 1,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1959,7 +1959,7 @@
         "date": "2024-01-01",
         "amount": -43180.89,
         "currency_id": 1,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1968,7 +1968,7 @@
         "date": "2024-01-01",
         "amount": 33230.89,
         "currency_id": 3,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Andrea English",
@@ -1977,7 +1977,7 @@
         "date": "2024-01-01",
         "amount": -12470.07,
         "currency_id": 1,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Andrea English",
@@ -1986,7 +1986,7 @@
         "date": "2024-01-01",
         "amount": 32980.9,
         "currency_id": 1,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Nicole Davis",
@@ -1995,7 +1995,7 @@
         "date": "2024-01-01",
         "amount": -35100.0,
         "currency_id": 1,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -2004,7 +2004,7 @@
         "date": "2024-01-01",
         "amount": 18360.84,
         "currency_id": 1,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Andrea English",
@@ -2013,7 +2013,7 @@
         "date": "2024-01-01",
         "amount": -45420.28,
         "currency_id": 3,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2022,7 +2022,7 @@
         "date": "2024-02-01",
         "amount": 26780.09,
         "currency_id": 3,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Andrea English",
@@ -2031,7 +2031,7 @@
         "date": "2024-02-01",
         "amount": -46840.28,
         "currency_id": 3,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2040,7 +2040,7 @@
         "date": "2024-02-01",
         "amount": 38040.34,
         "currency_id": 1,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2049,7 +2049,7 @@
         "date": "2024-02-01",
         "amount": -30220.14,
         "currency_id": 3,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -2058,7 +2058,7 @@
         "date": "2024-02-01",
         "amount": 18670.26,
         "currency_id": 3,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2067,7 +2067,7 @@
         "date": "2024-02-01",
         "amount": -24360.88,
         "currency_id": 3,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2076,7 +2076,7 @@
         "date": "2024-02-01",
         "amount": 41180.68,
         "currency_id": 1,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Andrea English",
@@ -2085,7 +2085,7 @@
         "date": "2024-02-01",
         "amount": -27770.22,
         "currency_id": 2,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2094,7 +2094,7 @@
         "date": "2024-02-01",
         "amount": 13460.11,
         "currency_id": 1,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2103,7 +2103,7 @@
         "date": "2024-02-01",
         "amount": -35030.22,
         "currency_id": 1,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -2112,7 +2112,7 @@
         "date": "2024-02-01",
         "amount": 36530.49,
         "currency_id": 2,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2121,7 +2121,7 @@
         "date": "2024-02-01",
         "amount": -33200.91,
         "currency_id": 2,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Andrea English",
@@ -2130,7 +2130,7 @@
         "date": "2024-02-01",
         "amount": 13450.39,
         "currency_id": 3,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2139,7 +2139,7 @@
         "date": "2024-02-01",
         "amount": -42190.73,
         "currency_id": 1,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -2148,7 +2148,7 @@
         "date": "2024-03-01",
         "amount": 10080.51,
         "currency_id": 2,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -2157,7 +2157,7 @@
         "date": "2024-03-01",
         "amount": -36210.56,
         "currency_id": 1,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2166,7 +2166,7 @@
         "date": "2024-03-01",
         "amount": 36940.27,
         "currency_id": 1,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2175,7 +2175,7 @@
         "date": "2024-03-01",
         "amount": -21960.33,
         "currency_id": 3,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Andrea English",
@@ -2184,7 +2184,7 @@
         "date": "2024-03-01",
         "amount": 11650.77,
         "currency_id": 2,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Nicole Davis",
@@ -2193,7 +2193,7 @@
         "date": "2024-03-01",
         "amount": -46180.8,
         "currency_id": 2,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Andrea English",
@@ -2202,7 +2202,7 @@
         "date": "2024-03-01",
         "amount": 27250.11,
         "currency_id": 1,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2211,7 +2211,7 @@
         "date": "2024-03-01",
         "amount": -49640.46,
         "currency_id": 2,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2220,7 +2220,7 @@
         "date": "2024-03-01",
         "amount": 21890.41,
         "currency_id": 1,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2229,7 +2229,7 @@
         "date": "2024-03-01",
         "amount": -38320.29,
         "currency_id": 2,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -2238,7 +2238,7 @@
         "date": "2024-03-01",
         "amount": 34950.72,
         "currency_id": 3,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2247,7 +2247,7 @@
         "date": "2024-03-01",
         "amount": -27930.33,
         "currency_id": 1,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2256,7 +2256,7 @@
         "date": "2024-03-01",
         "amount": 29120.01,
         "currency_id": 1,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Nicole Davis",
@@ -2265,7 +2265,7 @@
         "date": "2024-03-01",
         "amount": -17340.45,
         "currency_id": 3,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -2274,7 +2274,7 @@
         "date": "2024-04-01",
         "amount": 13790.88,
         "currency_id": 3,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Nicole Davis",
@@ -2283,7 +2283,7 @@
         "date": "2024-04-01",
         "amount": -29730.97,
         "currency_id": 1,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Andrea English",
@@ -2292,7 +2292,7 @@
         "date": "2024-04-01",
         "amount": 22940.25,
         "currency_id": 3,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Nicole Davis",
@@ -2301,7 +2301,7 @@
         "date": "2024-04-01",
         "amount": -34880.41,
         "currency_id": 2,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Andrea English",
@@ -2310,7 +2310,7 @@
         "date": "2024-04-01",
         "amount": 12110.81,
         "currency_id": 2,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2319,7 +2319,7 @@
         "date": "2024-04-01",
         "amount": -18390.85,
         "currency_id": 1,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -2328,7 +2328,7 @@
         "date": "2024-04-01",
         "amount": 32880.79,
         "currency_id": 2,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Andrea English",
@@ -2337,7 +2337,7 @@
         "date": "2024-04-01",
         "amount": -37790.19,
         "currency_id": 1,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2346,7 +2346,7 @@
         "date": "2024-04-01",
         "amount": 12190.76,
         "currency_id": 2,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Andrea English",
@@ -2355,7 +2355,7 @@
         "date": "2024-04-01",
         "amount": -30440.04,
         "currency_id": 1,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2364,7 +2364,7 @@
         "date": "2024-04-01",
         "amount": 18430.03,
         "currency_id": 3,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Nicole Davis",
@@ -2373,7 +2373,7 @@
         "date": "2024-04-01",
         "amount": -13520.49,
         "currency_id": 2,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2382,7 +2382,7 @@
         "date": "2024-04-01",
         "amount": 19390.06,
         "currency_id": 3,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2391,7 +2391,7 @@
         "date": "2024-04-01",
         "amount": -11760.94,
         "currency_id": 3,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Nicole Davis",
@@ -2400,7 +2400,7 @@
         "date": "2024-05-01",
         "amount": 48060.73,
         "currency_id": 1,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Nicole Davis",
@@ -2409,7 +2409,7 @@
         "date": "2024-05-01",
         "amount": -38910.62,
         "currency_id": 2,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Andrea English",
@@ -2418,7 +2418,7 @@
         "date": "2024-05-01",
         "amount": 27190.08,
         "currency_id": 3,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2427,7 +2427,7 @@
         "date": "2024-05-01",
         "amount": -13960.13,
         "currency_id": 2,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2436,7 +2436,7 @@
         "date": "2024-05-01",
         "amount": 20420.91,
         "currency_id": 1,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2445,7 +2445,7 @@
         "date": "2024-05-01",
         "amount": -23270.95,
         "currency_id": 2,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2454,7 +2454,7 @@
         "date": "2024-05-01",
         "amount": 25510.49,
         "currency_id": 2,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2463,7 +2463,7 @@
         "date": "2024-05-01",
         "amount": -48390.1,
         "currency_id": 2,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Andrea English",
@@ -2472,7 +2472,7 @@
         "date": "2024-05-01",
         "amount": 31420.49,
         "currency_id": 2,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2481,7 +2481,7 @@
         "date": "2024-05-01",
         "amount": -36040.5,
         "currency_id": 3,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -2490,7 +2490,7 @@
         "date": "2024-05-01",
         "amount": 36150.51,
         "currency_id": 3,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2499,7 +2499,7 @@
         "date": "2024-05-01",
         "amount": -21630.34,
         "currency_id": 1,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Andrea English",
@@ -2508,7 +2508,7 @@
         "date": "2024-05-01",
         "amount": 43520.33,
         "currency_id": 3,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Nicole Davis",
@@ -2517,7 +2517,7 @@
         "date": "2024-05-01",
         "amount": -40600.59,
         "currency_id": 3,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2526,7 +2526,7 @@
         "date": "2024-06-01",
         "amount": 21330.15,
         "currency_id": 2,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2535,7 +2535,7 @@
         "date": "2024-06-01",
         "amount": -12170.7,
         "currency_id": 2,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -2544,7 +2544,7 @@
         "date": "2024-06-01",
         "amount": 39120.64,
         "currency_id": 3,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2553,7 +2553,7 @@
         "date": "2024-06-01",
         "amount": -30760.09,
         "currency_id": 3,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Nicole Davis",
@@ -2562,7 +2562,7 @@
         "date": "2024-06-01",
         "amount": 18870.43,
         "currency_id": 1,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -2571,7 +2571,7 @@
         "date": "2024-06-01",
         "amount": -21910.18,
         "currency_id": 1,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Andrea English",
@@ -2580,7 +2580,7 @@
         "date": "2024-06-01",
         "amount": 27550.2,
         "currency_id": 3,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -2589,7 +2589,7 @@
         "date": "2024-06-01",
         "amount": -18700.97,
         "currency_id": 1,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -2598,7 +2598,7 @@
         "date": "2024-06-01",
         "amount": 20710.97,
         "currency_id": 1,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2607,7 +2607,7 @@
         "date": "2024-06-01",
         "amount": -33660.45,
         "currency_id": 3,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Nicole Davis",
@@ -2616,7 +2616,7 @@
         "date": "2024-06-01",
         "amount": 18440.72,
         "currency_id": 3,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Nicole Davis",
@@ -2625,7 +2625,7 @@
         "date": "2024-06-01",
         "amount": -11930.34,
         "currency_id": 3,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -2634,7 +2634,7 @@
         "date": "2024-06-01",
         "amount": 26980.99,
         "currency_id": 2,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2643,7 +2643,7 @@
         "date": "2024-06-01",
         "amount": -22080.01,
         "currency_id": 1,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Nicole Davis",
@@ -2652,7 +2652,7 @@
         "date": "2024-07-01",
         "amount": 37060.52,
         "currency_id": 1,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2661,7 +2661,7 @@
         "date": "2024-07-01",
         "amount": -17320.15,
         "currency_id": 1,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Andrea English",
@@ -2670,7 +2670,7 @@
         "date": "2024-07-01",
         "amount": 37460.11,
         "currency_id": 3,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Nicole Davis",
@@ -2679,7 +2679,7 @@
         "date": "2024-07-01",
         "amount": -36570.37,
         "currency_id": 1,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2688,7 +2688,7 @@
         "date": "2024-07-01",
         "amount": 33910.23,
         "currency_id": 2,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2697,7 +2697,7 @@
         "date": "2024-07-01",
         "amount": -11750.85,
         "currency_id": 1,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -2706,7 +2706,7 @@
         "date": "2024-07-01",
         "amount": 48220.9,
         "currency_id": 2,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Nicole Davis",
@@ -2715,7 +2715,7 @@
         "date": "2024-07-01",
         "amount": -43110.66,
         "currency_id": 3,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Nicole Davis",
@@ -2724,7 +2724,7 @@
         "date": "2024-07-01",
         "amount": 39700.75,
         "currency_id": 1,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Andrea English",
@@ -2733,7 +2733,7 @@
         "date": "2024-07-01",
         "amount": -17770.9,
         "currency_id": 1,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2742,7 +2742,7 @@
         "date": "2024-07-01",
         "amount": 42240.72,
         "currency_id": 3,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2751,7 +2751,7 @@
         "date": "2024-07-01",
         "amount": -15260.59,
         "currency_id": 1,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Andrea English",
@@ -2760,7 +2760,7 @@
         "date": "2024-07-01",
         "amount": 13170.08,
         "currency_id": 2,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2769,7 +2769,7 @@
         "date": "2024-07-01",
         "amount": -49450.26,
         "currency_id": 2,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Andrea English",
@@ -2778,7 +2778,7 @@
         "date": "2024-08-01",
         "amount": 24200.9,
         "currency_id": 2,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -2787,7 +2787,7 @@
         "date": "2024-08-01",
         "amount": -18540.25,
         "currency_id": 3,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2796,7 +2796,7 @@
         "date": "2024-08-01",
         "amount": 36170.48,
         "currency_id": 2,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Nicole Davis",
@@ -2805,7 +2805,7 @@
         "date": "2024-08-01",
         "amount": -11400.23,
         "currency_id": 3,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Nicole Davis",
@@ -2814,7 +2814,7 @@
         "date": "2024-08-01",
         "amount": 33980.54,
         "currency_id": 2,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -2823,7 +2823,7 @@
         "date": "2024-08-01",
         "amount": -34830.66,
         "currency_id": 2,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2832,7 +2832,7 @@
         "date": "2024-08-01",
         "amount": 38140.71,
         "currency_id": 2,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Andrea English",
@@ -2841,7 +2841,7 @@
         "date": "2024-08-01",
         "amount": -37160.39,
         "currency_id": 2,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2850,7 +2850,7 @@
         "date": "2024-08-01",
         "amount": 44330.32,
         "currency_id": 3,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2859,7 +2859,7 @@
         "date": "2024-08-01",
         "amount": -41670.3,
         "currency_id": 3,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -2868,7 +2868,7 @@
         "date": "2024-08-01",
         "amount": 22780.96,
         "currency_id": 1,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2877,7 +2877,7 @@
         "date": "2024-08-01",
         "amount": -16730.44,
         "currency_id": 2,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Andrea English",
@@ -2886,7 +2886,7 @@
         "date": "2024-08-01",
         "amount": 19490.08,
         "currency_id": 2,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -2895,7 +2895,7 @@
         "date": "2024-08-01",
         "amount": -13320.97,
         "currency_id": 1,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2904,7 +2904,7 @@
         "date": "2024-09-01",
         "amount": 42090.86,
         "currency_id": 1,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2913,7 +2913,7 @@
         "date": "2024-09-01",
         "amount": -43240.43,
         "currency_id": 2,
-        "tag": "office"
+        "tag": "Office"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2922,7 +2922,7 @@
         "date": "2024-09-01",
         "amount": 26050.15,
         "currency_id": 2,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2931,7 +2931,7 @@
         "date": "2024-09-01",
         "amount": -32690.89,
         "currency_id": 2,
-        "tag": "employees"
+        "tag": "Employees"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2940,7 +2940,7 @@
         "date": "2024-09-01",
         "amount": 35820.41,
         "currency_id": 3,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Nicole Davis",
@@ -2949,7 +2949,7 @@
         "date": "2024-09-01",
         "amount": -11500.83,
         "currency_id": 2,
-        "tag": "corporate meetings"
+        "tag": "Corporate Meetings"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2958,7 +2958,7 @@
         "date": "2024-09-01",
         "amount": 35370.3,
         "currency_id": 3,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Andrea English",
@@ -2967,7 +2967,7 @@
         "date": "2024-09-01",
         "amount": -41640.63,
         "currency_id": 2,
-        "tag": "travel"
+        "tag": "Travel"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2976,7 +2976,7 @@
         "date": "2024-09-01",
         "amount": 48450.44,
         "currency_id": 1,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Nicole Davis",
@@ -2985,7 +2985,7 @@
         "date": "2024-09-01",
         "amount": -20190.87,
         "currency_id": 3,
-        "tag": "equipment"
+        "tag": "Equipment"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -2994,7 +2994,7 @@
         "date": "2024-09-01",
         "amount": 22600.25,
         "currency_id": 1,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Nicole Davis",
@@ -3003,7 +3003,7 @@
         "date": "2024-09-01",
         "amount": -44510.23,
         "currency_id": 2,
-        "tag": "marketing"
+        "tag": "Marketing"
     },
     {
         "recipient": "Jennifer Flores",
@@ -3012,7 +3012,7 @@
         "date": "2024-09-01",
         "amount": 12000.68,
         "currency_id": 1,
-        "tag": "consulting"
+        "tag": "Consulting"
     },
     {
         "recipient": "Andrea English",
@@ -3021,6 +3021,6 @@
         "date": "2024-09-01",
         "amount": -13350.16,
         "currency_id": 1,
-        "tag": "consulting"
+        "tag": "Consulting"
     }
 ]
