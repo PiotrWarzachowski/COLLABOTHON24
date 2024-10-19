@@ -1,5 +1,30 @@
 from database.utils import Database
 from datetime import date
+from typing import List
+
+
+class Transaction:
+    def __init__(self, recipient, sender, title, date, amount, currency_id):
+        self.recipient = recipient
+        self.sender = sender
+        self.title = title
+        self.date = date
+        self.amount = amount
+        self.currency_id = currency_id
+
+    def to_dict(self):
+        return {
+            "recipient": self.recipient,
+            "sender": self.sender,
+            "title": self.title,
+            "date": self.date,
+            "amount": self.amount,
+            "currency_id": self.currency_id,
+        }
+
+    @property
+    def key(self):
+        return self.tag
 
 
 class User:
@@ -56,11 +81,6 @@ class User:
         ORDER BY date ASC;
         """
 
-        # query = """
-        # SELECT recipient, sender, title, date, amount, currency_id, tag
-        # FROM transactions_with_tag
-        # WHERE date BETWEEN %s AND %s;
-        # """
         cur.execute(query, (from_date, to_date))
         records = cur.fetchall()
 
@@ -76,28 +96,35 @@ class User:
             for record in records
         ]
 
+    @staticmethod
+    def get_recent_transactions_from_db() -> List[Transaction]:
+        db = Database()
+        conn = db.create_connection()
+        cur = conn.cursor()
 
-class Transaction:
-    def __init__(self, recipient, sender, title, date, amount, currency_id, tag):
-        self.recipient = recipient
-        self.sender = sender
-        self.title = title
-        self.date = date
-        self.amount = amount
-        self.currency_id = currency_id
-        self.tag = tag
+        query = """
+        SELECT recipient, sender, title, date, amount, currency_id
+        FROM transactions_with_tag
+        ORDER BY date DESC
+        LIMIT 5
+        """
 
-    def to_dict(self):
-        return {
-            "recipient": self.recipient,
-            "sender": self.sender,
-            "title": self.title,
-            "date": self.date,
-            "amount": self.amount,
-            "currency_id": self.currency_id,
-            "tag": self.tag,
-        }
+        cur.execute(query)
+        records = cur.fetchall()
 
-    @property
-    def key(self):
-        return self.tag
+        cur.close()
+        db.close_connection(conn)
+
+        transactions = [
+            Transaction(
+                recipient=record[0],
+                sender=record[1],
+                title=record[2],
+                date=record[3],
+                amount=record[4],
+                currency_id=record[5],
+            )
+            for record in records
+        ]
+
+        return transactions

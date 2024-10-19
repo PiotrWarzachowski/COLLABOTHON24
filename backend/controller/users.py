@@ -36,7 +36,11 @@ async def add_user(user: dict):
     return {"message": "User added successfully"}
 
 
-@router.get("/tags/", summary="Get records and tags", description="Fetch records grouped by tag for a given date range.")
+@router.get(
+    "/tags/",
+    summary="Get records and tags",
+    description="Fetch records grouped by tag for a given date range.",
+)
 async def get_records(
     from_date: date = Query(...),
     to_date: date = Query(...),
@@ -47,7 +51,7 @@ async def get_records(
 ):
     """
     Fetch records and tags within the specified date range, grouped by the specified period (day, month, or year).
-    
+
     - **from_date**: The start date of the range.
     - **to_date**: The end date of the range.
     - **key**: The period to group by ('day', 'month', or 'year').
@@ -58,10 +62,8 @@ async def get_records(
 
     if key == "day" and num_days > 14:
         raise HTTPException(
-            status_code=400,
-            detail="You can't choose more than 14 days in day mode."
+            status_code=400, detail="You can't choose more than 14 days in day mode."
         )
-
 
     records = User.get_records_by_date_range(from_date, to_date, key, type)
 
@@ -79,7 +81,9 @@ async def get_records(
                 grouped_records[i][tag] = 0
     elif key == "day":
         for record in records:
-            record_date = str(str(datetime.strptime(str(record["period"]), "%Y-%m-%d"))[5:10])
+            record_date = str(
+                str(datetime.strptime(str(record["period"]), "%Y-%m-%d"))[5:10]
+            )
             record["period"] = record_date
             grouped_records[record_date] = {}
             for tag in tags:
@@ -94,8 +98,8 @@ async def get_records(
         total = record["total"]
 
         if type == "profit":
-            tag = "Income" if total > 0 else  "Expenses"
-          
+            tag = "Income" if total > 0 else "Expenses"
+
         grouped_records[period][tag] += total
 
     for record in records:
@@ -107,8 +111,8 @@ async def get_records(
         total = record["total"]
 
         if type == "profit":
-            tag = "Income" if total > 0 else  "Expenses"
-          
+            tag = "Income" if total > 0 else "Expenses"
+
         grouped_records[period][tag] = abs(grouped_records[period][tag])
 
     if key == "year":
@@ -120,21 +124,41 @@ async def get_records(
             for period, transactions in grouped_records.items()
         ]
     elif key == "day":
-         data = [
+        data = [
             {
                 "period": period,
                 "transactions": transactions,
             }
             for period, transactions in grouped_records.items()
-         ]
-    
-    print(f"DATA B4 {data}")
+        ]
+
     if key == "year":
         m = from_date.month
         data = data[m:] + data[:m]
-    print(f"DATA B4 {data}")
+
     return {
         "data": data,
         "labels": {f"{tag}": tag for tag in tags},
         "tags": [tag for tag in tags],
     }
+
+
+@router.get(
+    "/transactions/",
+    summary="Get most recent 5 transactions",
+    description="Fetch the most recent 5 transactions.",
+)
+async def get_recent_transactions():
+    """
+    Fetch the most recent 5 transactions from the database.
+
+    Returns:
+    - **transactions**: A list of up to 5 most recent transactions.
+    """
+    try:
+        transactions = User.get_recent_transactions_from_db()
+
+        return {"transactions": [transaction.to_dict() for transaction in transactions]}
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
