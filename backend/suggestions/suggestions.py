@@ -26,7 +26,7 @@ def get_suggestion(transactions: list[dict], tags: list[str]) -> str | None:
     :param tags: List of existing tags
     :return: A suggestion for a new transaction or None if no suggestion is generated
     """
-    with open('/backend/suggestions/prompt_template.txt', 'r') as f:
+    with open('backend/suggestions/prompt_template.txt', 'r') as f:
         prompt_template = f.read()
 
     prompt = prompt_template.format(
@@ -39,20 +39,56 @@ def get_suggestion(transactions: list[dict], tags: list[str]) -> str | None:
         messages=[
             {
                 "role": "system",
-                "content": "You are very good accountant. You are responsible for giving financial advices. Please provide a info for the following transactions in format **info**: <info>. Write it without unnecessary details.",
+                "content": "You are very good accountant. You are responsible for giving financial advices. Please provide a info for the following transactions in format **info**: <info>. Write it without unnecessary details. Write everything in only one sentence and as short as possible e.g. in 20 words.",
             },
             {
                 "role": "user",
                 "content": prompt,
             }
         ],
-        max_tokens=100,
+        max_tokens=50,
         temperature=0.4,
         n=1
     )
 
-    res = re.search(r"info.*:?\s*(\w+)", response.choices[0].message.content)
+    res = re.search(r"Info.*:?\s*(\w+)", response.choices[0].message.content)
     if res:
         return " ".join(res.group(0).split()[1:])
     else:
         return
+
+
+if __name__ == "__main__":
+    _transactions = [
+        {
+            "Recipient": "Daniel Foster",
+            "Sender": "Sarah Martinez",
+            "Title": "Digital Advertising Campaign",
+            "Date": "2024-08-31",
+            "Amount": 3000.00,
+            "Currency ID": 2,
+            "Tag": "advertising"
+        },
+        {
+            "Recipient": "Lily Chen",
+            "Sender": "Michael Brown",
+            "Title": "Social Media Marketing Strategy",
+            "Date": "2024-09-30",
+            "Amount": 2500.00,
+            "Currency ID": 2,
+            "Tag": "marketing"
+        }
+    ]
+
+    _tags = [
+        'office',
+        'employees',
+        'corporate meetings',
+        'travel',
+        'equipment',
+        'marketing',
+        'consulting',
+    ]
+
+    suggestion = get_suggestion(_transactions, _tags)
+    print(suggestion)
