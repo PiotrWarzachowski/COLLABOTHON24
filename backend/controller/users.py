@@ -182,3 +182,19 @@ async def generate_tag(transaction: dict):
     - **tag**: The generated tag.
     """
     return {"tag": model.get_tag(transaction)}
+
+
+@router.post(
+    "/generate/suggestion",
+    summary="Generate a suggestion for a new transaction",
+    description="Generate a suggestion for a new transaction based on existing transactions and tags."
+)
+async def generate_suggestion(transactions: list[dict]):
+    """
+    Generate a financial suggestion for given transactions.
+
+    Returns:
+    - **suggestion**: The generated suggestion.
+    """
+    suggestion = generate_suggestion(transactions, tags)
+    return {"suggestion": suggestion}
