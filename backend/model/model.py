@@ -16,8 +16,7 @@ class Model:
     def __init__(self, tags: list[str]):
         """
         Initialize the model for embedding generation.
-        :param name: model name for saving/loading (optional)
-        :param api_key: OpenAI API key for embedding generation
+        :param tags: List of tags (labels) used for transactions
         """
         self.tags = tags
 
@@ -25,6 +24,7 @@ class Model:
         """
         Add a new transaction, generate its embedding, and store the transaction.
         :param transaction: Dictionary containing the transaction data
+        :return: The predicted tag (label) for the given transaction
         """
         tag: str = self.predict(transaction)
         if tag not in self.tags:
@@ -34,8 +34,7 @@ class Model:
 
     def predict(self, transaction: dict) -> str:
         """
-        Dummy predict method for generating a label (or tag) based on a transaction.
-        In a real application, this could be a rule-based system, a machine learning model, or some other logic.
+        Predict method for generating a label (or tag) based on a transaction.
         :param transaction: Dictionary containing the transaction data
         :return: The predicted tag (label) for the given transaction
         """
