@@ -1,0 +1,57 @@
+Example 1:
+
+**1. Recipient:** Daniel Foster
+**Sender:** Sarah Martinez
+**Title:** Digital Advertising Campaign
+**Date:** 2024-08-31
+**Amount:** 3000.00
+**Currency ID:** 2
+**Tag:** advertising
+
+**2. Recipient:** Lily Chen
+**Sender:** Michael Brown
+**Title:** Social Media Marketing Strategy
+**Date:** 2024-09-30
+**Amount:** 2500.00
+**Currency ID:** 2
+**Tag:** marketing
+
+**3. Recipient:** Olivia Wright
+**Sender:** James Robinson
+**Title:** Email Marketing Optimization
+**Date:** 2024-10-31
+**Amount:** 1800.00
+**Currency ID:** 2
+**Tag:** advertising
+
+**Info:** This month, you may need to allocate additional budget for advertising and marketing initiatives. Increased spending can help enhance your brand visibility and capture potential leads, especially if you're launching new campaigns or responding to seasonal trends. Monitor the performance closely to ensure you achieve a good return on your investment.
+
+Example 2:
+
+**1. Recipient:** Emily Johnson
+**Sender:** William Smith
+**Title:** Office Supplies Purchase
+**Date:** 2024-09-25
+**Amount:** 950.00
+**Currency ID:** 1
+**Tag:** office
+
+**2. Recipient:** Ava Lee
+**Sender:** David Thompson
+**Title:** Monthly Office Rent
+**Date:** 2024-09-28
+**Amount:** 3200.00
+**Currency ID:** 1
+**Tag:** office
+
+**3. Recipient:** Mia Robinson
+**Sender:** Benjamin Clark
+**Title:** Office Maintenance and Repairs
+**Date:** 2024-10-15
+**Amount:** 7200.00
+**Currency ID:** 1
+**Tag:** office
+
+**Info:** Be aware that office costs are increasing this month, driven by higher expenses for supplies, rent, and maintenance. Consider evaluating your office space and operational efficiency to identify areas where you can reduce costs or streamline processes. Regularly reviewing your office budget can help mitigate the impact of rising expenses.
+
+Given above examples give me Info about given transactions. I need to extract information from the transactions: {transactions}, about one of the [{tags}].
