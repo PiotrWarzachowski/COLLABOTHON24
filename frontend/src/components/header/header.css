@@ -1,0 +1,43 @@
+.header {
+    background-color: #122D3D;
+    color: white;
+    padding: 10px;
+  }
+  
+  .top-row,
+  .middle-row,
+  .bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .icons {
+    display: flex;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .links a:not(:last-child)::after {
+    content: ' | ';
+    color: white;
+  }
+  
+  .customer-links a {
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
