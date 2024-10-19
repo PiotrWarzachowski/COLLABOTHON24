@@ -1,0 +1,903 @@
+[
+    {
+        "recipient": "Andrea English", 
+        "sender": "Taylor Jensen",
+        "title": "Asset Acquisition Initiative",
+        "date": "1977-01-13",
+        "amount": 4001.04,
+        "currency_id": 1,
+        "tag": "equipment"
+    },
+    {
+        "recipient": "Chelsea Hernandez", 
+        "sender": "Steven Bennett",
+        "title": "Advisory Service Compensation",
+        "date": "1997-05-08",
+        "amount": 2235.07,
+        "currency_id": 1,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Jennifer Flores", 
+        "sender": "Alicia Thomas",
+        "title": "Strategic Outreach Development",
+        "date": "2007-08-19",
+        "amount": 4265.54,
+        "currency_id": 2,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Nicole Davis", 
+        "sender": "Javier Nelson",
+        "title": "Logistical Arrangements for Engagement",
+        "date": "2002-01-28",
+        "amount": 1380.71,
+        "currency_id": 2,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Patricia Rodriguez", 
+        "sender": "Michael Cook",
+        "title": "Supply Chain Enhancements",
+        "date": "2007-11-28",
+        "amount": 2946.53,
+        "currency_id": 3,
+        "tag": "office"
+    },
+    {
+        "recipient": "Justin Mitchell", 
+        "sender": "James Bryant",
+        "title": "Campaign Execution Costs",
+        "date": "1999-02-14",
+        "amount": 1507.60,
+        "currency_id": 2,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Laura Adams", 
+        "sender": "Tyler Wright",
+        "title": "Strategic Insight Fees",
+        "date": "1988-12-05",
+        "amount": 3055.44,
+        "currency_id": 1,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Benjamin Bell", 
+        "sender": "Isabella Gonzalez",
+        "title": "Workplace Enhancement Investment",
+        "date": "1981-03-17",
+        "amount": 4726.38,
+        "currency_id": 2,
+        "tag": "office"
+    },
+    {
+        "recipient": "Alyssa Allen", 
+        "sender": "Grace Perez",
+        "title": "Staff Mobility Expenditures",
+        "date": "2014-07-23",
+        "amount": 3609.99,
+        "currency_id": 3,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Madison Russell", 
+        "sender": "Henry Evans",
+        "title": "Event Coordination Expenses",
+        "date": "2009-09-04",
+        "amount": 4251.34,
+        "currency_id": 1,
+        "tag": "corporate meetings"
+    },
+    {
+        "recipient": "Emma Campbell", 
+        "sender": "Michael Brooks",
+        "title": "Market Insight Services",
+        "date": "1986-10-22",
+        "amount": 2773.91,
+        "currency_id": 2,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Aaron Rogers", 
+        "sender": "Sophia Ward",
+        "title": "HR Policy Consultation",
+        "date": "2011-02-10",
+        "amount": 1876.88,
+        "currency_id": 3,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Nathan Green", 
+        "sender": "Aubrey Cox",
+        "title": "Workspace Revitalization Project",
+        "date": "1987-12-12",
+        "amount": 3897.45,
+        "currency_id": 1,
+        "tag": "office"
+    },
+    {
+        "recipient": "Jacob Baker", 
+        "sender": "Sophia Flores",
+        "title": "Sales Team Travel Arrangements",
+        "date": "1994-01-28",
+        "amount": 2088.76,
+        "currency_id": 2,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Olivia Ward", 
+        "sender": "Dylan Parker",
+        "title": "Team Skill Development Workshop",
+        "date": "2010-04-16",
+        "amount": 1524.39,
+        "currency_id": 1,
+        "tag": "employees"
+    },
+    {
+        "recipient": "Victoria Phillips", 
+        "sender": "Savannah Howard",
+        "title": "Growth Strategy Consultation",
+        "date": "1992-08-25",
+        "amount": 3341.73,
+        "currency_id": 2,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "David Edwards", 
+        "sender": "Charlotte Butler",
+        "title": "Sanitation Service Fees",
+        "date": "2001-11-30",
+        "amount": 2065.56,
+        "currency_id": 3,
+        "tag": "office"
+    },
+    {
+        "recipient": "Sophia Collins", 
+        "sender": "Evelyn Torres",
+        "title": "Relocation Assistance Program",
+        "date": "1995-05-10",
+        "amount": 1369.83,
+        "currency_id": 1,
+        "tag": "employees"
+    },
+    {
+        "recipient": "Aiden Bennett", 
+        "sender": "Aubrey Roberts",
+        "title": "Promotional Material Development",
+        "date": "2012-10-17",
+        "amount": 4532.24,
+        "currency_id": 2,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Matthew Long", 
+        "sender": "Grace Perry",
+        "title": "Conclave Participation Fees",
+        "date": "2008-03-22",
+        "amount": 2399.64,
+        "currency_id": 1,
+        "tag": "corporate meetings"
+    },
+    {
+        "recipient": "Sarah Young", 
+        "sender": "Gabriel Rivera",
+        "title": "Travel for Brand Promotion",
+        "date": "1993-07-05",
+        "amount": 1821.98,
+        "currency_id": 3,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Joseph Barnes", 
+        "sender": "Lily Price",
+        "title": "Safety Awareness Program Costs",
+        "date": "2005-12-08",
+        "amount": 3108.74,
+        "currency_id": 1,
+        "tag": "employees"
+    },
+    {
+        "recipient": "Evelyn Morgan", 
+        "sender": "Addison Gray",
+        "title": "IT Advisory Services",
+        "date": "2017-02-02",
+        "amount": 3479.57,
+        "currency_id": 2,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Anthony Foster", 
+        "sender": "Luke White",
+        "title": "Equipment Leasing Agreement",
+        "date": "1985-11-14",
+        "amount": 4039.46,
+        "currency_id": 3,
+        "tag": "equipment"
+    },
+    {
+        "recipient": "Mia Martinez", 
+        "sender": "Samuel Allen",
+        "title": "Transport Logistics Management",
+        "date": "2004-06-18",
+        "amount": 1893.52,
+        "currency_id": 1,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Isabella James", 
+        "sender": "Evelyn Brooks",
+        "title": "Event Funding Allocation",
+        "date": "1998-09-12",
+        "amount": 2921.89,
+        "currency_id": 2,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Liam Lee", 
+        "sender": "Ethan Hernandez",
+        "title": "Board Meeting Facilitation Costs",
+        "date": "2013-01-04",
+        "amount": 1745.92,
+        "currency_id": 3,
+        "tag": "corporate meetings"
+    },
+    {
+        "recipient": "Madison Harris", 
+        "sender": "Logan Miller",
+        "title": "Financial Advisory Services",
+        "date": "1996-07-29",
+        "amount": 2619.37,
+        "currency_id": 1,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Ella Turner", 
+        "sender": "Amelia Clark",
+        "title": "Facility Maintenance Agreement",
+        "date": "2006-11-27",
+        "amount": 3292.14,
+        "currency_id": 2,
+        "tag": "office"
+    },
+    {
+        "recipient": "Chloe Gonzalez", 
+        "sender": "Mason Young",
+        "title": "Operational Review Consultation",
+        "date": "1990-04-01",
+        "amount": 4105.85,
+        "currency_id": 3,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Andrea English", 
+        "sender": "Taylor Jensen",
+        "title": "Asset Acquisition Initiative",
+        "date": "1977-01-13",
+        "amount": 4001.04,
+        "currency_id": 1,
+        "tag": "equipment"
+    },
+    {
+        "recipient": "Chelsea Hernandez", 
+        "sender": "Steven Bennett",
+        "title": "Advisory Service Compensation",
+        "date": "1997-05-08",
+        "amount": 2235.07,
+        "currency_id": 1,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Jennifer Flores", 
+        "sender": "Alicia Thomas",
+        "title": "Strategic Outreach Development",
+        "date": "2007-08-19",
+        "amount": 4265.54,
+        "currency_id": 2,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Nicole Davis", 
+        "sender": "Javier Nelson",
+        "title": "Logistical Arrangements for Engagement",
+        "date": "2002-01-28",
+        "amount": 1380.71,
+        "currency_id": 2,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Patricia Rodriguez", 
+        "sender": "Michael Cook",
+        "title": "Supply Chain Enhancements",
+        "date": "2007-11-28",
+        "amount": 2946.53,
+        "currency_id": 3,
+        "tag": "office"
+    },
+    {
+        "recipient": "Justin Mitchell", 
+        "sender": "James Bryant",
+        "title": "Campaign Execution Costs",
+        "date": "1999-02-14",
+        "amount": 1507.60,
+        "currency_id": 2,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Laura Adams", 
+        "sender": "Tyler Wright",
+        "title": "Strategic Insight Fees",
+        "date": "1988-12-05",
+        "amount": 3055.44,
+        "currency_id": 1,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Benjamin Bell", 
+        "sender": "Isabella Gonzalez",
+        "title": "Workplace Enhancement Investment",
+        "date": "1981-03-17",
+        "amount": 4726.38,
+        "currency_id": 2,
+        "tag": "office"
+    },
+    {
+        "recipient": "Alyssa Allen", 
+        "sender": "Grace Perez",
+        "title": "Staff Mobility Expenditures",
+        "date": "2014-07-23",
+        "amount": 3609.99,
+        "currency_id": 3,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Madison Russell", 
+        "sender": "Henry Evans",
+        "title": "Event Coordination Expenses",
+        "date": "2009-09-04",
+        "amount": 4251.34,
+        "currency_id": 1,
+        "tag": "corporate meetings"
+    },
+    {
+        "recipient": "Emma Campbell", 
+        "sender": "Michael Brooks",
+        "title": "Market Insight Services",
+        "date": "1986-10-22",
+        "amount": 2773.91,
+        "currency_id": 2,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Aaron Rogers", 
+        "sender": "Sophia Ward",
+        "title": "HR Policy Consultation",
+        "date": "2011-02-10",
+        "amount": 1876.88,
+        "currency_id": 3,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Nathan Green", 
+        "sender": "Aubrey Cox",
+        "title": "Workspace Revitalization Project",
+        "date": "1987-12-12",
+        "amount": 3897.45,
+        "currency_id": 1,
+        "tag": "office"
+    },
+    {
+        "recipient": "Jacob Baker", 
+        "sender": "Sophia Flores",
+        "title": "Sales Team Travel Arrangements",
+        "date": "1994-01-28",
+        "amount": 2088.76,
+        "currency_id": 2,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Olivia Ward", 
+        "sender": "Dylan Parker",
+        "title": "Team Skill Development Workshop",
+        "date": "2010-04-16",
+        "amount": 1524.39,
+        "currency_id": 1,
+        "tag": "employees"
+    },
+    {
+        "recipient": "Victoria Phillips", 
+        "sender": "Savannah Howard",
+        "title": "Growth Strategy Consultation",
+        "date": "1992-08-25",
+        "amount": 3341.73,
+        "currency_id": 2,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "David Edwards", 
+        "sender": "Charlotte Butler",
+        "title": "Sanitation Service Fees",
+        "date": "2001-11-30",
+        "amount": 2065.56,
+        "currency_id": 3,
+        "tag": "office"
+    },
+    {
+        "recipient": "Sophia Collins", 
+        "sender": "Evelyn Torres",
+        "title": "Relocation Assistance Program",
+        "date": "1995-05-10",
+        "amount": 1369.83,
+        "currency_id": 1,
+        "tag": "employees"
+    },
+    {
+        "recipient": "Aiden Bennett", 
+        "sender": "Aubrey Roberts",
+        "title": "Promotional Material Development",
+        "date": "2012-10-17",
+        "amount": 4532.24,
+        "currency_id": 2,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Matthew Long", 
+        "sender": "Grace Perry",
+        "title": "Conclave Participation Fees",
+        "date": "2008-03-22",
+        "amount": 2399.64,
+        "currency_id": 1,
+        "tag": "corporate meetings"
+    },
+    {
+        "recipient": "Sarah Young", 
+        "sender": "Gabriel Rivera",
+        "title": "Travel for Brand Promotion",
+        "date": "1993-07-05",
+        "amount": 1821.98,
+        "currency_id": 3,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Joseph Barnes", 
+        "sender": "Lily Price",
+        "title": "Safety Awareness Program Costs",
+        "date": "2005-12-08",
+        "amount": 3108.74,
+        "currency_id": 1,
+        "tag": "employees"
+    },
+    {
+        "recipient": "Evelyn Morgan", 
+        "sender": "Addison Gray",
+        "title": "IT Advisory Services",
+        "date": "2017-02-02",
+        "amount": 3479.57,
+        "currency_id": 2,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Anthony Foster", 
+        "sender": "Luke White",
+        "title": "Equipment Leasing Agreement",
+        "date": "1985-11-14",
+        "amount": 4039.46,
+        "currency_id": 3,
+        "tag": "equipment"
+    },
+    {
+        "recipient": "Mia Martinez", 
+        "sender": "Samuel Allen",
+        "title": "Transport Logistics Management",
+        "date": "2004-06-18",
+        "amount": 1893.52,
+        "currency_id": 1,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Isabella James", 
+        "sender": "Evelyn Brooks",
+        "title": "Event Funding Allocation",
+        "date": "1998-09-12",
+        "amount": 2921.89,
+        "currency_id": 2,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Liam Lee", 
+        "sender": "Ethan Hernandez",
+        "title": "Board Meeting Facilitation Costs",
+        "date": "2013-01-04",
+        "amount": 1745.92,
+        "currency_id": 3,
+        "tag": "corporate meetings"
+    },
+    {
+        "recipient": "Madison Harris", 
+        "sender": "Logan Miller",
+        "title": "Financial Advisory Services",
+        "date": "1996-07-29",
+        "amount": 2619.37,
+        "currency_id": 1,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Ella Turner", 
+        "sender": "Amelia Clark",
+        "title": "Facility Maintenance Agreement",
+        "date": "2006-11-27",
+        "amount": 3292.14,
+        "currency_id": 2,
+        "tag": "office"
+    },
+    {
+        "recipient": "Ethan Perry", 
+        "sender": "Liam Myers",
+        "title": "Expedition for Insight Gathering",
+        "date": "2010-09-03",
+        "amount": 3951.68,
+        "currency_id": 3,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Lily Robinson", 
+        "sender": "Ella Ward",
+        "title": "Digital Workspace Subscription",
+        "date": "1982-10-26",
+        "amount": 1302.12,
+        "currency_id": 1,
+        "tag": "equipment"
+    },
+    {
+        "recipient": "Emily Cox", 
+        "sender": "Aiden Carter",
+        "title": "Leadership Skills Development Seminar",
+        "date": "2014-02-18",
+        "amount": 1695.45,
+        "currency_id": 2,
+        "tag": "corporate meetings"
+    },
+    {
+        "recipient": "Gabriel Davis", 
+        "sender": "Liam Bryant",
+        "title": "Connectivity Enhancements for the Office",
+        "date": "1987-12-03",
+        "amount": 1887.60,
+        "currency_id": 3,
+        "tag": "office"
+    },
+    {
+        "recipient": "Benjamin Barnes", 
+        "sender": "Lucas Moore",
+        "title": "Journey for Global Networking",
+        "date": "2002-03-21",
+        "amount": 1539.42,
+        "currency_id": 1,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Zoe Parker", 
+        "sender": "William Price",
+        "title": "Creative Campaign Conceptualization",
+        "date": "2004-11-29",
+        "amount": 4318.11,
+        "currency_id": 2,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Samantha Morgan", 
+        "sender": "Aiden Phillips",
+        "title": "Workforce Development Initiative",
+        "date": "2006-07-15",
+        "amount": 2915.90,
+        "currency_id": 3,
+        "tag": "employees"
+    },
+    {
+        "recipient": "Michael Stewart", 
+        "sender": "James Ross",
+        "title": "Consultative Approach to Growth",
+        "date": "1995-09-09",
+        "amount": 2673.62,
+        "currency_id": 1,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Aubrey James", 
+        "sender": "Madison Ward",
+        "title": "Illumination Systems Upgrade",
+        "date": "1992-04-14",
+        "amount": 2347.77,
+        "currency_id": 2,
+        "tag": "office"
+    },
+    {
+        "recipient": "Olivia Mitchell", 
+        "sender": "Sophia Adams",
+        "title": "Client Engagement Workshop Travel",
+        "date": "2018-01-30",
+        "amount": 3325.45,
+        "currency_id": 3,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Charlotte Thomas", 
+        "sender": "Owen Bell",
+        "title": "Coordinating Marketing Gatherings",
+        "date": "2005-11-01",
+        "amount": 2188.24,
+        "currency_id": 1,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Grace Scott", 
+        "sender": "David Stewart",
+        "title": "Strategic Risk Assessment Consulting",
+        "date": "2019-04-25",
+        "amount": 1372.29,
+        "currency_id": 2,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Samuel James", 
+        "sender": "Anthony Price",
+        "title": "Conference Room Optimization",
+        "date": "2000-02-09",
+        "amount": 1939.12,
+        "currency_id": 3,
+        "tag": "office"
+    },
+    {
+        "recipient": "Aiden Hernandez", 
+        "sender": "Michael Mitchell",
+        "title": "Exploration for Expo Opportunities",
+        "date": "1998-10-06",
+        "amount": 3598.77,
+        "currency_id": 1,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Victoria Perry", 
+        "sender": "Addison Young",
+        "title": "Project Initiation Consulting Fees",
+        "date": "2009-07-26",
+        "amount": 1749.56,
+        "currency_id": 2,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "David Howard", 
+        "sender": "Isabella Bennett",
+        "title": "Execution of Marketing Strategies",
+        "date": "1990-09-18",
+        "amount": 4139.61,
+        "currency_id": 3,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Lily Adams", 
+        "sender": "Luke Reed",
+        "title": "Annual Facility Maintenance Costs",
+        "date": "1996-11-15",
+        "amount": 2217.37,
+        "currency_id": 1,
+        "tag": "office"
+    },
+    {
+        "recipient": "Gabriel Rogers", 
+        "sender": "Samuel Bailey",
+        "title": "Product Development Consulting Services",
+        "date": "2015-06-08",
+        "amount": 2031.92,
+        "currency_id": 2,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Emily Murphy", 
+        "sender": "Madison Foster",
+        "title": "Travel for Sales Initiatives",
+        "date": "1988-02-18",
+        "amount": 1424.83,
+        "currency_id": 3,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Olivia Cooper", 
+        "sender": "Aiden Evans",
+        "title": "Workplace Layout Enhancement",
+        "date": "2001-04-20",
+        "amount": 1836.40,
+        "currency_id": 1,
+        "tag": "office"
+    },
+    {
+        "recipient": "Isabella Hill", 
+        "sender": "Aubrey Johnson",
+        "title": "Agency Partnership Costs",
+        "date": "2013-06-25",
+        "amount": 3284.73,
+        "currency_id": 2,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "James Brown", 
+        "sender": "Victoria Thompson",
+        "title": "Training Program Execution Fees",
+        "date": "2008-09-17",
+        "amount": 2549.81,
+        "currency_id": 3,
+        "tag": "corporate meetings"
+    },
+    {
+        "recipient": "Logan Bailey", 
+        "sender": "Lucas Scott",
+        "title": "Leadership Development Consulting",
+        "date": "1982-11-10",
+        "amount": 3139.55,
+        "currency_id": 1,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Mason Ward", 
+        "sender": "Amelia Stewart",
+        "title": "Energy Assessment Services",
+        "date": "2017-08-29",
+        "amount": 2871.82,
+        "currency_id": 2,
+        "tag": "office"
+    },
+    {
+        "recipient": "Joshua Cox", 
+        "sender": "Savannah Clark",
+        "title": "Creation of Marketing Materials",
+        "date": "1994-10-22",
+        "amount": 4115.99,
+        "currency_id": 3,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "David Ramirez", 
+        "sender": "Madison King",
+        "title": "Management Training Solutions",
+        "date": "1986-06-11",
+        "amount": 2384.51,
+        "currency_id": 1,
+        "tag": "employees"
+    },
+    {
+        "recipient": "Benjamin Rivera", 
+        "sender": "Lucas Bryant",
+        "title": "Showcase Presentation Travel",
+        "date": "2011-12-29",
+        "amount": 1785.34,
+        "currency_id": 2,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Ella Foster", 
+        "sender": "Sophia Turner",
+        "title": "Annual Equipment Servicing",
+        "date": "1999-06-18",
+        "amount": 1420.94,
+        "currency_id": 3,
+        "tag": "equipment"
+    },
+    {
+        "recipient": "Grace Phillips", 
+        "sender": "Zoe Rivera",
+        "title": "Strategic Planning Consulting",
+        "date": "1993-03-12",
+        "amount": 2816.88,
+        "currency_id": 1,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Aiden Ross", 
+        "sender": "Olivia Taylor",
+        "title": "Travel for Product Launch",
+        "date": "2007-09-14",
+        "amount": 1438.95,
+        "currency_id": 2,
+        "tag": "travel"
+     },
+     {
+        "recipient": "Lucas Anderson", 
+        "sender": "Ella Harris",
+        "title": "Marketing Event Sponsorship",
+        "date": "1989-11-25",
+        "amount": 3751.87,
+        "currency_id": 3,
+        "tag": "marketing"
+     },
+     {
+        "recipient": "Chloe Thompson", 
+        "sender": "Joshua Scott",
+        "title": "Employee Training Expenses",
+        "date": "2016-06-19",
+        "amount": 2221.75,
+        "currency_id": 1,
+        "tag": "employees"
+     },
+     {
+        "recipient": "Mason Moore", 
+        "sender": "Victoria Bennett",
+        "title": "Office Maintenance Service",
+        "date": "2004-10-08",
+        "amount": 1444.58,
+        "currency_id": 2,
+        "tag": "office"
+     },
+     {
+        "recipient": "Aubrey White", 
+        "sender": "Samuel Clark",
+        "title": "Consulting for Branding Strategy",
+        "date": "2013-02-13",
+        "amount": 2178.60,
+        "currency_id": 3,
+        "tag": "consulting"
+     },
+     {
+        "recipient": "Isaac King", 
+        "sender": "Grace Martinez",
+        "title": "Corporate Event Catering",
+        "date": "2005-01-29",
+        "amount": 1657.34,
+        "currency_id": 1,
+        "tag": "corporate meetings"
+     },
+     {
+        "recipient": "Zoe Carter", 
+        "sender": "Isabella Edwards",
+        "title": "Travel for Conference Networking",
+        "date": "1997-12-12",
+        "amount": 1988.29,
+        "currency_id": 2,
+        "tag": "travel"
+     },
+     {
+        "recipient": "Alexander Walker", 
+        "sender": "Madison Wilson",
+        "title": "Consulting for Digital Marketing",
+        "date": "2021-04-22",
+        "amount": 4132.17,
+        "currency_id": 3,
+        "tag": "consulting"
+     },
+     {
+        "recipient": "Emily Torres", 
+        "sender": "James Davis",
+        "title": "Office Software Implementation",
+        "date": "1996-11-03",
+        "amount": 1515.81,
+        "currency_id": 1,
+        "tag": "office"
+     },
+     {
+        "recipient": "Aiden Roberts", 
+        "sender": "William Walker",
+        "title": "Marketing Strategy Workshop",
+        "date": "2012-09-07",
+        "amount": 2299.44,
+        "currency_id": 2,
+        "tag": "marketing"
+     },
+     {
+        "recipient": "Mason Harris", 
+        "sender": "Zoe Thomas",
+        "title": "Employee Wellness Seminar",
+        "date": "2003-05-18",
+        "amount": 2584.99,
+        "currency_id": 3,
+        "tag": "employees"
+     },
+     {
+        "recipient": "Benjamin Ramirez", 
+        "sender": "Elizabeth Cooper",
+        "title": "Office Supply Purchase",
+        "date": "1992-02-20",
+        "amount": 1774.65,
+        "currency_id": 1,
+        "tag": "office"
+     }         
+]
+ 
