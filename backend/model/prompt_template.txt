@@ -1,0 +1,103 @@
+### Transaction Examples
+
+**Recipient:** Andrea English
+**Sender:** Taylor Jensen
+**Title:** Asset Acquisition Initiative
+**Date:** 1977-01-13
+**Amount:** 4001.04
+**Currency ID:** 1
+**Tag:** equipment
+
+---
+
+**Recipient:** Chelsea Hernandez
+**Sender:** Steven Bennett
+**Title:** Advisory Service Compensation
+**Date:** 1997-05-08
+**Amount:** 2235.07
+**Currency ID:** 1
+**Tag:** consulting
+
+---
+
+**Recipient:** Jennifer Flores
+**Sender:** Alicia Thomas
+**Title:** Strategic Outreach Development
+**Date:** 2007-08-19
+**Amount:** 4265.54
+**Currency ID:** 2
+**Tag:** marketing
+
+---
+
+**Recipient:** Nicole Davis
+**Sender:** Javier Nelson
+**Title:** Logistical Arrangements for Engagement
+**Date:** 2002-01-28
+**Amount:** 1380.71
+**Currency ID:** 2
+**Tag:** travel
+
+---
+
+**Recipient:** Patricia Rodriguez
+**Sender:** Michael Cook
+**Title:** Supply Chain Enhancements
+**Date:** 2007-11-28
+**Amount:** 2946.53
+**Currency ID:** 3
+**Tag:** office
+
+---
+
+**Recipient:** Justin Mitchell
+**Sender:** James Bryant
+**Title:** Campaign Execution Costs
+**Date:** 1999-02-14
+**Amount:** 1507.60
+**Currency ID:** 2
+**Tag:** marketing
+
+---
+
+**Recipient:** Laura Adams
+**Sender:** Tyler Wright
+**Title:** Strategic Insight Fees
+**Date:** 1988-12-05
+**Amount:** 3055.44
+**Currency ID:** 1
+**Tag:** consulting
+
+---
+
+**Recipient:** Benjamin Bell
+**Sender:** Isabella Gonzalez
+**Title:** Workplace Enhancement Investment
+**Date:** 1981-03-17
+**Amount:** 4726.38
+**Currency ID:** 2
+**Tag:** office
+
+---
+
+**Recipient:** Alyssa Allen
+**Sender:** Grace Perez
+**Title:** Staff Mobility Expenditures
+**Date:** 2014-07-23
+**Amount:** 3609.99
+**Currency ID:** 3
+**Tag:** travel
+
+---
+
+**Recipient:** Madison Russell
+**Sender:** Henry Evans
+**Title:** Event Coordination Expenses
+**Date:** 2009-09-04
+**Amount:** 4251.34
+**Currency ID:** 1
+**Tag:** corporate meetings
+
+---
+
+Generate matching tag from the list [{tags}] for {transaction}:
