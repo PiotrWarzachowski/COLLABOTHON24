@@ -74,7 +74,7 @@ async def get_records(
             for tag in tags:
                 grouped_records[i][tag] = 0
     elif key == "day":
-        for i in range(1, num_days+1):
+        for i in range(1, num_days+2):
             grouped_records[i] = {}
             for tag in tags:
                 grouped_records[i][tag] = 0
