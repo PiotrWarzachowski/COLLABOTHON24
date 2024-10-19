@@ -898,6 +898,907 @@
         "amount": 1774.65,
         "currency_id": 1,
         "tag": "office"
-     }         
+     },
+
+    {
+        "recipient": "Lily Harris",
+        "sender": "David Rogers",
+        "title": "Energy Optimization Analysis",
+        "date": "2024-07-30",
+        "amount": -2780.59,
+        "currency_id": 1,
+        "tag": "office"
+    },
+    {
+        "recipient": "Andrea English",
+        "sender": "William King",
+        "title": "Talent Acquisition Initiative",
+        "date": "2024-05-16",
+        "amount": 818.97,
+        "currency_id": 3,
+        "tag": "employees"
+    },
+    {
+        "recipient": "Andrea English",
+        "sender": "Mia Turner",
+        "title": "Infrastructure Upgrade",
+        "date": "2023-12-23",
+        "amount": -4020.12,
+        "currency_id": 2,
+        "tag": "office"
+    },
+    {
+        "recipient": "Madison Jenkins",
+        "sender": "William King",
+        "title": "Client Travel Coordination",
+        "date": "2024-07-08",
+        "amount": 2809.74,
+        "currency_id": 1,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Aubrey Brooks",
+        "sender": "Taylor Jensen",
+        "title": "Operational Strategy Counsel",
+        "date": "2024-10-15",
+        "amount": 950.6,
+        "currency_id": 1,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Sophia Bell",
+        "sender": "Gabriel Martin",
+        "title": "Capital Goods Procurement",
+        "date": "2023-12-17",
+        "amount": -2958.5,
+        "currency_id": 3,
+        "tag": "equipment"
+    },
+    {
+        "recipient": "Ethan Ross",
+        "sender": "Taylor Jensen",
+        "title": "Supply Chain Enhancements",
+        "date": "2024-10-13",
+        "amount": 4150.52,
+        "currency_id": 1,
+        "tag": "office"
+    },
+    {
+        "recipient": "Olivia Wright",
+        "sender": "Benjamin Collins",
+        "title": "Strategic Consulting Proposal",
+        "date": "2024-04-15",
+        "amount": 4161.03,
+        "currency_id": 2,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Madison Jenkins",
+        "sender": "Grace Stewart",
+        "title": "Client Travel Coordination",
+        "date": "2024-02-09",
+        "amount": -4700.69,
+        "currency_id": 3,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Jennifer Flores",
+        "sender": "Grace Stewart",
+        "title": "Networking Travel Strategy",
+        "date": "2024-01-13",
+        "amount": -366.82,
+        "currency_id": 1,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Olivia Wright",
+        "sender": "Michael Reed",
+        "title": "Workspace Reconfiguration",
+        "date": "2024-03-14",
+        "amount": -4730.36,
+        "currency_id": 2,
+        "tag": "office"
+    },
+    {
+        "recipient": "Lily Harris",
+        "sender": "Amelia Morgan",
+        "title": "Supply Chain Enhancements",
+        "date": "2024-10-08",
+        "amount": -4451.98,
+        "currency_id": 1,
+        "tag": "office"
+    },
+    {
+        "recipient": "Madison Jenkins",
+        "sender": "Isabella Campbell",
+        "title": "Supply Chain Enhancements",
+        "date": "2024-04-13",
+        "amount": -4810.11,
+        "currency_id": 2,
+        "tag": "office"
+    },
+    {
+        "recipient": "Lily Harris",
+        "sender": "Javier Nelson",
+        "title": "Capital Goods Procurement",
+        "date": "2024-06-03",
+        "amount": -3068.6,
+        "currency_id": 3,
+        "tag": "equipment"
+    },
+    {
+        "recipient": "Victoria Ward",
+        "sender": "Michael Reed",
+        "title": "Capital Goods Procurement",
+        "date": "2023-10-30",
+        "amount": 4534.18,
+        "currency_id": 3,
+        "tag": "equipment"
+    },
+    {
+        "recipient": "Alexander Bailey",
+        "sender": "Michael Reed",
+        "title": "Workforce Development Plan",
+        "date": "2024-01-20",
+        "amount": -3339.16,
+        "currency_id": 1,
+        "tag": "employees"
+    },
+    {
+        "recipient": "Madison Jenkins",
+        "sender": "William King",
+        "title": "Logistical Arrangements for Engagement",
+        "date": "2024-10-19",
+        "amount": 3438.59,
+        "currency_id": 1,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Benjamin Lewis",
+        "sender": "Michael Cook",
+        "title": "Wellness Program Rollout",
+        "date": "2024-08-06",
+        "amount": 1059.22,
+        "currency_id": 2,
+        "tag": "employees"
+    },
+    {
+        "recipient": "Patricia Rodriguez",
+        "sender": "William King",
+        "title": "Operational Strategy Counsel",
+        "date": "2024-04-17",
+        "amount": -1799.24,
+        "currency_id": 1,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Ethan Ross",
+        "sender": "Javier Nelson",
+        "title": "Advisory Service Compensation",
+        "date": "2024-09-14",
+        "amount": 3745.49,
+        "currency_id": 3,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Sophia Bell",
+        "sender": "Evelyn Perry",
+        "title": "Strategic Outreach Development",
+        "date": "2024-08-02",
+        "amount": -890.7,
+        "currency_id": 3,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Aubrey Brooks",
+        "sender": "Javier Nelson",
+        "title": "Workforce Development Plan",
+        "date": "2024-09-30",
+        "amount": 3910.2,
+        "currency_id": 1,
+        "tag": "employees"
+    },
+    {
+        "recipient": "Ethan Ross",
+        "sender": "William King",
+        "title": "Employee Engagement Program",
+        "date": "2023-11-22",
+        "amount": -2343.51,
+        "currency_id": 2,
+        "tag": "employees"
+    },
+    {
+        "recipient": "Evelyn Evans",
+        "sender": "Michael Cook",
+        "title": "Hardware Upgrade Initiative",
+        "date": "2023-10-20",
+        "amount": -3172.17,
+        "currency_id": 3,
+        "tag": "equipment"
+    },
+    {
+        "recipient": "Lily Harris",
+        "sender": "Lucas Lopez",
+        "title": "Industry Expo Travel",
+        "date": "2023-10-28",
+        "amount": 2806.61,
+        "currency_id": 1,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Jennifer Flores",
+        "sender": "Mia Turner",
+        "title": "Supply Chain Enhancements",
+        "date": "2024-01-08",
+        "amount": 1779.77,
+        "currency_id": 3,
+        "tag": "office"
+    },
+    {
+        "recipient": "Victoria Ward",
+        "sender": "Avery Thompson",
+        "title": "Financial Advisory Consulting",
+        "date": "2024-09-01",
+        "amount": -3040.16,
+        "currency_id": 2,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Evelyn Evans",
+        "sender": "Evelyn Perry",
+        "title": "Strategic Consulting Proposal",
+        "date": "2024-07-19",
+        "amount": 10.84,
+        "currency_id": 2,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Victoria Ward",
+        "sender": "James Green",
+        "title": "Industry Expo Travel",
+        "date": "2024-02-21",
+        "amount": -3827.35,
+        "currency_id": 1,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Nicole Davis",
+        "sender": "Isabella Campbell",
+        "title": "Business Advisory Agreement",
+        "date": "2024-06-03",
+        "amount": 572.11,
+        "currency_id": 1,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Lily Harris",
+        "sender": "Avery Thompson",
+        "title": "Strategic Planning Offsite",
+        "date": "2024-04-26",
+        "amount": -3434.41,
+        "currency_id": 3,
+        "tag": "corporate meetings"
+    },
+    {
+        "recipient": "Victoria Ward",
+        "sender": "James Green",
+        "title": "Fleet Expansion",
+        "date": "2024-02-17",
+        "amount": -3913.68,
+        "currency_id": 2,
+        "tag": "equipment"
+    },
+    {
+        "recipient": "Mason Foster",
+        "sender": "Michael Reed",
+        "title": "Workspace Reconfiguration",
+        "date": "2024-09-16",
+        "amount": 2103.52,
+        "currency_id": 3,
+        "tag": "office"
+    },
+    {
+        "recipient": "David Morgan",
+        "sender": "Evelyn Perry",
+        "title": "Networking Travel Strategy",
+        "date": "2024-03-17",
+        "amount": 4100.48,
+        "currency_id": 3,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Chelsea Hernandez",
+        "sender": "Sophia Mitchell",
+        "title": "Leadership Roundtable Coordination",
+        "date": "2024-02-09",
+        "amount": 3136.12,
+        "currency_id": 1,
+        "tag": "corporate meetings"
+    },
+    {
+        "recipient": "Ethan Ross",
+        "sender": "Gabriel Martin",
+        "title": "Business Advisory Agreement",
+        "date": "2023-11-24",
+        "amount": 4649.65,
+        "currency_id": 2,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Evelyn Evans",
+        "sender": "Sophia Mitchell",
+        "title": "Market Penetration Tactics",
+        "date": "2024-05-07",
+        "amount": 4112.18,
+        "currency_id": 2,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Nicole Davis",
+        "sender": "Isabella Campbell",
+        "title": "Technical Infrastructure Purchase",
+        "date": "2023-12-22",
+        "amount": -2291.07,
+        "currency_id": 1,
+        "tag": "equipment"
+    },
+    {
+        "recipient": "Evelyn Evans",
+        "sender": "William King",
+        "title": "Strategic Consulting Proposal",
+        "date": "2024-01-08",
+        "amount": 3007.6,
+        "currency_id": 1,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Chloe Sanders",
+        "sender": "Taylor Jensen",
+        "title": "Strategic Outreach Development",
+        "date": "2024-10-12",
+        "amount": -795.06,
+        "currency_id": 1,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Mason Foster",
+        "sender": "Javier Nelson",
+        "title": "Corporate Forum Preparation",
+        "date": "2023-11-10",
+        "amount": -709.82,
+        "currency_id": 3,
+        "tag": "corporate meetings"
+    },
+    {
+        "recipient": "Sophia Bell",
+        "sender": "William King",
+        "title": "Corporate Forum Preparation",
+        "date": "2024-04-19",
+        "amount": 3218.6,
+        "currency_id": 1,
+        "tag": "corporate meetings"
+    },
+    {
+        "recipient": "Lily Harris",
+        "sender": "Steven Bennett",
+        "title": "Asset Acquisition Initiative",
+        "date": "2024-03-28",
+        "amount": -743.82,
+        "currency_id": 1,
+        "tag": "equipment"
+    },
+    {
+        "recipient": "Chloe Sanders",
+        "sender": "Evelyn Perry",
+        "title": "Fleet Expansion",
+        "date": "2024-09-22",
+        "amount": 1379.78,
+        "currency_id": 1,
+        "tag": "equipment"
+    },
+    {
+        "recipient": "David Morgan",
+        "sender": "Sophia Mitchell",
+        "title": "Client Travel Coordination",
+        "date": "2024-02-13",
+        "amount": 4026.83,
+        "currency_id": 3,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Jessica Rivera",
+        "sender": "Javier Nelson",
+        "title": "Corporate Forum Preparation",
+        "date": "2024-06-14",
+        "amount": -2617.12,
+        "currency_id": 2,
+        "tag": "corporate meetings"
+    },
+    {
+        "recipient": "Nicole Davis",
+        "sender": "Ella Walker",
+        "title": "Human Capital Improvement",
+        "date": "2024-01-25",
+        "amount": 168.03,
+        "currency_id": 1,
+        "tag": "employees"
+    },
+    {
+        "recipient": "Evelyn Evans",
+        "sender": "Taylor Jensen",
+        "title": "Logistical Arrangements for Engagement",
+        "date": "2024-03-31",
+        "amount": 4172.36,
+        "currency_id": 1,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Sophia Bell",
+        "sender": "Ella Walker",
+        "title": "Client Travel Coordination",
+        "date": "2023-12-17",
+        "amount": 877.8,
+        "currency_id": 1,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Madison Jenkins",
+        "sender": "Grace Stewart",
+        "title": "Logistical Arrangements for Engagement",
+        "date": "2023-12-04",
+        "amount": 4405.34,
+        "currency_id": 1,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Aubrey Brooks",
+        "sender": "James Green",
+        "title": "Business Advisory Agreement",
+        "date": "2024-03-14",
+        "amount": 1461.4,
+        "currency_id": 2,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "David Morgan",
+        "sender": "Taylor Jensen",
+        "title": "Workforce Development Plan",
+        "date": "2023-12-11",
+        "amount": 3879.8,
+        "currency_id": 2,
+        "tag": "employees"
+    },
+    {
+        "recipient": "Nicole Davis",
+        "sender": "Lucas Lopez",
+        "title": "Outreach Campaign Execution",
+        "date": "2024-06-20",
+        "amount": -3088.62,
+        "currency_id": 1,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Lily Harris",
+        "sender": "Evelyn Perry",
+        "title": "Infrastructure Upgrade",
+        "date": "2023-11-07",
+        "amount": 1148.25,
+        "currency_id": 3,
+        "tag": "office"
+    },
+    {
+        "recipient": "Chelsea Hernandez",
+        "sender": "Michael Reed",
+        "title": "Brand Engagement Strategy",
+        "date": "2024-05-03",
+        "amount": 578.73,
+        "currency_id": 1,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Evelyn Evans",
+        "sender": "Taylor Jensen",
+        "title": "Rebranding Initiative",
+        "date": "2023-11-25",
+        "amount": -1131.81,
+        "currency_id": 2,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Jennifer Flores",
+        "sender": "Alicia Thomas",
+        "title": "Advisory Service Compensation",
+        "date": "2024-03-17",
+        "amount": 3232.73,
+        "currency_id": 1,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Alexander Bailey",
+        "sender": "Gabriel Martin",
+        "title": "Fleet Expansion",
+        "date": "2023-12-31",
+        "amount": 3026.48,
+        "currency_id": 2,
+        "tag": "equipment"
+    },
+    {
+        "recipient": "Andrea English",
+        "sender": "Amelia Morgan",
+        "title": "Logistical Arrangements for Engagement",
+        "date": "2024-02-23",
+        "amount": 96.22,
+        "currency_id": 2,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Patricia Rodriguez",
+        "sender": "Steven Bennett",
+        "title": "Board Meeting Logistics",
+        "date": "2023-12-20",
+        "amount": 1210.59,
+        "currency_id": 1,
+        "tag": "corporate meetings"
+    },
+    {
+        "recipient": "Andrea English",
+        "sender": "Javier Nelson",
+        "title": "Wellness Program Rollout",
+        "date": "2024-02-17",
+        "amount": -4849.94,
+        "currency_id": 2,
+        "tag": "employees"
+    },
+    {
+        "recipient": "Alexander Bailey",
+        "sender": "Amelia Morgan",
+        "title": "Employee Engagement Program",
+        "date": "2024-09-23",
+        "amount": 3183.99,
+        "currency_id": 1,
+        "tag": "employees"
+    },
+    {
+        "recipient": "Patricia Rodriguez",
+        "sender": "Javier Nelson",
+        "title": "Strategic Planning Offsite",
+        "date": "2024-04-18",
+        "amount": 47.39,
+        "currency_id": 1,
+        "tag": "corporate meetings"
+    },
+    {
+        "recipient": "Benjamin Lewis",
+        "sender": "David Rogers",
+        "title": "Outreach Campaign Execution",
+        "date": "2024-08-20",
+        "amount": 4574.21,
+        "currency_id": 2,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Alexander Bailey",
+        "sender": "Javier Nelson",
+        "title": "Brand Engagement Strategy",
+        "date": "2024-03-31",
+        "amount": 2360.11,
+        "currency_id": 3,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Olivia Wright",
+        "sender": "Javier Nelson",
+        "title": "Wellness Program Rollout",
+        "date": "2024-05-13",
+        "amount": -972.61,
+        "currency_id": 3,
+        "tag": "employees"
+    },
+    {
+        "recipient": "David Morgan",
+        "sender": "Javier Nelson",
+        "title": "Logistical Arrangements for Engagement",
+        "date": "2023-10-28",
+        "amount": -1229.41,
+        "currency_id": 2,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Victoria Ward",
+        "sender": "Michael Reed",
+        "title": "Hardware Upgrade Initiative",
+        "date": "2024-10-01",
+        "amount": 771.46,
+        "currency_id": 3,
+        "tag": "equipment"
+    },
+    {
+        "recipient": "Andrea English",
+        "sender": "Lucas Lopez",
+        "title": "Fleet Expansion",
+        "date": "2024-06-03",
+        "amount": -1598.73,
+        "currency_id": 3,
+        "tag": "equipment"
+    },
+    {
+        "recipient": "Alexander Bailey",
+        "sender": "Sophia Mitchell",
+        "title": "Operational Efficiency Assessment",
+        "date": "2023-12-16",
+        "amount": 1656.92,
+        "currency_id": 2,
+        "tag": "office"
+    },
+    {
+        "recipient": "Lily Harris",
+        "sender": "James Green",
+        "title": "Outreach Campaign Execution",
+        "date": "2024-05-26",
+        "amount": 3344.53,
+        "currency_id": 1,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Jennifer Flores",
+        "sender": "Lucas Lopez",
+        "title": "Capital Goods Procurement",
+        "date": "2024-08-26",
+        "amount": 2012.38,
+        "currency_id": 2,
+        "tag": "equipment"
+    },
+    {
+        "recipient": "Samuel Murphy",
+        "sender": "Amelia Morgan",
+        "title": "Industry Expo Travel",
+        "date": "2023-12-12",
+        "amount": -2910.67,
+        "currency_id": 3,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Jennifer Flores",
+        "sender": "Taylor Jensen",
+        "title": "Business Advisory Agreement",
+        "date": "2024-07-12",
+        "amount": 4139.95,
+        "currency_id": 1,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Samuel Murphy",
+        "sender": "Michael Cook",
+        "title": "Asset Acquisition Initiative",
+        "date": "2024-08-19",
+        "amount": 1712.15,
+        "currency_id": 1,
+        "tag": "equipment"
+    },
+    {
+        "recipient": "Mason Foster",
+        "sender": "Lucas Lopez",
+        "title": "Financial Advisory Consulting",
+        "date": "2024-02-23",
+        "amount": -783.23,
+        "currency_id": 3,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Chelsea Hernandez",
+        "sender": "Taylor Jensen",
+        "title": "Industry Expo Travel",
+        "date": "2023-12-28",
+        "amount": -2680.04,
+        "currency_id": 3,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Aubrey Brooks",
+        "sender": "Mia Turner",
+        "title": "Energy Optimization Analysis",
+        "date": "2023-11-27",
+        "amount": 3807.51,
+        "currency_id": 3,
+        "tag": "office"
+    },
+    {
+        "recipient": "Chloe Sanders",
+        "sender": "Steven Bennett",
+        "title": "Advisory Service Compensation",
+        "date": "2024-06-07",
+        "amount": 4524.37,
+        "currency_id": 2,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Lily Harris",
+        "sender": "Steven Bennett",
+        "title": "Financial Advisory Consulting",
+        "date": "2024-09-05",
+        "amount": 2621.03,
+        "currency_id": 3,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Mason Foster",
+        "sender": "Isabella Campbell",
+        "title": "Talent Acquisition Initiative",
+        "date": "2024-03-02",
+        "amount": -1682.02,
+        "currency_id": 2,
+        "tag": "employees"
+    },
+    {
+        "recipient": "Lily Harris",
+        "sender": "Javier Nelson",
+        "title": "Industry Expo Travel",
+        "date": "2024-02-22",
+        "amount": -4007.62,
+        "currency_id": 3,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Samuel Murphy",
+        "sender": "Lucas Lopez",
+        "title": "Strategic Consulting Proposal",
+        "date": "2024-05-03",
+        "amount": 703.86,
+        "currency_id": 2,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Ethan Ross",
+        "sender": "James Green",
+        "title": "Board Meeting Logistics",
+        "date": "2024-08-20",
+        "amount": 4996.31,
+        "currency_id": 2,
+        "tag": "corporate meetings"
+    },
+    {
+        "recipient": "Chloe Sanders",
+        "sender": "Michael Reed",
+        "title": "Logistical Arrangements for Engagement",
+        "date": "2024-08-04",
+        "amount": -3052.79,
+        "currency_id": 1,
+        "tag": "travel"
+    },
+    {
+        "recipient": "David Morgan",
+        "sender": "Mia Turner",
+        "title": "Capital Goods Procurement",
+        "date": "2024-04-27",
+        "amount": 1511.48,
+        "currency_id": 1,
+        "tag": "equipment"
+    },
+    {
+        "recipient": "Ethan Ross",
+        "sender": "Michael Reed",
+        "title": "Infrastructure Upgrade",
+        "date": "2024-08-14",
+        "amount": -3920.82,
+        "currency_id": 2,
+        "tag": "office"
+    },
+    {
+        "recipient": "Ethan Ross",
+        "sender": "Benjamin Collins",
+        "title": "Client Travel Coordination",
+        "date": "2024-09-27",
+        "amount": -3741.16,
+        "currency_id": 1,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Alexander Bailey",
+        "sender": "Gabriel Martin",
+        "title": "Strategic Outreach Development",
+        "date": "2024-05-09",
+        "amount": 3749.62,
+        "currency_id": 3,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Victoria Ward",
+        "sender": "Gabriel Martin",
+        "title": "Fleet Expansion",
+        "date": "2024-10-19",
+        "amount": -1250.91,
+        "currency_id": 2,
+        "tag": "equipment"
+    },
+    {
+        "recipient": "Chloe Sanders",
+        "sender": "Benjamin Collins",
+        "title": "Employee Engagement Program",
+        "date": "2023-12-16",
+        "amount": 557.48,
+        "currency_id": 3,
+        "tag": "employees"
+    },
+    {
+        "recipient": "Chelsea Hernandez",
+        "sender": "Sophia Mitchell",
+        "title": "Logistical Arrangements for Engagement",
+        "date": "2024-03-26",
+        "amount": 4472.47,
+        "currency_id": 3,
+        "tag": "travel"
+    },
+    {
+        "recipient": "Sophia Bell",
+        "sender": "Michael Reed",
+        "title": "Market Penetration Tactics",
+        "date": "2024-08-19",
+        "amount": -2083.33,
+        "currency_id": 3,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Chelsea Hernandez",
+        "sender": "Taylor Jensen",
+        "title": "Hardware Upgrade Initiative",
+        "date": "2023-10-27",
+        "amount": 917.47,
+        "currency_id": 3,
+        "tag": "equipment"
+    },
+    {
+        "recipient": "Samuel Murphy",
+        "sender": "Grace Stewart",
+        "title": "Market Penetration Tactics",
+        "date": "2024-05-02",
+        "amount": 3504.23,
+        "currency_id": 1,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "David Morgan",
+        "sender": "David Rogers",
+        "title": "Operational Strategy Counsel",
+        "date": "2023-12-18",
+        "amount": 3728.76,
+        "currency_id": 3,
+        "tag": "consulting"
+    },
+    {
+        "recipient": "Benjamin Lewis",
+        "sender": "William King",
+        "title": "Human Capital Improvement",
+        "date": "2024-05-08",
+        "amount": 2153.71,
+        "currency_id": 2,
+        "tag": "employees"
+    },
+    {
+        "recipient": "Chelsea Hernandez",
+        "sender": "Amelia Morgan",
+        "title": "Strategic Outreach Development",
+        "date": "2024-05-28",
+        "amount": -4426.69,
+        "currency_id": 1,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Jennifer Flores",
+        "sender": "Ella Walker",
+        "title": "Outreach Campaign Execution",
+        "date": "2024-02-02",
+        "amount": 3661.93,
+        "currency_id": 3,
+        "tag": "marketing"
+    },
+    {
+        "recipient": "Patricia Rodriguez",
+        "sender": "Evelyn Perry",
+        "title": "Fleet Expansion",
+        "date": "2024-07-08",
+        "amount": 4331.95,
+        "currency_id": 1,
+        "tag": "equipment"
+    }
 ]
  
