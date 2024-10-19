@@ -75,7 +75,7 @@
         "recipient": "Alyssa Allen", 
         "sender": "Grace Perez",
         "title": "Staff Mobility Expenditures",
-        "date": "2014-07-23",
+        "date": "2024-10-20",
         "amount": -3609.99,
         "currency_id": 3,
         "tag": "travel"
@@ -102,7 +102,7 @@
         "recipient": "Aaron Rogers", 
         "sender": "Sophia Ward",
         "title": "HR Policy Consultation",
-        "date": "2011-02-10",
+        "date": "2024-10-20",
         "amount": -1876.88,
         "currency_id": 3,
         "tag": "consulting"
@@ -129,7 +129,7 @@
         "recipient": "Olivia Ward", 
         "sender": "Dylan Parker",
         "title": "Team Skill Development Workshop",
-        "date": "2010-04-16",
+        "date": "2024-10-19",
         "amount": -1524.39,
         "currency_id": 1,
         "tag": "employees"
@@ -165,7 +165,7 @@
         "recipient": "Aiden Bennett", 
         "sender": "Aubrey Roberts",
         "title": "Promotional Material Development",
-        "date": "2012-10-17",
+        "date": "2024-10-19",
         "amount": -4532.24,
         "currency_id": 2,
         "tag": "marketing"
@@ -201,7 +201,7 @@
         "recipient": "Evelyn Morgan", 
         "sender": "Addison Gray",
         "title": "IT Advisory Services",
-        "date": "2017-02-02",
+        "date": "2024-10-19",
         "amount": -3479.57,
         "currency_id": 2,
         "tag": "consulting"
@@ -237,7 +237,7 @@
         "recipient": "Liam Lee", 
         "sender": "Ethan Hernandez",
         "title": "Board Meeting Facilitation Costs",
-        "date": "2013-01-04",
+        "date": "2024-10-19",
         "amount": -1745.92,
         "currency_id": 3,
         "tag": "corporate meetings"
@@ -345,7 +345,7 @@
         "recipient": "Alyssa Allen", 
         "sender": "Grace Perez",
         "title": "Staff Mobility Expenditures",
-        "date": "2014-07-23",
+        "date": "2024-10-18",
         "amount": -3609.99,
         "currency_id": 3,
         "tag": "travel"
@@ -372,7 +372,7 @@
         "recipient": "Aaron Rogers", 
         "sender": "Sophia Ward",
         "title": "HR Policy Consultation",
-        "date": "2011-02-10",
+        "date": "2024-10-18",
         "amount": -1876.88,
         "currency_id": 3,
         "tag": "consulting"
@@ -399,7 +399,7 @@
         "recipient": "Olivia Ward", 
         "sender": "Dylan Parker",
         "title": "Team Skill Development Workshop",
-        "date": "2010-04-16",
+        "date": "2024-10-18",
         "amount": 1524.39,
         "currency_id": 1,
         "tag": "employees"
@@ -435,7 +435,7 @@
         "recipient": "Aiden Bennett", 
         "sender": "Aubrey Roberts",
         "title": "Promotional Material Development",
-        "date": "2012-10-17",
+        "date": "2024-10-18",
         "amount": -4532.24,
         "currency_id": 2,
         "tag": "marketing"
@@ -471,7 +471,7 @@
         "recipient": "Evelyn Morgan", 
         "sender": "Addison Gray",
         "title": "IT Advisory Services",
-        "date": "2017-02-02",
+        "date": "2024-10-17",
         "amount": 3479.57,
         "currency_id": 2,
         "tag": "consulting"
@@ -507,7 +507,7 @@
         "recipient": "Liam Lee", 
         "sender": "Ethan Hernandez",
         "title": "Board Meeting Facilitation Costs",
-        "date": "2013-01-04",
+        "date": "2024-10-17",
         "amount": 1745.92,
         "currency_id": 3,
         "tag": "corporate meetings"
@@ -534,7 +534,7 @@
         "recipient": "Ethan Perry", 
         "sender": "Liam Myers",
         "title": "Expedition for Insight Gathering",
-        "date": "2010-09-03",
+        "date": "2024-10-17",
         "amount": 3951.68,
         "currency_id": 3,
         "tag": "travel"
@@ -552,7 +552,7 @@
         "recipient": "Emily Cox", 
         "sender": "Aiden Carter",
         "title": "Leadership Skills Development Seminar",
-        "date": "2014-02-18",
+        "date": "2024-10-17",
         "amount": 1695.45,
         "currency_id": 2,
         "tag": "corporate meetings"
@@ -615,7 +615,7 @@
         "recipient": "Olivia Mitchell", 
         "sender": "Sophia Adams",
         "title": "Client Engagement Workshop Travel",
-        "date": "2018-01-30",
+        "date": "2024-10-16",
         "amount": 3325.45,
         "currency_id": 3,
         "tag": "travel"
@@ -633,7 +633,7 @@
         "recipient": "Grace Scott", 
         "sender": "David Stewart",
         "title": "Strategic Risk Assessment Consulting",
-        "date": "2019-04-25",
+        "date": "2024-10-16",
         "amount": 1372.29,
         "currency_id": 2,
         "tag": "consulting"
@@ -687,7 +687,7 @@
         "recipient": "Gabriel Rogers", 
         "sender": "Samuel Bailey",
         "title": "Product Development Consulting Services",
-        "date": "2015-06-08",
+        "date": "2024-10-16",
         "amount": -2031.92,
         "currency_id": 2,
         "tag": "consulting"
@@ -714,7 +714,7 @@
         "recipient": "Isabella Hill", 
         "sender": "Aubrey Johnson",
         "title": "Agency Partnership Costs",
-        "date": "2013-06-25",
+        "date": "2024-10-16",
         "amount": 3284.73,
         "currency_id": 2,
         "tag": "marketing"
@@ -741,7 +741,7 @@
         "recipient": "Mason Ward", 
         "sender": "Amelia Stewart",
         "title": "Energy Assessment Services",
-        "date": "2017-08-29",
+        "date": "2024-10-15",
         "amount": -2871.82,
         "currency_id": 2,
         "tag": "office"
@@ -768,7 +768,7 @@
         "recipient": "Benjamin Rivera", 
         "sender": "Lucas Bryant",
         "title": "Showcase Presentation Travel",
-        "date": "2011-12-29",
+        "date": "2024-10-15",
         "amount": 1785.34,
         "currency_id": 2,
         "tag": "travel"
@@ -813,7 +813,7 @@
         "recipient": "Chloe Thompson", 
         "sender": "Joshua Scott",
         "title": "Employee Training Expenses",
-        "date": "2016-06-19",
+        "date": "2024-10-15",
         "amount": 2221.75,
         "currency_id": 1,
         "tag": "employees"
@@ -831,7 +831,7 @@
         "recipient": "Aubrey White", 
         "sender": "Samuel Clark",
         "title": "Consulting for Branding Strategy",
-        "date": "2013-02-13",
+        "date": "2024-10-15",
         "amount": 2178.60,
         "currency_id": 3,
         "tag": "consulting"
@@ -858,7 +858,7 @@
         "recipient": "Alexander Walker", 
         "sender": "Madison Wilson",
         "title": "Consulting for Digital Marketing",
-        "date": "2021-04-22",
+        "date": "2024-10-14",
         "amount": -4132.17,
         "currency_id": 3,
         "tag": "consulting"
@@ -876,7 +876,7 @@
         "recipient": "Aiden Roberts", 
         "sender": "William Walker",
         "title": "Marketing Strategy Workshop",
-        "date": "2012-09-07",
+        "date": "2024-10-14",
         "amount": -2299.44,
         "currency_id": 2,
         "tag": "marketing"

@@ -28,7 +28,7 @@ class User:
                SUM(amount) AS total, 
         """
 
-        if key == "day":
+        if key == "days":
             query += "date::date AS period"
         elif key == "month":
             query += "EXTRACT(YEAR FROM date) AS period"

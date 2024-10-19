@@ -1,6 +1,6 @@
-from fastapi import APIRouter, Query
+from fastapi import APIRouter, Query, HTTPException
 from fastapi.templating import Jinja2Templates
-from datetime import date
+from datetime import date, datetime
 from database.users import User
 
 router = APIRouter()
@@ -50,9 +50,19 @@ async def get_records(
     
     - **from_date**: The start date of the range.
     - **to_date**: The end date of the range.
-    - **key**: The period to group by ('day', 'month', or 'year').
+    - **key**: The period to group by ('days', 'month', or 'year').
     - **type**: The type of records to fetch ('expenses', 'revenue', or 'profit').
     """
+
+    num_days = (to_date - from_date).days
+
+    if key == "days" and num_days > 14:
+        raise HTTPException(
+            status_code=400,
+            detail="You can't choose more than 14 days in day mode."
+        )
+
+
     records = User.get_records_by_date_range(from_date, to_date, key, type)
 
     tags = set(record["tag"] for record in records)
@@ -63,21 +73,40 @@ async def get_records(
             grouped_records[i] = {}
             for tag in tags:
                 grouped_records[i][tag] = 0
+    elif key == "days":
+        for i in range(1, num_days+1):
+            grouped_records[i] = {}
+            for tag in tags:
+                grouped_records[i][tag] = 0
 
     for record in records:
-        period = int(record["period"])
+        if key == "days":
+            record_date = datetime.strptime(str(record["period"]), "%Y-%m-%d").date()
+
+            period = (record_date - from_date).days + 1
+        else:
+            period = int(record["period"])
         tag = record["tag"]
         total = record["total"]
 
         grouped_records[period][tag] += total
 
-    data = [
-        {
-            "period": MONTH_NAMES[period] if key == "year" else period,
-            "transactions": transactions,
-        }
-        for period, transactions in grouped_records.items()
-    ]
+    if key == "year":
+        data = [
+            {
+                "period": MONTH_NAMES[period],
+                "transactions": transactions,
+            }
+            for period, transactions in grouped_records.items()
+        ]
+    elif key == "days":
+         data = [
+            {
+                "period": period,
+                "transactions": transactions,
+            }
+            for period, transactions in grouped_records.items()
+         ]
 
     return {
         "data": data,
