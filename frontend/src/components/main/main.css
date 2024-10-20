@@ -38,9 +38,10 @@
   .rectangleBig {
     background-color: #E9F5EB;
     flex: 1;
+    width: 150%;
     padding: 50px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin: auto;
+    justify-content: center;
     box-shadow: 0px 4px 4px 0px #00000040;
     gap: 0px;
     border-radius: 30px;

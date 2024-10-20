@@ -20,6 +20,8 @@ import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { getUserTags } from "@/api/tagsEndpoint";
 import { getTransactions } from "@/api/transactionsEndpoint";
 import '@/styles/globals.css';
+import DataTableExtra from "@/components/ui/data-table-extra";
+import '../main/main.css';
 
 // Import komponentów dialogu z shadcn/ui
 import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogClose } from "@/components/ui/dialog"; // Dostosuj ścieżkę importu zgodnie z Twoją strukturą projektu
@@ -365,20 +367,11 @@ export function Component() {
         </CardContent>
       </Card>
 
-      {/* Dialog z shadcn/ui */}
       <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
-        <DialogContent>
-          <DialogHeader>
-            <DialogTitle>Szczegóły Transakcji</DialogTitle>
-            <DialogDescription>
-              Szczegóły dotyczące wybranego segmentu wykresu.
-            </DialogDescription>
-          </DialogHeader>
-          <div>
-            <p><strong>Okres:</strong> {dialogContent.period || 'N/A'}</p>
-            <p><strong>Tag:</strong> {currentConfig.labels[dialogContent.key] || 'N/A'}</p>
-            <p><strong>Wartość:</strong> {typeof dialogContent.value === 'number' ? dialogContent.value.toLocaleString() : 'N/A'} €</p>
-          </div>
+        <DialogContent style={{width: '100%', backgroundColor: 'rgba(0,0,0,0)', border: '0'}}>
+            <div className="rectangleBig">
+              <DataTableExtra />
+            </div>
           <DialogClose asChild>
           </DialogClose>
         </DialogContent>
