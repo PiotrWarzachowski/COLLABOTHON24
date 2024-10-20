@@ -149,19 +149,17 @@ async def get_records(
 
 
 @router.get(
-    "/transactions/",
-    summary="Get most recent 5 transactions",
-    description="Fetch the most recent 5 transactions.",
+    "/transactions",
 )
 async def get_recent_transactions():
     """
-    Fetch the most recent 5 transactions from the database.
+    Fetch the all transactions from the database.
 
     Returns:
-    - **transactions**: A list of up to 5 most recent transactions.
+    - **transactions**: A list of all transactions.
     """
     try:
-        transactions = User.get_recent_transactions_from_db()
+        transactions = User.get_all_transactions_from_db()
 
         return {"transactions": [transaction.to_dict() for transaction in transactions]}
 
