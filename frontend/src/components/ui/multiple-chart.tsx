@@ -356,13 +356,7 @@ export function Component() {
               marginTop: "10px",
             }}
           >
-            <p style={{ fontWeight: "bold", fontSize: "14px" }}>
-              Trending up by 5.2% this month
-            </p>
-            <p style={{ fontSize: "12px", fontWeight: "200" }}>
-              Displaying financial performance for the selected date
-              range.
-            </p>
+            <img src="../../public/warning.svg" style={{ height: '80px', paddingBottom: '15px' }} alt="search" />
           </div>
         </CardContent>
       </Card>
