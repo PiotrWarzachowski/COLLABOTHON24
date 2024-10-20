@@ -185,4 +185,4 @@ class User:
         cur.close()
         db.close_connection(conn)
 
-        return [record[0] for record in records]
+        return {"tags": [record[0] for record in records]}
