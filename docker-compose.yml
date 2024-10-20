@@ -11,8 +11,6 @@ services:
     env_file:
       - .env
     command: pnpm run dev
-    volumes:
-      - ./frontend/:/code/
     depends_on:
       - backend
 
