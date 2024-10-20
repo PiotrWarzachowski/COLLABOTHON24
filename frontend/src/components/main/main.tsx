@@ -25,12 +25,6 @@ const Main: React.FC = () => {
           <MultipleChart />
         </div>
       </div>
-
-      <div className="row">
-        <div className="rectangleBig">
-          <DataTableExtra /> {/* Użycie nowego komponentu */}
-        </div>
-      </div>
     </main>
   );
 };
