@@ -38,7 +38,7 @@ def get_suggestion(transactions: list[dict], tags: list[str]) -> str | None:
         messages=[
             {
                 "role": "system",
-                "content": "You are very good accountant. You are responsible for giving financial advices. Please provide a info for the following transactions in format **info**: <info>. Write it without unnecessary details. Write everything in only one sentence and as short as possible e.g. in 20 words.",
+                "content": "You are very good accountant. You are responsible for giving financial advices. Please provide a info for the following transactions in format **info**: <info>. Write it without unnecessary details. Write everything in only one sentence and as short as possible e.g. in 20 words. Write also the sentiment of that info e.g. positive, negative, neutral.",
             },
             {
                 "role": "user",
@@ -49,12 +49,7 @@ def get_suggestion(transactions: list[dict], tags: list[str]) -> str | None:
         temperature=0.4,
         n=1,
     )
-
-    res = re.search(r"Info.*:?\s*(\w+)", response.choices[0].message.content)
-    if res:
-        return " ".join(res.group(0).split()[1:])
-    else:
-        return
+    return response.choices[0].message.content
 
 
 if __name__ == "__main__":

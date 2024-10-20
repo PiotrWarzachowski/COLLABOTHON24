@@ -5,13 +5,14 @@ from database.utils import Database
 
 
 class Transaction:
-    def __init__(self, recipient, sender, title, date, amount, currency_id):
+    def __init__(self, recipient, sender, title, date, amount, currency_id, tag):
         self.recipient = recipient
         self.sender = sender
         self.title = title
         self.date = date
         self.amount = amount
         self.currency_id = currency_id
+        self.tag = tag
 
     def to_dict(self):
         return {
@@ -104,7 +105,7 @@ class User:
         cur = conn.cursor()
 
         query = """
-        SELECT recipient, sender, title, date, amount, currency_id
+        SELECT recipient, sender, title, date, amount, currency_id, tag
         FROM transactions_with_tag
         ORDER BY date DESC
         LIMIT 5
@@ -124,6 +125,40 @@ class User:
                 date=record[3],
                 amount=record[4],
                 currency_id=record[5],
+                tag=record[6]
+            )
+            for record in records
+        ]
+
+        return transactions
+
+    @staticmethod
+    def get_all_transactions_from_db() -> List[Transaction]:
+        db = Database()
+        conn = db.create_connection()
+        cur = conn.cursor()
+
+        query = """
+            SELECT recipient, sender, title, date, amount, currency_id, tag
+            FROM transactions_with_tag
+            ORDER BY date DESC
+            """
+
+        cur.execute(query)
+        records = cur.fetchall()
+
+        cur.close()
+        db.close_connection(conn)
+
+        transactions = [
+            Transaction(
+                recipient=record[0],
+                sender=record[1],
+                title=record[2],
+                date=record[3],
+                amount=record[4],
+                currency_id=record[5],
+                tag=record[6],
             )
             for record in records
         ]
