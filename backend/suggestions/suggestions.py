@@ -4,6 +4,7 @@ import re
 
 import openai
 from dotenv import load_dotenv
+from typing import Optional
 
 load_dotenv()
 openai_api_key = os.getenv("OPENAI_API_KEY")
@@ -18,14 +19,14 @@ def format_transaction(transaction: dict) -> str:
     return "\n".join([f"**{k}**: {v}" for k, v in transaction.items()])
 
 
-def get_suggestion(transactions: list[dict], tags: list[str]) -> str | None:
+def get_suggestion(transactions: list[dict], tags: list[str]) -> str:
     """
     Get a suggestion for a new transaction based on the existing transactions and tags.
     :param transactions: List of dictionaries containing the existing transactions
     :param tags: List of existing tags
-    :return: A suggestion for a new transaction or None if no suggestion is generated
+    :return: A suggestion for a new transaction
     """
-    with open("backend/suggestions/prompt_template.txt", "r") as f:
+    with open("suggestions/prompt_template.txt", "r") as f:
         prompt_template = f.read()
 
     prompt = prompt_template.format(

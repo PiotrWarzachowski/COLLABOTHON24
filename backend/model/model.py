@@ -71,7 +71,7 @@ class Model:
         :param transaction: Dictionary containing the transaction data
         :return: String prompt for embedding generation
         """
-        with open("backend/model/prompt_template.txt", "r") as f:
+        with open("model/prompt_template.txt", "r") as f:
             prompt_template = f.read()
         transaction = map_transaction(transaction)
         prompt = prompt_template.format(
