@@ -10,8 +10,6 @@ import {
 } from "@/components/ui/card";
 import '@/styles/globals.css';
 
-export const description = "A donut chart with a legend showing values and tags";
-
 const revenueColors = [
   '#173739',
   '#4C7F81',
@@ -23,21 +21,29 @@ const revenueColors = [
 ];
 
 const revenueData = [
-  { productA: 120, productB: 91, productC: 60, productD: 12, productE: 90 },
+  { 
+    Account: 312412,
+    Credit: 122000,
+    Credit2: 444123, 
+    savingAccount: 30123, 
+    savingAccount2: 400000, 
+    savingAccount3: 863123
+  },
 ];
 
 const currentConfig = {
   data: revenueData,
-  keys: ["productA", "productB", "productC", "productD", "productE"],
+  keys: ["Account", "Credit", "Credit2", "savingAccount", "savingAccount2", "savingAccount3"],
   colors: revenueColors,
   labels: {
-    productA: "Product A",
-    productB: "Product B",
-    productC: "Product C",
-    productD: "Product D",
-    productE: "Product E",
+    Account: "Account",
+    Credit: "Car credit",
+    Credit2: "House credit",
+    savingAccount: "Savings Account for vacation",
+    savingAccount2: "Savings Account for house",
+    savingAccount3: "Account for employee salaries",
   },
-  title: "Total Revenue",
+  title: "Sum of all products",
 };
 
 function CustomLegend({ labels, colors, data }) {
@@ -49,8 +55,6 @@ function CustomLegend({ labels, colors, data }) {
         flexDirection: "column",
         fontSize: "1rem",
         lineHeight: "1.5",
-        alignItems: "center", // Center horizontally
-        justifyContent: "center", // Center vertically
       }}
     >
       {Object.keys(labels).map((key, index) => (
@@ -70,10 +74,8 @@ function CustomLegend({ labels, colors, data }) {
               marginRight: 8,
               borderRadius: "10px",
             }}
-          ></div>
-          <span>
-            {data[key]} ({labels[key]})
-          </span>
+          ></div>        
+          <p><span style={{fontWeight: 'bold'}}>{data[key].toLocaleString()} $</span>, {`${labels[key]}`}</p>
         </div>
       ))}
     </div>
@@ -92,7 +94,7 @@ const CustomTooltip = ({ active, payload }) => {
           padding: "10px",
         }}
       >
-        <p>{`${data.payload.name}: ${data.payload.value}`}</p>
+        <p>{`${data.payload.name}`}, <span style={{fontWeight: 'bold'}}>{data.payload.value.toLocaleString()} $</span></p>
       </div>
     );
   }
@@ -132,7 +134,7 @@ export function Component() {
       >
         <CardHeader>
           <CardTitle style={{ fontSize: "2.8rem" }}>
-            {currentConfig.title}: {totalValue} $
+            {currentConfig.title}: {totalValue.toLocaleString()} $
           </CardTitle>
         </CardHeader>
         <CardContent

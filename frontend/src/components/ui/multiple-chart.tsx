@@ -18,6 +18,7 @@ import {
 import DatePicker from "@/components/ui/date-picker";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { getUserTags } from "@/api/tagsEndpoint";
+import { getTransactions } from "@/api/transactionsEndpoint";
 import '@/styles/globals.css';
 
 export const description = "A stacked bar chart with a legend";
