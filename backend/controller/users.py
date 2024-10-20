@@ -1,10 +1,9 @@
 from datetime import date, datetime
 
-from fastapi import APIRouter, Query, HTTPException
+from database.users import User
+from fastapi import APIRouter, HTTPException, Query
 from fastapi.templating import Jinja2Templates
-
-from ..database.users import User
-from backend.model import Model
+from model import Model
 
 router = APIRouter()
 templates = Jinja2Templates(directory="database/view")
@@ -172,7 +171,7 @@ async def get_recent_transactions():
 @router.post(
     "/generate/tag",
     summary="Generate a tag for given transaction",
-    description="Generate a tag for a given transaction."
+    description="Generate a tag for a given transaction.",
 )
 async def generate_tag(transaction: dict):
     """
@@ -187,7 +186,7 @@ async def generate_tag(transaction: dict):
 @router.post(
     "/generate/suggestion",
     summary="Generate a suggestion for a new transaction",
-    description="Generate a suggestion for a new transaction based on existing transactions and tags."
+    description="Generate a suggestion for a new transaction based on existing transactions and tags.",
 )
 async def generate_suggestion(transactions: list[dict]):
     """
@@ -196,5 +195,5 @@ async def generate_suggestion(transactions: list[dict]):
     Returns:
     - **suggestion**: The generated suggestion.
     """
-    suggestion = generate_suggestion(transactions, tags)
+    suggestion = generate_suggestion(transactions)
     return {"suggestion": suggestion}

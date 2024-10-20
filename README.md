@@ -25,12 +25,5 @@ alembic revision --autogenerate -m "example comment"
 alembic upgrade head
 ```
 
-### Populating db with sample records
-To populate db you can simply do
-```
-cd database
-python3 utils.py
-```
-
 ### API
 Api documentation is at `http://0.0.0.0:8000/docs#` if run from docker without modifications

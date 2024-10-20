@@ -5,7 +5,6 @@ import re
 import openai
 from dotenv import load_dotenv
 
-
 load_dotenv()
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
@@ -26,7 +25,7 @@ def get_suggestion(transactions: list[dict], tags: list[str]) -> str | None:
     :param tags: List of existing tags
     :return: A suggestion for a new transaction or None if no suggestion is generated
     """
-    with open('backend/suggestions/prompt_template.txt', 'r') as f:
+    with open("backend/suggestions/prompt_template.txt", "r") as f:
         prompt_template = f.read()
 
     prompt = prompt_template.format(
@@ -44,11 +43,11 @@ def get_suggestion(transactions: list[dict], tags: list[str]) -> str | None:
             {
                 "role": "user",
                 "content": prompt,
-            }
+            },
         ],
         max_tokens=50,
         temperature=0.4,
-        n=1
+        n=1,
     )
 
     res = re.search(r"Info.*:?\s*(\w+)", response.choices[0].message.content)
@@ -67,7 +66,7 @@ if __name__ == "__main__":
             "Date": "2024-08-31",
             "Amount": 3000.00,
             "Currency ID": 2,
-            "Tag": "advertising"
+            "Tag": "advertising",
         },
         {
             "Recipient": "Lily Chen",
@@ -76,18 +75,18 @@ if __name__ == "__main__":
             "Date": "2024-09-30",
             "Amount": 2500.00,
             "Currency ID": 2,
-            "Tag": "marketing"
-        }
+            "Tag": "marketing",
+        },
     ]
 
     _tags = [
-        'office',
-        'employees',
-        'corporate meetings',
-        'travel',
-        'equipment',
-        'marketing',
-        'consulting',
+        "office",
+        "employees",
+        "corporate meetings",
+        "travel",
+        "equipment",
+        "marketing",
+        "consulting",
     ]
 
     suggestion = get_suggestion(_transactions, _tags)

@@ -20,7 +20,7 @@ RUN corepack enable pnpm
 
 RUN pnpm run build
 
-FROM development as dev-envs
+FROM development AS dev-envs
 RUN apt-get update
 RUN apt-get install -y --no-install-recommends git
 

@@ -38,20 +38,20 @@
     {
         "recipient": "Patricia Rodriguez",
         "sender": "Michael Cook",
-        "title": "Transaction related to corporate meetings",
+        "title": "Transaction related to Licensing",
         "date": "2024-10-10",
         "amount": 3258.88,
         "currency_id": 2,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Andrea English",
         "sender": "Javier Nelson",
-        "title": "Transaction related to corporate meetings",
+        "title": "Transaction related to Licensing",
         "date": "2024-10-10",
         "amount": -2163.4,
         "currency_id": 1,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Nicole Davis",
@@ -164,20 +164,20 @@
     {
         "recipient": "Jennifer Flores",
         "sender": "Javier Nelson",
-        "title": "Transaction related to corporate meetings",
+        "title": "Transaction related to Licensing",
         "date": "2024-10-11",
         "amount": 3160.72,
         "currency_id": 3,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Andrea English",
         "sender": "Alicia Thomas",
-        "title": "Transaction related to corporate meetings",
+        "title": "Transaction related to Licensing",
         "date": "2024-10-11",
         "amount": -4810.07,
         "currency_id": 1,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Andrea English",
@@ -290,20 +290,20 @@
     {
         "recipient": "Jennifer Flores",
         "sender": "Javier Nelson",
-        "title": "Transaction related to corporate meetings",
+        "title": "Transaction related to Licensing",
         "date": "2024-10-12",
         "amount": 1353.3,
         "currency_id": 2,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Jennifer Flores",
         "sender": "Taylor Jensen",
-        "title": "Transaction related to corporate meetings",
+        "title": "Transaction related to Licensing",
         "date": "2024-10-12",
         "amount": -4137.6,
         "currency_id": 1,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Nicole Davis",
@@ -409,27 +409,27 @@
         "sender": "Taylor Jensen",
         "title": "Transaction related to employees",
         "date": "2024-10-13",
-        "amount": -3224.47,
+        "amount": -4824.47,
         "currency_id": 1,
         "tag": "Employees"
     },
     {
         "recipient": "Nicole Davis",
         "sender": "Steven Bennett",
-        "title": "Transaction related to corporate meetings",
+        "title": "Transaction related to Licensing",
         "date": "2024-10-13",
         "amount": 1704.03,
         "currency_id": 2,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Chelsea Hernandez",
         "sender": "Alicia Thomas",
-        "title": "Transaction related to corporate meetings",
+        "title": "Transaction related to Licensing",
         "date": "2024-10-13",
         "amount": -1199.22,
         "currency_id": 2,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Jennifer Flores",
@@ -463,7 +463,7 @@
         "sender": "Alicia Thomas",
         "title": "Transaction related to equipment",
         "date": "2024-10-13",
-        "amount": -3193.14,
+        "amount": -5193.14,
         "currency_id": 3,
         "tag": "Equipment"
     },
@@ -481,7 +481,7 @@
         "sender": "Steven Bennett",
         "title": "Transaction related to marketing",
         "date": "2024-10-13",
-        "amount": -2547.92,
+        "amount": -4547.92,
         "currency_id": 2,
         "tag": "Marketing"
     },
@@ -499,7 +499,7 @@
         "sender": "Michael Cook",
         "title": "Transaction related to consulting",
         "date": "2024-10-13",
-        "amount": -2101.61,
+        "amount": -3101.61,
         "currency_id": 3,
         "tag": "Consulting"
     },
@@ -517,7 +517,7 @@
         "sender": "Michael Cook",
         "title": "Transaction related to office",
         "date": "2024-10-14",
-        "amount": -1052.79,
+        "amount": -3052.79,
         "currency_id": 2,
         "tag": "Office"
     },
@@ -535,27 +535,27 @@
         "sender": "Javier Nelson",
         "title": "Transaction related to employees",
         "date": "2024-10-14",
-        "amount": -1643.46,
+        "amount": -4643.46,
         "currency_id": 2,
         "tag": "Employees"
     },
     {
         "recipient": "Chelsea Hernandez",
         "sender": "Alicia Thomas",
-        "title": "Transaction related to corporate meetings",
+        "title": "Transaction related to Licensing",
         "date": "2024-10-14",
         "amount": 1963.04,
         "currency_id": 3,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Jennifer Flores",
         "sender": "Alicia Thomas",
-        "title": "Transaction related to corporate meetings",
+        "title": "Transaction related to Licensing",
         "date": "2024-10-14",
-        "amount": -3460.53,
+        "amount": -1460.53,
         "currency_id": 3,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Nicole Davis",
@@ -571,7 +571,7 @@
         "sender": "Steven Bennett",
         "title": "Transaction related to travel",
         "date": "2024-10-14",
-        "amount": -3819.07,
+        "amount": -1819.07,
         "currency_id": 3,
         "tag": "Travel"
     },
@@ -625,7 +625,7 @@
         "sender": "Steven Bennett",
         "title": "Transaction related to consulting",
         "date": "2024-10-14",
-        "amount": -4346.04,
+        "amount": -2346.04,
         "currency_id": 3,
         "tag": "Consulting"
     },
@@ -661,27 +661,27 @@
         "sender": "Taylor Jensen",
         "title": "Transaction related to employees",
         "date": "2024-10-15",
-        "amount": -2738.49,
+        "amount": -3738.49,
         "currency_id": 2,
         "tag": "Employees"
     },
     {
         "recipient": "Andrea English",
         "sender": "Steven Bennett",
-        "title": "Transaction related to corporate meetings",
+        "title": "Transaction related to Licensing",
         "date": "2024-10-15",
         "amount": 1415.37,
         "currency_id": 1,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Nicole Davis",
         "sender": "Alicia Thomas",
-        "title": "Transaction related to corporate meetings",
+        "title": "Transaction related to Licensing",
         "date": "2024-10-15",
-        "amount": -4054.43,
+        "amount": -1054.43,
         "currency_id": 2,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Nicole Davis",
@@ -733,7 +733,7 @@
         "sender": "Alicia Thomas",
         "title": "Transaction related to marketing",
         "date": "2024-10-15",
-        "amount": -1944.13,
+        "amount": -2944.13,
         "currency_id": 3,
         "tag": "Marketing"
     },
@@ -794,20 +794,20 @@
     {
         "recipient": "Patricia Rodriguez",
         "sender": "Javier Nelson",
-        "title": "Transaction related to corporate meetings",
+        "title": "Transaction related to Licensing",
         "date": "2024-10-16",
         "amount": 4319.76,
         "currency_id": 2,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Chelsea Hernandez",
         "sender": "Steven Bennett",
-        "title": "Transaction related to corporate meetings",
+        "title": "Transaction related to Licensing",
         "date": "2024-10-16",
         "amount": -2005.73,
         "currency_id": 1,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -841,7 +841,7 @@
         "sender": "Steven Bennett",
         "title": "Transaction related to equipment",
         "date": "2024-10-16",
-        "amount": -4076.87,
+        "amount": -4676.87,
         "currency_id": 2,
         "tag": "Equipment"
     },
@@ -874,7 +874,7 @@
     },
     {
         "recipient": "Chelsea Hernandez",
-        "sender": "Michael Cook",
+        "sender": "Michaelx Cook",
         "title": "Transaction related to consulting",
         "date": "2024-10-16",
         "amount": -3442.29,
@@ -920,20 +920,20 @@
     {
         "recipient": "Patricia Rodriguez",
         "sender": "Steven Bennett",
-        "title": "Transaction related to corporate meetings",
+        "title": "Transaction related to Licensing",
         "date": "2024-10-17",
         "amount": 4373.19,
         "currency_id": 3,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Andrea English",
         "sender": "Steven Bennett",
-        "title": "Transaction related to corporate meetings",
+        "title": "Transaction related to Licensing",
         "date": "2024-10-17",
         "amount": -2135.26,
         "currency_id": 2,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -1046,20 +1046,20 @@
     {
         "recipient": "Patricia Rodriguez",
         "sender": "Taylor Jensen",
-        "title": "Transaction related to corporate meetings",
+        "title": "Transaction related to Licensing",
         "date": "2024-10-18",
         "amount": 3725.18,
         "currency_id": 3,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Jennifer Flores",
         "sender": "Steven Bennett",
-        "title": "Transaction related to corporate meetings",
+        "title": "Transaction related to Licensing",
         "date": "2024-10-18",
         "amount": -3677.14,
         "currency_id": 2,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Nicole Davis",
@@ -1172,20 +1172,20 @@
     {
         "recipient": "Chelsea Hernandez",
         "sender": "Alicia Thomas",
-        "title": "Transaction related to corporate meetings",
+        "title": "Transaction related to Licensing",
         "date": "2024-10-19",
         "amount": 1119.48,
         "currency_id": 3,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Andrea English",
         "sender": "Taylor Jensen",
-        "title": "Transaction related to corporate meetings",
+        "title": "Transaction related to Licensing",
         "date": "2024-10-19",
         "amount": -4128.57,
         "currency_id": 1,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Nicole Davis",
@@ -1298,20 +1298,20 @@
     {
         "recipient": "Chelsea Hernandez",
         "sender": "Taylor Jensen",
-        "title": "Transaction related to corporate meetings",
+        "title": "Transaction related to Licensing",
         "date": "2024-10-20",
         "amount": 3894.44,
         "currency_id": 3,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Andrea English",
         "sender": "Taylor Jensen",
-        "title": "Transaction related to corporate meetings",
+        "title": "Transaction related to Licensing",
         "date": "2024-10-20",
         "amount": -4345.01,
         "currency_id": 3,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -1424,20 +1424,20 @@
     {
         "recipient": "Nicole Davis",
         "sender": "Alicia Thomas",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2023-09-01",
         "amount": 13120.15,
         "currency_id": 3,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Andrea English",
         "sender": "Javier Nelson",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2023-09-01",
         "amount": -19250.23,
         "currency_id": 2,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -1550,20 +1550,20 @@
     {
         "recipient": "Jennifer Flores",
         "sender": "Michael Cook",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2023-10-01",
         "amount": 32100.29,
         "currency_id": 1,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Andrea English",
         "sender": "Michael Cook",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2023-10-01",
         "amount": -10600.17,
         "currency_id": 2,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Nicole Davis",
@@ -1676,20 +1676,20 @@
     {
         "recipient": "Jennifer Flores",
         "sender": "Alicia Thomas",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2023-11-01",
         "amount": 42530.77,
         "currency_id": 3,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Jennifer Flores",
         "sender": "Michael Cook",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2023-11-01",
         "amount": -45000.04,
         "currency_id": 3,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Jennifer Flores",
@@ -1802,20 +1802,20 @@
     {
         "recipient": "Andrea English",
         "sender": "Alicia Thomas",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2023-12-01",
         "amount": 33610.92,
         "currency_id": 3,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Jennifer Flores",
         "sender": "Taylor Jensen",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2023-12-01",
         "amount": -38800.58,
         "currency_id": 2,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -1928,20 +1928,20 @@
     {
         "recipient": "Patricia Rodriguez",
         "sender": "Steven Bennett",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2024-01-01",
         "amount": 35520.76,
         "currency_id": 1,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Chelsea Hernandez",
         "sender": "Javier Nelson",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2024-01-01",
         "amount": -21500.38,
         "currency_id": 3,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Andrea English",
@@ -2054,20 +2054,20 @@
     {
         "recipient": "Chelsea Hernandez",
         "sender": "Javier Nelson",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2024-02-01",
         "amount": 18670.26,
         "currency_id": 3,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Patricia Rodriguez",
         "sender": "Alicia Thomas",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2024-02-01",
         "amount": -24360.88,
         "currency_id": 3,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Patricia Rodriguez",
@@ -2180,20 +2180,20 @@
     {
         "recipient": "Andrea English",
         "sender": "Steven Bennett",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2024-03-01",
         "amount": 11650.77,
         "currency_id": 2,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Nicole Davis",
         "sender": "Alicia Thomas",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2024-03-01",
         "amount": -46180.8,
         "currency_id": 2,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Andrea English",
@@ -2306,20 +2306,20 @@
     {
         "recipient": "Andrea English",
         "sender": "Steven Bennett",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2024-04-01",
         "amount": 12110.81,
         "currency_id": 2,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Patricia Rodriguez",
         "sender": "Alicia Thomas",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2024-04-01",
         "amount": -18390.85,
         "currency_id": 1,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -2432,20 +2432,20 @@
     {
         "recipient": "Patricia Rodriguez",
         "sender": "Alicia Thomas",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2024-05-01",
         "amount": 20420.91,
         "currency_id": 1,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Jennifer Flores",
         "sender": "Alicia Thomas",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2024-05-01",
         "amount": -23270.95,
         "currency_id": 2,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2558,20 +2558,20 @@
     {
         "recipient": "Nicole Davis",
         "sender": "Taylor Jensen",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2024-06-01",
         "amount": 18870.43,
         "currency_id": 1,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Chelsea Hernandez",
         "sender": "Steven Bennett",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2024-06-01",
         "amount": -21910.18,
         "currency_id": 1,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Andrea English",
@@ -2684,20 +2684,20 @@
     {
         "recipient": "Patricia Rodriguez",
         "sender": "Alicia Thomas",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2024-07-01",
         "amount": 33910.23,
         "currency_id": 2,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Patricia Rodriguez",
         "sender": "Taylor Jensen",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2024-07-01",
         "amount": -11750.85,
         "currency_id": 1,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Chelsea Hernandez",
@@ -2810,20 +2810,20 @@
     {
         "recipient": "Nicole Davis",
         "sender": "Taylor Jensen",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2024-08-01",
         "amount": 33980.54,
         "currency_id": 2,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Chelsea Hernandez",
         "sender": "Alicia Thomas",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2024-08-01",
         "amount": -34830.66,
         "currency_id": 2,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Jennifer Flores",
@@ -2936,20 +2936,20 @@
     {
         "recipient": "Patricia Rodriguez",
         "sender": "Michael Cook",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2024-09-01",
         "amount": 35820.41,
         "currency_id": 3,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Nicole Davis",
         "sender": "Michael Cook",
-        "title": "Monthly transaction related to corporate meetings",
+        "title": "Monthly transaction related to Licensing",
         "date": "2024-09-01",
         "amount": -11500.83,
         "currency_id": 2,
-        "tag": "Corporate Meetings"
+        "tag": "Licensing"
     },
     {
         "recipient": "Patricia Rodriguez",

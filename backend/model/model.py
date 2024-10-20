@@ -4,9 +4,7 @@ import re
 
 import openai
 from dotenv import load_dotenv
-
-from utils import map_transaction
-
+from model.utils import map_transaction
 
 load_dotenv()
 openai_api_key = os.getenv("OPENAI_API_KEY")
@@ -50,14 +48,18 @@ class Model:
                 {
                     "role": "user",
                     "content": prompt,
-                }
+                },
             ],
             max_tokens=100,
             temperature=0.4,
-            n=1
+            n=1,
         )
 
-        tag = " ".join(re.search(r"tag.*:?\s*(\w+)", response.choices[0].message.content).group(0).split()[1:])
+        tag = " ".join(
+            re.search(r"tag.*:?\s*(\w+)", response.choices[0].message.content)
+            .group(0)
+            .split()[1:]
+        )
         if tag:
             return tag
         else:
@@ -74,20 +76,20 @@ class Model:
         transaction = map_transaction(transaction)
         prompt = prompt_template.format(
             tags=", ".join(self.tags),
-            transaction="\n".join([f"**{k}**: {v}" for k, v in transaction.items()])
+            transaction="\n".join([f"**{k}**: {v}" for k, v in transaction.items()]),
         )
         return prompt
 
 
 if __name__ == "__main__":
     _tags = [
-        'office',
-        'employees',
-        'corporate meetings',
-        'travel',
-        'equipment',
-        'marketing',
-        'consulting',
+        "office",
+        "employees",
+        "corporate meetings",
+        "travel",
+        "equipment",
+        "marketing",
+        "consulting",
     ]
     model = Model(_tags)
 

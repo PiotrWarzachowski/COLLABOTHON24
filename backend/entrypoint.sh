@@ -7,4 +7,8 @@ done
 
 alembic upgrade head
 
+cd /app/database
+python3 utils.py
+cd ..
+
 exec "$@"

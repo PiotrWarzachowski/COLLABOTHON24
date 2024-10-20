@@ -1,4 +1,4 @@
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
 _model = AutoModelForCausalLM.from_pretrained(
     "meta-llama/Llama-3.2-3B", torch_dtype="auto", device_map="auto"

@@ -1,6 +1,7 @@
-from database.utils import Database
 from datetime import date
 from typing import List
+
+from database.utils import Database
 
 
 class Transaction:

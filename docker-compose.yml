@@ -33,6 +33,7 @@ services:
     volumes:
       - ./alembic:/app/alembic
       - ./alembic.ini:/app/alembic.ini
+      - ./backend/database:/app/database
     
 
   db:
