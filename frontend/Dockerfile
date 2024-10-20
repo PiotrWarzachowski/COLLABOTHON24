@@ -4,13 +4,11 @@ FROM node:20-slim  AS development
 ENV CI=true
 ENV PORT=3000
 
+RUN corepack enable pnpm
 
-ENV PNPM_HOME="/pnpm"
-ENV PATH="$PNPM_HOME/bin:$PATH"
-RUN corepack enable
+COPY . /code
 
 WORKDIR /code
-COPY package.json pnpm-lock.yaml ./
 
 RUN pnpm install --no-frozen-lockfile
 
@@ -18,9 +16,7 @@ CMD [ "pnpm", "start" ]
 
 FROM development AS builder
 
-ENV PNPM_HOME="/pnpm"
-ENV PATH="$PNPM_HOME/bin:$PATH"
-RUN corepack enable
+RUN corepack enable pnpm
 
 RUN pnpm run build
 
