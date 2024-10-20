@@ -24,7 +24,7 @@ import DataTableExtra from "@/components/ui/data-table-extra";
 import '../main/main.css';
 
 // Import komponentów dialogu z shadcn/ui
-import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogClose } from "@/components/ui/dialog"; // Dostosuj ścieżkę importu zgodnie z Twoją strukturą projektu
+import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogClose } from "@/components/ui/dialog";
 
 export const description = "A stacked bar chart with a legend";
 
@@ -368,11 +368,24 @@ export function Component() {
       </Card>
 
       <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
-        <DialogContent style={{width: '100%', backgroundColor: 'rgba(0,0,0,0)', border: '0'}}>
-            <div className="rectangleBig">
-              <DataTableExtra />
-            </div>
+        <DialogContent
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            width: '80%', // Zwiększona szerokość do 80%
+            maxWidth: '1000px', // Ustawienie maksymalnej szerokości
+            minWidth: '500px', // Ustawienie minimalnej szerokości
+            backgroundColor: 'rgba(0,0,0,0)',
+            border: '0',
+            margin: '0 auto',
+          }}
+        >
+          <div className="rectangleBig">
+            <DataTableExtra />
+          </div>
           <DialogClose asChild>
+            {/* Możesz dodać przycisk zamknięcia tutaj */}
           </DialogClose>
         </DialogContent>
       </Dialog>
