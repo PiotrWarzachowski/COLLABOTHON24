@@ -198,7 +198,8 @@ async def generate_suggestion(transactions: list[dict]):
     suggestion = get_suggestion(transactions, User.get_all_tags())
     return {"suggestion": suggestion}
 
-@router.get("/tags")
+@router.get("/all_tags/")
 async def get_tags():
     _tags = User.get_all_tags()
-    return {"tags": _tags}
+    return _tags
+
