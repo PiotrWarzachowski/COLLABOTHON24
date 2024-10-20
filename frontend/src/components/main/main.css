@@ -34,11 +34,29 @@
     border-radius: 30px;
     opacity: 0px;
   }
+
+  .rectangleBig {
+    background-color: #E9F5EB;
+    flex: 1;
+    padding: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    gap: 0px;
+    border-radius: 30px;
+    opacity: 0px;
+  }
   
   .row .rectangle:last-child {
     margin-right: 0;
   }
   .row .rectangle:first-child {
+    margin-left: 0;
+  }
+  .row .rectangleBig:last-child {
+    margin-right: 0;
+  }
+  .row .rectangleBig:first-child {
     margin-left: 0;
   }
   

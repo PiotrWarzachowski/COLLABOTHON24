@@ -74,8 +74,15 @@ function CustomLegend({ labels, colors, data }) {
               marginRight: 8,
               borderRadius: "10px",
             }}
-          ></div>        
-          <p><span style={{fontWeight: 'bold'}}>{data[key].toLocaleString()} $</span>, {`${labels[key]}`}</p>
+          ></div>
+          <div>
+            <div>
+              <span style={{fontWeight: 'bold'}}>{data[key].toLocaleString()} €</span>
+            </div>   
+            <div>
+              {`${labels[key]}`}
+            </div> 
+          </div>       
         </div>
       ))}
     </div>
@@ -94,7 +101,7 @@ const CustomTooltip = ({ active, payload }) => {
           padding: "10px",
         }}
       >
-        <p>{`${data.payload.name}`}, <span style={{fontWeight: 'bold'}}>{data.payload.value.toLocaleString()} $</span></p>
+        <p>{`${data.payload.name}`}, <span style={{fontWeight: 'bold'}}>{data.payload.value.toLocaleString()} €</span></p>
       </div>
     );
   }
@@ -134,7 +141,7 @@ export function Component() {
       >
         <CardHeader>
           <CardTitle style={{ fontSize: "2.8rem" }}>
-            {currentConfig.title}: {totalValue.toLocaleString()} $
+            {currentConfig.title}: {totalValue.toLocaleString()} €
           </CardTitle>
         </CardHeader>
         <CardContent

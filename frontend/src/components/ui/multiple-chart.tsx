@@ -202,7 +202,7 @@ export function Component() {
       >
         <CardHeader>
           <CardTitle style={{ fontSize: "2.8rem" }}>
-            {currentConfig.title}: {total.toLocaleString()} $
+            {currentConfig.title}: {total.toLocaleString()} €
           </CardTitle>
         </CardHeader>
         <CardContent

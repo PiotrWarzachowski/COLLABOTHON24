@@ -1,20 +1,30 @@
+import { Transactions } from "@/components/main/main";
 import client from "./axios";
 
 export interface Transaction {
-  transactions: any[];
+  recipient: string,
+  sender: string,
+  title: string,
+  date: string,
+  tag: string,
+  amount: number,
+  currency_id: number
 }
 
 export const getTransactions = async (
-  sender: string,
-  title: string,
-  amount: number,
-): Promise<Transaction> => {
+): Promise<Transactions[]> => {
   try {
-    const response = await client.get<Transaction>("/users/transactions/", {
-      params: {
-      },
-    });
-    return response.data;
+    const response = await client.get<any>("/users/transactions/");
+    let data : Transaction[] = response.data["transactions"];
+    return data.map((value, index) => {
+      return {
+        bankAccount: value.amount > 0 ? value.sender : value.recipient,
+        title: value.title,
+        tag: value.tag,
+        date: new Date(value.date),
+        amount: value.amount
+      }
+    })
   } catch (error) {
     console.error("Error fetching user tags:", error);
     throw error;

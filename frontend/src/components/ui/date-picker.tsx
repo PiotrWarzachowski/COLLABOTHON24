@@ -51,7 +51,7 @@ export default function DatePickerWithRange({
             style={{
               backgroundColor: 'rgba(0, 0, 0, 0)',
               borderWidth: 1,
-              borderColor: "#212A33",
+              borderColor: "#7D8A88",
               color: '#212A33',
             }}
             className={cn(

@@ -148,7 +148,7 @@ async def get_records(
 
 
 @router.get(
-    "/transactions",
+    "/transactions/",
 )
 async def get_recent_transactions():
     """

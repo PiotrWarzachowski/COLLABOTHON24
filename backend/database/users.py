@@ -22,6 +22,7 @@ class Transaction:
             "date": self.date,
             "amount": self.amount,
             "currency_id": self.currency_id,
+            "tag": self.tag
         }
 
     @property
@@ -142,6 +143,7 @@ class User:
             SELECT recipient, sender, title, date, amount, currency_id, tag
             FROM transactions_with_tag
             ORDER BY date DESC
+            LIMIT 1000
             """
 
         cur.execute(query)

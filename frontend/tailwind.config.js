@@ -23,6 +23,7 @@ export default {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
+        customBorder: '#212A33',
         background: {
           DEFAULT: 'hsl(var(--background, 0 0% 100%))', // Ensure default white background
         },
