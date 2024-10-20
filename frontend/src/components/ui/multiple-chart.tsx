@@ -21,6 +21,9 @@ import { getUserTags } from "@/api/tagsEndpoint";
 import { getTransactions } from "@/api/transactionsEndpoint";
 import '@/styles/globals.css';
 
+// Import komponentów dialogu z shadcn/ui
+import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogClose } from "@/components/ui/dialog"; // Dostosuj ścieżkę importu zgodnie z Twoją strukturą projektu
+
 export const description = "A stacked bar chart with a legend";
 
 function getDaysBetweenDates(date1: Date, date2: Date): number {
@@ -78,6 +81,21 @@ function CustomTooltip({ active, payload, label, labels, hoveredSegment }) {
   return null;
 }
 
+interface DialogContentData {
+  key: string;
+  value: number;
+  period: string;
+}
+
+interface CurrentConfig {
+  keys: string[];
+  colors: string[];
+  labels: { [key: string]: string };
+  title: string;
+  isStacked: boolean;
+  className?: string;
+}
+
 export function Component() {
   const [activeTab, setActiveTab] = useState("expenses");
   const [fromDate, setFromDate] = useState("2024-10-13");
@@ -85,7 +103,7 @@ export function Component() {
   const [type, setType] = useState("day");
   const [data, setData] = useState([]);
   const [total, setTotal] = useState(0);
-  const [currentConfig, setCurrentConfig] = useState({
+  const [currentConfig, setCurrentConfig] = useState<CurrentConfig>({
     keys: [],
     colors: [],
     labels: {},
@@ -93,6 +111,14 @@ export function Component() {
     isStacked: true, 
   });
   const [hoveredSegment, setHoveredSegment] = useState(null);
+
+  // Stan do kontrolowania dialogu
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const [dialogContent, setDialogContent] = useState<DialogContentData>({
+    key: "",
+    value: 0,
+    period: "",
+  });
 
   const handleTabChange = (value) => {
     setActiveTab(value);
@@ -109,6 +135,27 @@ export function Component() {
       setType("day");
     } else {
       setType("year");
+    }
+  };
+
+  // Funkcja handlera kliknięcia
+  const handleBarClick = (data, index, key) => {
+    if (data && data.payload && data.dataKey) {
+      const value = typeof data.payload[data.dataKey] === 'number' ? data.payload[data.dataKey] : 0;
+      const period = data.payload.period || '';
+      setDialogContent({
+        key: key,
+        value: value,
+        period: period,
+      });
+      setIsDialogOpen(true);
+    } else {
+      setDialogContent({
+        key: key,
+        value: 0,
+        period: "",
+      });
+      setIsDialogOpen(true);
     }
   };
 
@@ -151,7 +198,7 @@ export function Component() {
         }));
         setData(chartData);
 
-        const newConfig = {
+        const newConfig: CurrentConfig = {
           keys: dataKeys,
           colors: [],
           labels: jsonData.labels,
@@ -204,10 +251,7 @@ export function Component() {
       >
         <CardHeader>
           <CardTitle style={{ fontSize: "2.8rem" }}>
-
-              {currentConfig.title}: {total.toLocaleString()} €
-
-            {/*{currentConfi159.131,00g.title}: {new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(total)}*/}
+            {currentConfig.title}: {typeof total === 'number' ? total.toLocaleString() : '0'} €
           </CardTitle>
         </CardHeader>
         <CardContent
@@ -242,7 +286,6 @@ export function Component() {
                 <BarChart
                   data={data}
                   margin={{ top: 20 }}
-                  // Usunięto onMouseMove z BarChart
                 >
                   <XAxis
                     dataKey="period"
@@ -287,6 +330,7 @@ export function Component() {
                       barSize={currentConfig.isStacked ? undefined : 40} 
                       onMouseEnter={() => setHoveredSegment(key)}
                       onMouseLeave={() => setHoveredSegment(null)}
+                      onClick={(data, index) => handleBarClick(data, index, key)} // Zaktualizowany atrybut onClick
                     />
                   ))}
                 </BarChart>
@@ -320,6 +364,25 @@ export function Component() {
           </div>
         </CardContent>
       </Card>
+
+      {/* Dialog z shadcn/ui */}
+      <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle>Szczegóły Transakcji</DialogTitle>
+            <DialogDescription>
+              Szczegóły dotyczące wybranego segmentu wykresu.
+            </DialogDescription>
+          </DialogHeader>
+          <div>
+            <p><strong>Okres:</strong> {dialogContent.period || 'N/A'}</p>
+            <p><strong>Tag:</strong> {currentConfig.labels[dialogContent.key] || 'N/A'}</p>
+            <p><strong>Wartość:</strong> {typeof dialogContent.value === 'number' ? dialogContent.value.toLocaleString() : 'N/A'} €</p>
+          </div>
+          <DialogClose asChild>
+          </DialogClose>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 }
