@@ -204,7 +204,10 @@ export function Component() {
       >
         <CardHeader>
           <CardTitle style={{ fontSize: "2.8rem" }}>
-            {currentConfig.title}: {total.toLocaleString()} €
+
+              {currentConfig.title}: {total.toLocaleString()} €
+
+            {/*{currentConfi159.131,00g.title}: {new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(total)}*/}
           </CardTitle>
         </CardHeader>
         <CardContent
@@ -274,12 +277,12 @@ export function Component() {
                         currentConfig.keys.length !== 2 && type !== 'profit' ? (
                           currentConfig.isStacked
                             ? index === 0
-                              ? [0, 0, 15, 15]
+                              ? [0, 0, 10, 10]
                               : index === currentConfig.keys.length - 1
-                              ? [15, 15, 0, 0]
+                              ? [10, 10, 0, 0]
                               : [0, 0, 0, 0]
                             : [5, 5, 0, 0]
-                        ) : [15, 15, 15, 15]
+                        ) : [10, 10, 10, 10]
                       }
                       barSize={currentConfig.isStacked ? undefined : 40} 
                       onMouseEnter={() => setHoveredSegment(key)}
@@ -345,11 +348,12 @@ function CustomLegend({ labels, colors }) {
         >
           <div
             style={{
-              width: 40,
+              width: 30,
               height: 10,
               backgroundColor: colors[index % colors.length],
-              marginRight: 8,
+              marginRight: "1rem",
               borderRadius: "10px",
+              marginLeft: "3rem",
             }}
           ></div>
           <span>{labels[key]}</span>

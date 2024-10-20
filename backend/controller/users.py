@@ -5,6 +5,8 @@ from fastapi import APIRouter, HTTPException, Query
 from fastapi.templating import Jinja2Templates
 from model import Model
 
+from suggestions.suggestions import get_suggestion
+
 router = APIRouter()
 templates = Jinja2Templates(directory="database/view")
 
@@ -193,7 +195,7 @@ async def generate_suggestion(transactions: list[dict]):
     Returns:
     - **suggestion**: The generated suggestion.
     """
-    suggestion = generate_suggestion(transactions)
+    suggestion = get_suggestion(transactions, User.get_all_tags())
     return {"suggestion": suggestion}
 
 @router.get("/tags")
