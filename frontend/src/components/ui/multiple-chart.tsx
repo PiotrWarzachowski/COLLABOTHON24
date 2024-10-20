@@ -50,44 +50,32 @@ const expensesColors = [
   "#834F31",
 ];
 
-const profitsColors = ["#173739", "#A12F1B"]; // Zaktualizowane kolory
+const profitsColors = ["#173739", "#A12F1B"]; // Updated colors
 
-// Komponent niestandardowej legendy
-function CustomLegend({ labels, colors }) {
-  return (
-    <div
-      className="font-gotham"
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        fontSize: "1rem",
-        lineHeight: "1.5",
-        paddingLeft: "20px",
-      }}
-    >
-      {Object.keys(labels).map((key, index) => (
+// Custom Tooltip Component
+function CustomTooltip({ active, payload, label, labels, hoveredSegment }) {
+  if (active && payload && payload.length && hoveredSegment) {
+    const hoveredData = payload.find(
+      (entry) => entry.dataKey === hoveredSegment
+    );
+    if (hoveredData) {
+      return (
         <div
-          key={`item-${index}`}
+          className="custom-tooltip"
           style={{
-            display: "flex",
-            alignItems: "center",
-            marginBottom: 12,
+            backgroundColor: "#fff",
+            border: "1px solid #ccc",
+            padding: "10px",
+            borderRadius: "5px",
           }}
         >
-          <div
-            style={{
-              width: 40,
-              height: 10,
-              backgroundColor: colors[index % colors.length],
-              marginRight: 8,
-              borderRadius: "10px",
-            }}
-          ></div>
-          <span>{labels[key]}</span>
+          <span>{labels[hoveredData.dataKey]}</span>
         </div>
-      ))}
-    </div>
-  );
+      );
+    }
+  }
+
+  return null;
 }
 
 export function Component() {
@@ -104,6 +92,7 @@ export function Component() {
     title: "",
     isStacked: true, 
   });
+  const [hoveredSegment, setHoveredSegment] = useState(null);
 
   const handleTabChange = (value) => {
     setActiveTab(value);
@@ -132,6 +121,19 @@ export function Component() {
           type,
           activeTab
         );
+
+        if (jsonData.data.length === 0) {
+          setData([]);
+          setTotal(0);
+          setCurrentConfig({
+            keys: [],
+            colors: [],
+            labels: {},
+            title: "",
+            isStacked: true,
+          });
+          return;
+        }
 
         const dataKeys = Object.keys(jsonData.data[0].transactions);
 
@@ -193,7 +195,7 @@ export function Component() {
       }}
     >
       <Card
-      className="font-gotham"
+        className="font-gotham"
         style={{
           backgroundColor: "rgba(0, 0, 0, 0)",
           height: "100%",
@@ -234,7 +236,11 @@ export function Component() {
           <div style={{ display: "flex", flex: 1, paddingTop: "20px" }}>
             <div style={{ flex: 1 }}>
               <ResponsiveContainer width="100%" height="90%">
-                <BarChart data={data} margin={{ top: 20 }}>
+                <BarChart
+                  data={data}
+                  margin={{ top: 20 }}
+                  // Usunięto onMouseMove z BarChart
+                >
                   <XAxis
                     dataKey="period"
                     tickLine={false}
@@ -242,13 +248,14 @@ export function Component() {
                     axisLine={false}
                     tickFormatter={(value) => value}
                     className="font-gotham"
-                    style={{ }}
                   />
                   <Tooltip
-                    contentStyle={{
-                      backgroundColor: "#fff",
-                      border: "1px solid #ccc",
-                    }}
+                    content={
+                      <CustomTooltip
+                        labels={currentConfig.labels}
+                        hoveredSegment={hoveredSegment}
+                      />
+                    }
                     cursor={{ fill: "rgba(0, 0, 0, 0)" }}
                   />
                   {currentConfig.keys.map((key, index) => (
@@ -264,17 +271,19 @@ export function Component() {
                         ]
                       }
                       radius={
-                       (currentConfig.keys.length !== 2 && type !== 'profit') ? (
+                        currentConfig.keys.length !== 2 && type !== 'profit' ? (
                           currentConfig.isStacked
-                          ? index === 0
-                            ? [0, 0, 15, 15]
-                            : index === currentConfig.keys.length - 1
-                            ? [15, 15, 0, 0]
-                            : [0, 0, 0, 0]
-                          : [5, 5, 0, 0]
+                            ? index === 0
+                              ? [0, 0, 15, 15]
+                              : index === currentConfig.keys.length - 1
+                              ? [15, 15, 0, 0]
+                              : [0, 0, 0, 0]
+                            : [5, 5, 0, 0]
                         ) : [15, 15, 15, 15]
                       }
                       barSize={currentConfig.isStacked ? undefined : 40} 
+                      onMouseEnter={() => setHoveredSegment(key)}
+                      onMouseLeave={() => setHoveredSegment(null)}
                     />
                   ))}
                 </BarChart>
@@ -308,6 +317,44 @@ export function Component() {
           </div>
         </CardContent>
       </Card>
+    </div>
+  );
+}
+
+// Custom Legend Component
+function CustomLegend({ labels, colors }) {
+  return (
+    <div
+      className="font-gotham"
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        fontSize: "1rem",
+        lineHeight: "1.5",
+        paddingLeft: "20px",
+      }}
+    >
+      {Object.keys(labels).map((key, index) => (
+        <div
+          key={`item-${index}`}
+          style={{
+            display: "flex",
+            alignItems: "center",
+            marginBottom: 12,
+          }}
+        >
+          <div
+            style={{
+              width: 40,
+              height: 10,
+              backgroundColor: colors[index % colors.length],
+              marginRight: 8,
+              borderRadius: "10px",
+            }}
+          ></div>
+          <span>{labels[key]}</span>
+        </div>
+      ))}
     </div>
   );
 }
