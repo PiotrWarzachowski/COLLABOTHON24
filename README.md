@@ -27,3 +27,6 @@ alembic upgrade head
 
 ### API
 Api documentation is at `http://0.0.0.0:8000/docs#` if run from docker without modifications
+
+## Figma Presentation
+https://www.figma.com/slides/b9PmRHeQ54DqyNHSQ2dSUQ/Commerzbank-Presentation?node-id=1-79&t=wiURejbobdS3HiLn-1
